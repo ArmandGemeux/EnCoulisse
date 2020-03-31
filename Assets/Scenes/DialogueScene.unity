@@ -1182,6 +1182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1726345443}
+  - component: {fileID: 1726345444}
   - component: {fileID: 1726345442}
   - component: {fileID: 1726345441}
   - component: {fileID: 1726345440}
@@ -1274,6 +1275,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1726345444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726345438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f026ccc4919ac4dac2652010caed82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDecayStart: 0.002
+  shakeIntensityStart: 0.03
+  shakeKey: 101
 --- !u!1 &1755499605
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,8 +1341,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1755499615}
-  selectedCommands: []
+  - {fileID: 1755499608}
+  selectedCommands:
+  - {fileID: 1755499607}
   variables: []
   description: 
   stepPause: 0
@@ -1359,8 +1376,8 @@ MonoBehaviour:
       montrer que toute cette histoire n'est que pure connerie !\n\n\n\n\nFlore Flore
       middle: j'ai besoin de revoir ce qu'il s'est pass\xE9 avant de passer aux choses
       s\xE9rieuses...\n\n\n\nLucie Lucie middle: Alors allons y, il ne faut pas tarder
-      \xE7a serai dommage de s'y prendre tard !\n\nChoix choice middle: y aller ?\n\nChoix
-      hide :\n\n"
+      \xE7a serai dommage de s'y prendre tard !\n\nChoix : y aller ?\n\nChoix hide
+      :\n\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1554,7 +1571,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 224.48418
-    y: 173.9464
+    y: 172.6306
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}

@@ -12,6 +12,7 @@ public class RoomManager : MonoBehaviour
     public string arriere;
     public string gauche;
     public string droite;
+    
 
     /*public KeyCode up;
     public KeyCode down;
