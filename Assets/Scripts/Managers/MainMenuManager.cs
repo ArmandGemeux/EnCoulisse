@@ -22,6 +22,16 @@ public class MainMenuManager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void options()
+    {
+
+    }
+
+    public void Galerie()
+    {
+
+    }
+
     public void Quit()
     {
         Application.Quit();

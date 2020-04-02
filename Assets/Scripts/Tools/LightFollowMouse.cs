@@ -8,7 +8,7 @@ public class LightFollowMouse : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Cursor.visible = false;
+        Cursor.visible = false;
         //Cursor.lockState = CursorLockMode.Confined;
         //torchLight.transform.position = new Vector3(0, 0, -1);
     }
@@ -16,10 +16,6 @@ public class LightFollowMouse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameObject.activeSelf == true)
-        {
-            Cursor.visible = false;
-        }
 
         Vector3 newPos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Mathf.Abs(Camera.main.transform.position.z - transform.position.z -1)));
         newPos.z = transform.position.z;
@@ -32,5 +28,10 @@ public class LightFollowMouse : MonoBehaviour
     private void OnDisable()
     {
         Cursor.visible = true;
+    }
+
+    private void OnEnable()
+    {
+        Cursor.visible = false;
     }
 }
