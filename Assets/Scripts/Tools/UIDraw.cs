@@ -34,6 +34,7 @@ public class UIDraw : MonoBehaviour
         }
     }
 
+    //fonction pour montrer les éléments d'UI
     public void DrawUI()
     {
         int i;
@@ -43,6 +44,7 @@ public class UIDraw : MonoBehaviour
         }
     }
 
+    //fonction pour cacher les éléments d'UI
     public void HideUI()
     {
         int a;

@@ -30,6 +30,7 @@ public class RoomManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //si le joueur appuis sur la flèche du haut, il se déplacera sur la salle avant.
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             if(avant != null)
@@ -38,6 +39,7 @@ public class RoomManager : MonoBehaviour
             }
         }
 
+        //si le joueur appuis sur la flèche du bas, il se déplacera sur la salle arrière.
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             if (arriere != null)
@@ -46,6 +48,7 @@ public class RoomManager : MonoBehaviour
             }
         }
 
+        //si le joueur appuis sur la flèche de gauche, il se déplacera sur la salle à gauche
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             if (gauche != null)
@@ -54,6 +57,7 @@ public class RoomManager : MonoBehaviour
             }
         }
 
+        //si le joueur appuis sur la flèche de droite, il se déplacera sur la salle à droite.
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             if (droite != null)

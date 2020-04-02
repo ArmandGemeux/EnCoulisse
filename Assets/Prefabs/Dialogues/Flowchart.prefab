@@ -10,9 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8102574221058423376}
   - component: {fileID: 8102574221058423388}
-  - component: {fileID: 8102574221058423378}
-  - component: {fileID: 8102574221058423379}
-  - component: {fileID: 8102574221058423389}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -58,10 +55,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 8102574221058423378}
-  selectedCommands:
-  - {fileID: 8102574221058423389}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -73,79 +68,3 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
---- !u!114 &8102574221058423378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221058423391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 70.40909
-    y: 70
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: Start
-  description: 
-  eventHandler: {fileID: 8102574221058423379}
-  commandList:
-  - {fileID: 8102574221058423389}
-  suppressAllAutoSelections: 0
---- !u!114 &8102574221058423379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221058423391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 8102574221058423378}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
---- !u!114 &8102574221058423389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221058423391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Flore Flore left: Quentin on devrait absolument aller dans la grande
-      salle !\n\n\n\nLucie Lucie right : Oui clairement, je vais enfin pouvoir vous
-      montrer que toute cette histoire n'est que pure connerie !\n\n\n\n\nFlore Flore
-      left: j'ai besoin de revoir ce qu'il s'est pass\xE9 avant de passer aux choses
-      s\xE9rieuses...\n\n\n\nLucie Lucie right: Alors allons y, il ne faut pas tarder
-      \xE7a serai dommage de s'y prendre tard !\n\n\nLucie hide:\nFlore hide:"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1

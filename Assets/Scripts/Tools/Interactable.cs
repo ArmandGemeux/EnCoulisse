@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+
+//script obsolète
 public class Interactable : MonoBehaviour
 {
     public bool interaction;

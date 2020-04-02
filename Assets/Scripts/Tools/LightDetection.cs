@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LightDetection : MonoBehaviour
 {
+
+    //le signal lumineux emis pour l'interaction
     public GameObject lightSignal;
 
     // Start is called before the first frame update
@@ -18,12 +20,13 @@ public class LightDetection : MonoBehaviour
     }
 
 
-
+    //lors du rapprochement, la lumière s'active
     private void OnTriggerEnter(Collider other)
     {
         lightSignal.SetActive(true);
     }
 
+    //lors de l'éloignement, la lumière se désactive
     private void OnTriggerExit(Collider other)
     {
         lightSignal.SetActive(false);
