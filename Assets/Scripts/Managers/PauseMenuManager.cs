@@ -8,6 +8,7 @@ public class PauseMenuManager : MonoBehaviour
 
     public KeyCode pauseMenuKey;
     public GameObject pauseMenu;
+    public bool paused;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,7 @@ public class PauseMenuManager : MonoBehaviour
         {
             TogglePauseMenu();
         }
-
+        
     }
 
     //fonction d'activation/désactivation du pause menu
@@ -34,11 +35,14 @@ public class PauseMenuManager : MonoBehaviour
         if(pauseMenu.activeSelf == true)
         {
             Time.timeScale = 0;
+            paused = true;
+           
         }
 
-        if (pauseMenu.activeSelf == false)
+        else
         {
             Time.timeScale = 1;
+            paused = false;
         }
     }
 
@@ -46,6 +50,8 @@ public class PauseMenuManager : MonoBehaviour
     public void Continuer()
     {
         pauseMenu.SetActive(!pauseMenu.activeSelf);
+        Time.timeScale = 1;
+        paused = false;
     }
 
     //fonction option
@@ -65,5 +71,4 @@ public class PauseMenuManager : MonoBehaviour
     {
         Application.Quit();
     }
-
 }
