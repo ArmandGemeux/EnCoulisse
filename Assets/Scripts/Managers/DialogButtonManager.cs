@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class DialogButtonManager : MonoBehaviour
 {
 
@@ -19,7 +20,6 @@ public class DialogButtonManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Time.timeScale);
     }
 
     public void TogglePause()
@@ -32,16 +32,24 @@ public class DialogButtonManager : MonoBehaviour
 
     public void ToggleSpeed()
     {
-        Debug.Log("clic");
+        GameObject[] writing;
+        writing = GameObject.FindGameObjectsWithTag("Dialogue");
+
+        int i;
+        for(i = 0; i< writing.Length; i++)
+        {
+            if (GetComponent<Fungus.Writer>().writingSpeed != 120)
+            {
+                GetComponent<Fungus.Writer>().writingSpeed = 120;
+
+                //Time.timeScale = 2;
+            }
+            else
+            {
+                GetComponent<Fungus.Writer>().writingSpeed = 60;
+            }
+        }
         
-        if(Time.timeScale != 2)
-        {
-            Time.timeScale = 2;
-        }
-        else
-        {
-            Time.timeScale = 1;
-        }
 
     }
 
@@ -54,5 +62,7 @@ public class DialogButtonManager : MonoBehaviour
     {
 
     }
+    
+
 
 }

@@ -21,12 +21,21 @@ public class LightIntensity : MonoBehaviour
     {
         distance = lightObject.transform.position - torchLight.transform.position;
         ecart = Mathf.Abs(distance.x + distance.y);
+
+
+        //rétrécir
         //lightObject.GetComponent<Light>().range = 0.1f + (ecart / 2);
         //lightObject.GetComponent<Light>().range = 0.7f + (ecart / 20);
-        lightObject.GetComponent<Light>().range = 0.7f + (2 / (ecart + 0.5f));
-        if(lightObject.GetComponent<Light>().range >= 2)
+        //lightObject.GetComponent<Light>().range = 0.7f + (ecart);
+
+
+        //agrandir
+        lightObject.GetComponent<Light>().range = 0.1f + (10 / (ecart + 0.5f));
+
+
+        if (lightObject.GetComponent<Light>().range >= 10)
         {
-            lightObject.GetComponent<Light>().range = 2;
+            lightObject.GetComponent<Light>().range = 10;
         }
     }
 }
