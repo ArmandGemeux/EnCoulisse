@@ -33,36 +33,52 @@ public class RoomManager : MonoBehaviour
         //si le joueur appuis sur la flèche du haut, il se déplacera sur la salle avant.
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            if(avant != null)
+            if(avant != "")
             {
                 SceneManager.LoadScene(avant);
+            }
+            else
+            {
+
             }
         }
 
         //si le joueur appuis sur la flèche du bas, il se déplacera sur la salle arrière.
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if (arriere != null)
+            if (arriere != "")
             {
                 SceneManager.LoadScene(arriere);
+            }
+            else
+            {
+
             }
         }
 
         //si le joueur appuis sur la flèche de gauche, il se déplacera sur la salle à gauche
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            if (gauche != null)
+            if (gauche != "")
             {
                 SceneManager.LoadScene(gauche);
+            }
+            else
+            {
+
             }
         }
 
         //si le joueur appuis sur la flèche de droite, il se déplacera sur la salle à droite.
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            if (droite != null)
+            if (droite != "")
             {
                 SceneManager.LoadScene(droite);
+            }
+            else
+            {
+
             }
         }
     }

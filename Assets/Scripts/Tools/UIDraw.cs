@@ -4,53 +4,36 @@ using UnityEngine;
 
 public class UIDraw : MonoBehaviour
 {
-
-    public List<GameObject> elementsToHide;
-    public bool hidden;
+    
     public KeyCode hideKey;
+    public GameObject elementToHide;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        DontDestroyOnLoad(this);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(hideKey) && hidden == false)
+        if (Input.GetKeyDown(hideKey))
         {
             DrawUI();
-            hidden = true;
-        }
-        else
-        {
-            if (Input.GetKeyDown(hideKey) && hidden == true)
-            {
-                HideUI();
-                hidden = false;
-            }
         }
     }
 
     //fonction pour montrer les éléments d'UI
     public void DrawUI()
     {
-        int i;
-        for (i = 0; i < elementsToHide.Count; i++)
+        if(elementToHide == null)
         {
-            elementsToHide[i].SetActive(false);
+            elementToHide = GameObject.Find("UIManager");
         }
-    }
-
-    //fonction pour cacher les éléments d'UI
-    public void HideUI()
-    {
-        int a;
-        for (a = 0; a < elementsToHide.Count; a++)
+        else
         {
-            elementsToHide[a].SetActive(true);
+            elementToHide.SetActive(!elementToHide.activeSelf);
         }
     }
 

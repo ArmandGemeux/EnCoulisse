@@ -30,7 +30,8 @@ public class LightIntensity : MonoBehaviour
 
 
         //agrandir
-        lightObject.GetComponent<Light>().range = 0.1f + (10 / (ecart + 0.5f));
+        //lightObject.GetComponent<Light>().range = 0.1f + (10 / (ecart + 0.5f));
+        lightObject.GetComponent<Light>().range = 0.001f + (1 / (ecart + 0.5f));
 
 
         if (lightObject.GetComponent<Light>().range >= 10)
