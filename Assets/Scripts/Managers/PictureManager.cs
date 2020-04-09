@@ -22,4 +22,9 @@ public class PictureManager : MonoBehaviour
         Destroy(gameObject, 2f);
     }
 
+    public void OutData()
+    {
+        Destroy(gameObject);
+    }
+
 }
