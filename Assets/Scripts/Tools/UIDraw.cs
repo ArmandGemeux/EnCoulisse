@@ -7,7 +7,19 @@ public class UIDraw : MonoBehaviour
     
     public KeyCode hideKey;
     public GameObject elementToHide;
+    public static UIDraw s_Singleton;
 
+    private void Awake()
+    {
+        if (s_Singleton != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            s_Singleton = this;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
