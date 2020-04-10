@@ -13,7 +13,10 @@ public class PictureManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (gameObject.CompareTag("Jumpscare"))
+        {
+            Destroy(gameObject, 0.1f);
+        }
     }
 
     public void SendMes()

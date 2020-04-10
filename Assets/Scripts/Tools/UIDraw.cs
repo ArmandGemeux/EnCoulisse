@@ -7,6 +7,7 @@ public class UIDraw : MonoBehaviour
     
     public KeyCode hideKey;
     public GameObject elementToHide;
+    public GameObject elementToHideTwo;
     public static UIDraw s_Singleton;
 
     private void Awake()
@@ -46,6 +47,7 @@ public class UIDraw : MonoBehaviour
         else
         {
             elementToHide.SetActive(!elementToHide.activeSelf);
+            elementToHideTwo.SetActive(!elementToHide.activeSelf);
         }
     }
 

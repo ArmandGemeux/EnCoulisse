@@ -7,38 +7,131 @@ public class EffectsManager : MonoBehaviour
 {
     public PostProcessVolume postProcessVolume;
     public ChromaticAberration chromaticAberration;
-    public bool go;
-    public float stat;
+    public DepthOfField depthOfField;
+
+
+    public bool effectOne;
+    public bool effectTwo;
+    public bool scareEffect;
+    public bool invert;
+    public int invertNumber;
+    public float chromAbIntensity;
+    public float depthIntensity;
 
     // Start is called before the first frame update
     void Start()
     {
-        postProcessVolume.profile.TryGetSettings(out chromaticAberration);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(go == true)
+        CadavreEffect();
+        SouvenirEffect();
+        JumpscareEffect();
+    }
+
+
+
+    public void Cadavre()
+    {
+        chromAbIntensity = 1f;
+        postProcessVolume.profile.TryGetSettings(out chromaticAberration);
+        effectOne = true;
+    }
+
+    private void CadavreEffect()
+    {
+        if (effectOne == true)
         {
             chromaticAberration.enabled.Override(true);
-            chromaticAberration.intensity.Override(stat);
-            if(stat > 0)
+            chromaticAberration.intensity.Override(chromAbIntensity);
+            if (chromAbIntensity > 0)
             {
-                stat -= 0.02f;
-                chromaticAberration.intensity.Override(stat);
+                chromAbIntensity -= 0.02f;
+                chromaticAberration.intensity.Override(chromAbIntensity);
             }
-            if(stat <= 0)
+            if (chromAbIntensity <= 0)
             {
-                go = false;
+                chromaticAberration.enabled.Override(false);
+                effectOne = false;
             }
         }
     }
 
-    public void ChromAb()
+
+
+    public void GoSouvenir()
     {
-        stat = 1f;
-        go = true;
+        depthIntensity = 1f;
+        postProcessVolume.profile.TryGetSettings(out depthOfField);
+        effectTwo = true;
+    }
+
+    private void SouvenirEffect()
+    {
+        if (effectTwo == true)
+        {
+            
+            depthOfField.enabled.Override(true);
+            depthOfField.focalLength.Override(depthIntensity);
+
+            if (invert == false)
+            {
+                depthIntensity += 2f;
+                depthOfField.focalLength.Override(depthIntensity);
+                if(depthIntensity >= 100)
+                {
+                    invert = true;
+                    invertNumber += 1;
+                }
+            }
+            if (invert)
+            {
+                depthIntensity -= 2f;
+                depthOfField.focalLength.Override(depthIntensity);
+                if (depthIntensity <= 0)
+                {
+                    invert = false;
+                    invertNumber += 1;
+                }
+            }
+
+            if(invertNumber >= 5)
+            {
+                depthOfField.enabled.Override(false);
+                effectTwo = false;
+            }
+            
+        }
+    }
+
+
+    public void Jumpscare()
+    {
+        chromAbIntensity = 1f;
+        postProcessVolume.profile.TryGetSettings(out chromaticAberration);
+        scareEffect = true;
+    }
+
+    private void JumpscareEffect()
+    {
+        if (scareEffect == true)
+        {
+            chromaticAberration.enabled.Override(true);
+            chromaticAberration.intensity.Override(chromAbIntensity);
+            if (chromAbIntensity > 0)
+            {
+                chromAbIntensity -= 0.02f;
+                chromaticAberration.intensity.Override(chromAbIntensity);
+            }
+            if (chromAbIntensity <= 0)
+            {
+                chromaticAberration.enabled.Override(false);
+                scareEffect = false;
+            }
+        }
     }
 
 }
