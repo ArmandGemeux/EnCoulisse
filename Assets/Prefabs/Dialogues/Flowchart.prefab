@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 8902298162267579106}
   - component: {fileID: 2691871402090168759}
   - component: {fileID: 57642865283722770}
+  - component: {fileID: 4464928406218801371}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -140,12 +141,12 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 5669239157546161360}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 9152882498997236579}
   - {fileID: 1817614425569552090}
+  - {fileID: 4464928406218801371}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1597,7 +1598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
+  scope: 0
   key: Dialogue
   value: 0
 --- !u!114 &1817614425569552090
@@ -1612,7 +1613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
+  scope: 0
   key: Moving
   value: 0
 --- !u!114 &7157355303246638289
@@ -2895,3 +2896,18 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &4464928406218801371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221058423391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: DialogVestiaire
+  value: 0
