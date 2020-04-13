@@ -8,13 +8,13 @@ using UnityEngine.SceneManagement;
 public class RoomManager : MonoBehaviour
 {
 
-    public string avant;
+    /*public string avant;
     public string arriere;
     public string gauche;
     public string droite;
     
 
-    /*public KeyCode up;
+    public KeyCode up;
     public KeyCode down;
     public KeyCode left;
     public KeyCode right;*/
@@ -33,53 +33,25 @@ public class RoomManager : MonoBehaviour
         //si le joueur appuis sur la flèche du haut, il se déplacera sur la salle avant.
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            if(avant != "")
-            {
-                SceneManager.LoadScene(avant);
-            }
-            else
-            {
-
-            }
+            Fungus.Flowchart.BroadcastFungusMessage("Go up");
         }
 
         //si le joueur appuis sur la flèche du bas, il se déplacera sur la salle arrière.
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if (arriere != "")
-            {
-                SceneManager.LoadScene(arriere);
-            }
-            else
-            {
-
-            }
+            Fungus.Flowchart.BroadcastFungusMessage("Go down");
         }
 
         //si le joueur appuis sur la flèche de gauche, il se déplacera sur la salle à gauche
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            if (gauche != "")
-            {
-                SceneManager.LoadScene(gauche);
-            }
-            else
-            {
-
-            }
+            Fungus.Flowchart.BroadcastFungusMessage("Go left");
         }
 
         //si le joueur appuis sur la flèche de droite, il se déplacera sur la salle à droite.
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            if (droite != "")
-            {
-                SceneManager.LoadScene(droite);
-            }
-            else
-            {
-
-            }
+            Fungus.Flowchart.BroadcastFungusMessage("Go right");
         }
     }
     
