@@ -1032,7 +1032,7 @@ PrefabInstance:
     - target: {fileID: 5111802825052025422, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
       propertyPath: clickMode
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5111802825052025423, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
@@ -1940,12 +1940,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 953797940, guid: bae9a156463001344b5e10116e69bbaf, type: 3}
+      propertyPath: commandList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 953797940, guid: bae9a156463001344b5e10116e69bbaf, type: 3}
       propertyPath: nodeRect.x
-      value: 63.641937
+      value: 61.316357
       objectReference: {fileID: 0}
     - target: {fileID: 953797940, guid: bae9a156463001344b5e10116e69bbaf, type: 3}
       propertyPath: nodeRect.y
       value: 93.12894
+      objectReference: {fileID: 0}
+    - target: {fileID: 953797940, guid: bae9a156463001344b5e10116e69bbaf, type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 609547991831893003, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
@@ -2184,6 +2192,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8102574221058423388, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8102574221058423388, guid: bae9a156463001344b5e10116e69bbaf,
+        type: 3}
       propertyPath: scrollPos.x
       value: 1315.2822
       objectReference: {fileID: 0}
@@ -2201,6 +2214,11 @@ PrefabInstance:
         type: 3}
       propertyPath: zoom
       value: 0.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 8102574221058423388, guid: bae9a156463001344b5e10116e69bbaf,
+        type: 3}
+      propertyPath: blockViewHeight
+      value: 401
       objectReference: {fileID: 0}
     - target: {fileID: 8102574221058423391, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
@@ -2537,15 +2555,16 @@ MonoBehaviour:
   indentLevel: 0
   description: 
   targetObject: {fileID: 1848798362}
-  targetComponentAssemblyName: 
-  targetComponentFullname: 
-  targetComponentText: 
-  targetMethod: 
-  targetMethodText: 
+  targetComponentAssemblyName: EffectsManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: EffectsManager
+  targetMethod: GoSouvenir
+  targetMethodText: 'GoSouvenir (): Void'
   methodParameters: []
   saveReturnValue: 0
   returnValueVariableKey: 
-  returnValueType: 
+  returnValueType: System.Void
   showInherited: 0
   callMode: 0
 --- !u!114 &1561067453
@@ -2719,8 +2738,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 12.361004
-    y: 228.06522
+    x: 17.012167
+    y: 225.73964
     width: 191.39534
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2736,6 +2755,8 @@ MonoBehaviour:
   - {fileID: 1561067454}
   - {fileID: 1561067453}
   - {fileID: 1561067452}
+  - {fileID: 1561067564}
+  - {fileID: 1561067563}
   - {fileID: 1561067451}
   - {fileID: 1561067450}
   - {fileID: 1561067449}
@@ -3050,7 +3071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c43743931d28f43f89eced820d907351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 104
+  itemId: 163
   indentLevel: 0
   messageTarget: 0
   _message:
@@ -3129,7 +3150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 101
+  itemId: 164
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
@@ -3159,7 +3180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 100
+  itemId: 165
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
@@ -3191,8 +3212,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 7.821352
-    y: 355.55896
+    x: 12.472515
+    y: 357.88455
     width: 183.95348
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3235,7 +3256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c43743931d28f43f89eced820d907351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 98
+  itemId: 166
   indentLevel: 0
   messageTarget: 0
   _message:
@@ -3275,7 +3296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 37.46115
+    x: 39.78673
     y: 283.88235
     width: 141.16278
     height: 40
@@ -3716,7 +3737,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Choix : Que doit-on faire ?'
+    stringVal: 'Choix ChoixTest middle : Que doit-on faire ?'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3743,8 +3764,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 38.937378
-    y: 425.74683
+    x: 34.286217
+    y: 428.07242
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3783,6 +3804,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1561067563
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561067439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 161
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1848798362}
+  targetComponentAssemblyName: CameraShake, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraShake
+  targetMethod: Shake
+  targetMethodText: 'Shake (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1561067564
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561067439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 162
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  durationOLD: 0
 --- !u!114 &1561067577 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8102574221058423388, guid: bae9a156463001344b5e10116e69bbaf,
@@ -6270,7 +6337,8 @@ MonoBehaviour:
   nameText: Choix
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: ddd55cd9e2aafd74ab785abcd9aae72c, type: 3}
   portraitsFace: 2
   setSayDialog: {fileID: 24397067}
   description: 

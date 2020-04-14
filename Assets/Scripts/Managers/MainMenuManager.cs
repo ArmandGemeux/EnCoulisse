@@ -17,9 +17,9 @@ public class MainMenuManager : MonoBehaviour
         
     }
 
-    public void Jouer()
+    /*public void Jouer()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Hall");
     }
 
     public void options()
@@ -30,7 +30,7 @@ public class MainMenuManager : MonoBehaviour
     public void Galerie()
     {
 
-    }
+    }*/
 
     public void Quit()
     {

@@ -27,6 +27,7 @@ public class PictureManager : MonoBehaviour
 
     public void OutData()
     {
+        Fungus.Flowchart.BroadcastFungusMessage("OutData");
         Destroy(gameObject);
     }
 
