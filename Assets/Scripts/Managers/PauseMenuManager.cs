@@ -10,8 +10,6 @@ public class PauseMenuManager : MonoBehaviour
     public GameObject pauseMenu;
     public bool paused;
     public PauseMenuManager s_Singleton;
-    public GameObject torchLight;
-    public bool torchReverse;
 
     private void Awake()
     {
@@ -40,30 +38,25 @@ public class PauseMenuManager : MonoBehaviour
             
             TogglePauseMenu();
         }
+
+        
     }
 
     //fonction d'activation/désactivation du pause menu
     public void TogglePauseMenu()
     {
-        
-
         pauseMenu.SetActive(!pauseMenu.activeSelf);
 
         if(pauseMenu.activeSelf == true)
         {
             Time.timeScale = 0;
             paused = true;
-
-            
-            torchLight.SetActive(false);
         }
 
         else
         {
             Time.timeScale = 1;
             paused = false;
-
-            torchLight.SetActive(true);
         }
     }
 
