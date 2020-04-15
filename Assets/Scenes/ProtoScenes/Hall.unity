@@ -1058,6 +1058,18 @@ MonoBehaviour:
   - {fileID: 220686573}
   - {fileID: 220686572}
   suppressAllAutoSelections: 0
+--- !u!114 &220686578 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8102574221058423388, guid: bae9a156463001344b5e10116e69bbaf,
+    type: 3}
+  m_PrefabInstance: {fileID: 220686489}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220686490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &332150494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1078,12 +1090,12 @@ PrefabInstance:
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.99
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.69
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
@@ -1305,12 +1317,12 @@ PrefabInstance:
     - target: {fileID: 1009746316699555855, guid: 6b3f5e94e1b1ae341a4cab24f6bd7f89,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.03
+      value: -4.55
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: 6b3f5e94e1b1ae341a4cab24f6bd7f89,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.84
+      value: 1.63
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: 6b3f5e94e1b1ae341a4cab24f6bd7f89,
         type: 3}
@@ -1615,12 +1627,12 @@ PrefabInstance:
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.27
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.84
+      value: 1.14
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
@@ -1895,7 +1907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 220686578}
 --- !u!4 &1942528484
 Transform:
   m_ObjectHideFlags: 1
@@ -2696,7 +2708,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ed417284c0745d14a99029bd40b46b3b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d08b66870a3043e40b87e55aa71916d7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2715,8 +2727,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6067018131234156178}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.59, z: 0}
-  m_LocalScale: {x: 0.90010095, y: 0.90010095, z: 0.90010095}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1.5348521, y: 1.5348521, z: 1.5348521}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
