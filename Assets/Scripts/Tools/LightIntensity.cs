@@ -19,8 +19,11 @@ public class LightIntensity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        distance = lightObject.transform.position - torchLight.transform.position;
-        ecart = Mathf.Abs(distance.x + distance.y);
+        if(lightObject != null)
+        {
+            distance = lightObject.transform.position - torchLight.transform.position;
+            ecart = Mathf.Abs(distance.x + distance.y);
+        }
 
 
         //rétrécir

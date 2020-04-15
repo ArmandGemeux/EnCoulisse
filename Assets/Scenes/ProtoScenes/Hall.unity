@@ -132,6 +132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenuManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4355417987640736270, guid: ad6eeeb95a0d72c4db2198312ef096ae,
+        type: 3}
+      propertyPath: torchLight
+      value: 
+      objectReference: {fileID: 444286169}
     - target: {fileID: 4355417987640736271, guid: ad6eeeb95a0d72c4db2198312ef096ae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -421,6 +426,11 @@ PrefabInstance:
       propertyPath: nodeRect.width
       value: 123.103455
       objectReference: {fileID: 0}
+    - target: {fileID: 504092362094360520, guid: bae9a156463001344b5e10116e69bbaf,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 316.39645
+      objectReference: {fileID: 0}
     - target: {fileID: 581740116085583107, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
       propertyPath: _sceneName.stringVal
@@ -434,7 +444,7 @@ PrefabInstance:
     - target: {fileID: 1258059401379394334, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
       propertyPath: nodeRect.x
-      value: 541.477
+      value: 545.82477
       objectReference: {fileID: 0}
     - target: {fileID: 1258059401379394334, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
@@ -469,12 +479,12 @@ PrefabInstance:
     - target: {fileID: 2893414282501779868, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
       propertyPath: commandList.Array.size
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2893414282501779868, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
       propertyPath: nodeRect.width
-      value: 136.89656
+      value: 136.95651
       objectReference: {fileID: 0}
     - target: {fileID: 2893414282501779868, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
@@ -490,6 +500,16 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893414282501779868, guid: bae9a156463001344b5e10116e69bbaf,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 547.60736
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893414282501779868, guid: bae9a156463001344b5e10116e69bbaf,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 272.76956
       objectReference: {fileID: 0}
     - target: {fileID: 3848804394197233754, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
@@ -559,7 +579,7 @@ PrefabInstance:
     - target: {fileID: 7297753854220724680, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
       propertyPath: commandList.Array.size
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7297753854220724680, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
@@ -569,7 +589,7 @@ PrefabInstance:
     - target: {fileID: 7297753854220724680, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
       propertyPath: nodeRect.width
-      value: 141.03448
+      value: 138.69565
       objectReference: {fileID: 0}
     - target: {fileID: 7297753854220724680, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
@@ -649,7 +669,7 @@ PrefabInstance:
     - target: {fileID: 8102574221058423388, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8102574221058423388, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
@@ -659,7 +679,7 @@ PrefabInstance:
     - target: {fileID: 8102574221058423388, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
       propertyPath: variables.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8102574221058423388, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
@@ -701,6 +721,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flowchart
       objectReference: {fileID: 0}
+    - target: {fileID: 8102574221058423391, guid: bae9a156463001344b5e10116e69bbaf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8445485717079511838, guid: bae9a156463001344b5e10116e69bbaf,
         type: 3}
       propertyPath: nodeRect.width
@@ -729,6 +754,7 @@ PrefabInstance:
     - {fileID: -7378879120388757779, guid: bae9a156463001344b5e10116e69bbaf, type: 3}
     - {fileID: -4996294283999468137, guid: bae9a156463001344b5e10116e69bbaf, type: 3}
     - {fileID: -9222690821741090954, guid: bae9a156463001344b5e10116e69bbaf, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: bae9a156463001344b5e10116e69bbaf, type: 3}
 --- !u!1 &220686490 stripped
 GameObject:
@@ -736,18 +762,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 220686489}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &220686491 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8102574221058423388, guid: bae9a156463001344b5e10116e69bbaf,
-    type: 3}
-  m_PrefabInstance: {fileID: 220686489}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 220686490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &220686492
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1232,6 +1246,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Torchlight_Halo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5059435188207915946, guid: 6a98ff47dc6b75c41867c7d5eb6dfee3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a98ff47dc6b75c41867c7d5eb6dfee3, type: 3}
@@ -1876,7 +1895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 220686491}
+  selectedFlowchart: {fileID: 0}
 --- !u!4 &1942528484
 Transform:
   m_ObjectHideFlags: 1

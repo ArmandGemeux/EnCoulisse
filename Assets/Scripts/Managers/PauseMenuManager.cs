@@ -8,25 +8,13 @@ public class PauseMenuManager : MonoBehaviour
 
     public KeyCode pauseMenuKey;
     public GameObject pauseMenu;
+    public GameObject torchLight;
     public bool paused;
-    public PauseMenuManager s_Singleton;
-
-    private void Awake()
-    {
-        if (s_Singleton != null)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            s_Singleton = this;
-        }
-    }
+    public bool reversed;
 
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame
@@ -49,12 +37,23 @@ public class PauseMenuManager : MonoBehaviour
 
         if(pauseMenu.activeSelf == true)
         {
+            if(torchLight.activeSelf == true)
+            {
+                reversed = true;
+                torchLight.SetActive(false);
+            }
             Time.timeScale = 0;
             paused = true;
+
         }
 
         else
         {
+            if(reversed == true)
+            {
+                torchLight.SetActive(true);
+                reversed = false;
+            }
             Time.timeScale = 1;
             paused = false;
         }
