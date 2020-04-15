@@ -975,7 +975,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1000
   m_TargetDisplay: 0
 --- !u!114 &4355417987224067700
 MonoBehaviour:
@@ -1191,7 +1191,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenuKey: 112
   pauseMenu: {fileID: 4355417987224067699}
+  torchLight: {fileID: 0}
   paused: 0
+  reversed: 0
 --- !u!1 &4355417987668559581
 GameObject:
   m_ObjectHideFlags: 0

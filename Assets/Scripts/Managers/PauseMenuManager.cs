@@ -44,6 +44,7 @@ public class PauseMenuManager : MonoBehaviour
             }
             Time.timeScale = 0;
             paused = true;
+            Fungus.Flowchart.BroadcastFungusMessage("setPause");
 
         }
 
@@ -56,15 +57,14 @@ public class PauseMenuManager : MonoBehaviour
             }
             Time.timeScale = 1;
             paused = false;
+            Fungus.Flowchart.BroadcastFungusMessage("setUnpause");
         }
     }
 
     //fonction continuer du pauseMenu
     public void Continuer()
     {
-        pauseMenu.SetActive(!pauseMenu.activeSelf);
-        Time.timeScale = 1;
-        paused = false;
+        TogglePauseMenu();
     }
 
     //fonction option
