@@ -72,14 +72,12 @@ GameObject:
   - component: {fileID: 5242985902065875845}
   - component: {fileID: 1258059401379394334}
   - component: {fileID: 7773034424820794967}
-  - component: {fileID: 8910846472475010063}
   - component: {fileID: 4488151557265835695}
   - component: {fileID: 5949282602772251968}
   - component: {fileID: 6370640730126871905}
   - component: {fileID: 8958417956325750693}
   - component: {fileID: 8412752927941870123}
   - component: {fileID: 8371206283524851004}
-  - component: {fileID: 6008349775863605524}
   - component: {fileID: 855770945485850305}
   - component: {fileID: 5937871777458364666}
   - component: {fileID: 7541781799288956812}
@@ -133,13 +131,14 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2893414282501779868}
+  selectedCommands:
+  - {fileID: 0}
   variables:
   - {fileID: 9152882498997236579}
   - {fileID: 1817614425569552090}
   - {fileID: 4464928406218801371}
-  - {fileID: 0}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -2176,7 +2175,7 @@ MonoBehaviour:
   eventHandler: {fileID: 8958417956325750693}
   commandList:
   - {fileID: 7773034424820794967}
-  - {fileID: 8910846472475010063}
+  - {fileID: 0}
   - {fileID: 4488151557265835695}
   - {fileID: 5949282602772251968}
   - {fileID: -4746409136190585832}
@@ -2246,23 +2245,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &8910846472475010063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221058423391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 129
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: b872cfa4cc5ae0e41b5cd9c1833457e8, type: 3}
-  volume: 1
-  waitUntilFinished: 1
 --- !u!114 &4488151557265835695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2359,7 +2341,7 @@ MonoBehaviour:
   eventHandler: {fileID: 5647854450186379892}
   commandList:
   - {fileID: 8371206283524851004}
-  - {fileID: 6008349775863605524}
+  - {fileID: 0}
   - {fileID: 855770945485850305}
   - {fileID: 5937871777458364666}
   - {fileID: -5467183894113896825}
@@ -2429,23 +2411,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &6008349775863605524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221058423391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 135
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: b872cfa4cc5ae0e41b5cd9c1833457e8, type: 3}
-  volume: 1
-  waitUntilFinished: 1
 --- !u!114 &855770945485850305
 MonoBehaviour:
   m_ObjectHideFlags: 0
