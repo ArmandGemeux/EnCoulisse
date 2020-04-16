@@ -76,7 +76,8 @@ public class PauseMenuManager : MonoBehaviour
     //fonction du retour au menu principale
     public void ReturnMainMenu()
     {
-        
+        Time.timeScale = 1;
+        paused = false;
         SceneManager.LoadScene("MainMenu");
         Destroy(gameObject);
     }

@@ -8,8 +8,7 @@ public class Jumpscare : MonoBehaviour
     public List<GameObject> scaryPictures;
     public int pictureNumber;
     public GameObject torchLight;
-    public Vector2 distance;
-    public float ecart;
+    public float distance;
 
     // Start is called before the first frame update
     void Start()
@@ -20,9 +19,8 @@ public class Jumpscare : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        distance = this.transform.position - torchLight.transform.position;
-        ecart = Mathf.Abs(distance.x + distance.y);
-        if(ecart < 0.1f)
+        distance =  Vector2.Distance(torchLight.transform.position, gameObject.transform.position);
+        if (distance < 0.2f)
         {
             Instantiate(scaryPictures[pictureNumber]);
             Fungus.Flowchart.BroadcastFungusMessage("SCARY");

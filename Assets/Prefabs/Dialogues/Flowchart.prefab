@@ -27,7 +27,6 @@ GameObject:
   - component: {fileID: 1314895621988472407}
   - component: {fileID: 1821800902322546779}
   - component: {fileID: 1539035035131166526}
-  - component: {fileID: 5128746370929180173}
   - component: {fileID: 9152882498997236579}
   - component: {fileID: 1817614425569552090}
   - component: {fileID: 7157355303246638289}
@@ -658,7 +657,7 @@ MonoBehaviour:
   itemId: 69
   blockName: Go Right Arrow
   description: 
-  eventHandler: {fileID: 5128746370929180173}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1539035035131166526}
   - {fileID: 4098455508088564807}
@@ -728,21 +727,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &5128746370929180173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221058423391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1821800902322546779}
-  suppressBlockAutoSelect: 0
-  message: Go right
 --- !u!114 &9152882498997236579
 MonoBehaviour:
   m_ObjectHideFlags: 0
