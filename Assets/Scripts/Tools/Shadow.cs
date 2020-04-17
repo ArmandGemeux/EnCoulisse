@@ -11,10 +11,12 @@ public class Shadow : MonoBehaviour
     public AudioClip triggerSound;
     public float timer;
     public bool goTimer;
+    public float radius;
 
     // Start is called before the first frame update
     void Start()
     {
+        
         torchLight = GameObject.FindGameObjectWithTag("TorchLight");
         audioSource = GetComponent<AudioSource>();
     }
@@ -36,7 +38,7 @@ public class Shadow : MonoBehaviour
             }
         }
         
-        if (distance < 0.3f && goTimer != true)
+        if (distance < radius && goTimer != true)
         {
             audioSource.PlayOneShot(triggerSound);
             Destroy(GetComponent<SpriteRenderer>());
