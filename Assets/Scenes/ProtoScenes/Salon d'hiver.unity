@@ -2247,7 +2247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -159.72105
+    x: -166.69778
     y: 503.25598
     width: 120
     height: 40
@@ -2258,6 +2258,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1561067459}
   commandList:
+  - {fileID: 8102574222484129279}
   - {fileID: 1561067463}
   - {fileID: 1561067462}
   - {fileID: 1561067579}
@@ -2393,6 +2394,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1561067465}
   commandList:
+  - {fileID: 8102574222484129278}
   - {fileID: 1561067469}
   - {fileID: 1561067468}
   - {fileID: 8102574222484129274}
@@ -8205,9 +8207,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1561067481}
+  - {fileID: 1561067470}
   selectedCommands:
-  - {fileID: 8102574222484129275}
+  - {fileID: 8102574222484129278}
   variables:
   - {fileID: 9152882500389129422}
   - {fileID: 1817614426190715255}
@@ -8328,6 +8330,8 @@ GameObject:
   - component: {fileID: 8102574222484129274}
   - component: {fileID: 8102574222484129276}
   - component: {fileID: 8102574222484129275}
+  - component: {fileID: 8102574222484129279}
+  - component: {fileID: 8102574222484129278}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -8607,7 +8611,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &8102574222484129274
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8671,7 +8675,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &8102574222484129275
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8735,7 +8739,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &8102574222484129276
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8811,6 +8815,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8102574222484129278
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222484129266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 217
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: ed7865577e9799c49bc02d6d74fd333d, type: 3}
+  volume: 0.1
+  waitUntilFinished: 0
+--- !u!114 &8102574222484129279
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222484129266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 216
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: ed7865577e9799c49bc02d6d74fd333d, type: 3}
+  volume: 0.1
+  waitUntilFinished: 0
 --- !u!114 &8176980068132174413
 MonoBehaviour:
   m_ObjectHideFlags: 0
