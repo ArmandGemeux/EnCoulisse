@@ -49,7 +49,7 @@ public class EffectsManager : MonoBehaviour
             chromaticAberration.intensity.Override(chromAbIntensity);
             if (chromAbIntensity > 0)
             {
-                chromAbIntensity -= 0.02f;
+                chromAbIntensity -= 0.01f;
                 chromaticAberration.intensity.Override(chromAbIntensity);
             }
             if (chromAbIntensity <= 0)
