@@ -933,13 +933,7 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Lucie Lucie middle : Alors retournons au salon d''hiver !
-
-
-      Flore Flore hide :
-
-
-      Lucie Lucie hide :'
+    stringVal: "Lucie Lucie right : elle n'a pas r\xE9pondu\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -968,8 +962,9 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Flore Flore middle : Non, si on repart l\xE0-bas, ce truc nous trouvera
-      il saura o\xF9 on est !"
+    stringVal: "Quentin : {color = lightblue} Merde, il faut sortir d'ici. Ma\xEBva,
+      on se dirige vers le salon d'hiver, rejoint nous d\xE8s que tu as finit tes
+      affaires."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -998,8 +993,7 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Lucie Lucie middle : Merde, il faut sortir d'ici, je le savais on
-      aurait d\xFB rester dans le salon d'hiver !"
+    stringVal: "Lucie Lucie middle : Je... J'arrive bient\xF4t !"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1028,7 +1022,7 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Flore Flore middle : M... Mae... MAEVA, elle est morte !'
+    stringVal: "Flore Flore middle : Ma\xEBva on va bouger, dep\xEAche toi."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1076,8 +1070,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 216.35469
-    y: 366.56586
+    x: 227.98259
+    y: 368.89145
     width: 128.13953
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1099,6 +1093,8 @@ MonoBehaviour:
   - {fileID: 1114516862}
   - {fileID: 1114516861}
   - {fileID: 1114516860}
+  - {fileID: 8102574222158763847}
+  - {fileID: 8102574222158763848}
   - {fileID: 1114516984}
   - {fileID: 1114516983}
   - {fileID: 1114516982}
@@ -1212,8 +1208,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 273.55737
-    y: 271.059
+    x: 259.60385
+    y: 268.7334
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1475,7 +1471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 255.12689
+    x: 243.499
     y: 172.70723
     width: 146.74417
     height: 40
@@ -1494,6 +1490,7 @@ MonoBehaviour:
   - {fileID: 1114516879}
   - {fileID: 1114516878}
   - {fileID: 1114516877}
+  - {fileID: 8102574222158763846}
   - {fileID: 1114516897}
   - {fileID: 1114516903}
   - {fileID: 1114516900}
@@ -1652,8 +1649,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 355.24554
-    y: 368.76004
+    x: 413.3851
+    y: 364.10886
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5973,6 +5970,12 @@ GameObject:
   - component: {fileID: 8102574222158763845}
   - component: {fileID: 8102574222158763844}
   - component: {fileID: 8102574222158763843}
+  - component: {fileID: 8102574222158763846}
+  - component: {fileID: 8102574222158763848}
+  - component: {fileID: 8102574222158763847}
+  - component: {fileID: 8102574222158763850}
+  - component: {fileID: 8102574222158763849}
+  - component: {fileID: 8102574222158763851}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6005,9 +6008,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1114516871}
+  - {fileID: 1114516865}
   selectedCommands:
-  - {fileID: 8102574222158763829}
+  - {fileID: 8102574222158763848}
   variables:
   - {fileID: 9152882500042792469}
   - {fileID: 1817614426612485036}
@@ -6380,9 +6383,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : Non, Maeva...\nJe doit retrouver les autres, avant qu'il
-      ne soit trop tard, j'ai entendu dire qu'ils \xE9taient partis dans la salle
-      de spectacle !"
+    stringVal: "Quentin : {color=lightblue} Lucie, tu sais ou es Ma\xEBva ? Vous \xE9tiez
+      ensemble avant notre s\xE9paration"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -6673,6 +6675,9 @@ MonoBehaviour:
   - {fileID: 8102574222158763833}
   - {fileID: 8102574222158763832}
   - {fileID: 8102574222158763831}
+  - {fileID: 8102574222158763849}
+  - {fileID: 8102574222158763850}
+  - {fileID: 8102574222158763851}
   - {fileID: 8102574222158763827}
   - {fileID: 8102574222158763826}
   - {fileID: 8102574222158763825}
@@ -6858,6 +6863,183 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
+--- !u!114 &8102574222158763846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222158763817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 241
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin : {i}{color=lightblue} Serait-ce...Ma\xEBva ?"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574222158763847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222158763817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 243
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Ma\xEBva : AAAAAAAAAH !\n\nMa\xEBva hide :"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574222158763848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222158763817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 242
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Lucie Lucie middle : Ma\xEBva ?!?\r\nFlore Flore hide :\r\nLucie Lucie
+      hide :\r\nQuentin hide :"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574222158763849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222158763817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 245
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Lucie Lucie right :  Ma\xEBva... Elle n\u2019a pas r\xE9sist\xE9 \xE0
+      ce qu'il s'est pass\xE9 au sous-sol..."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574222158763850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222158763817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 244
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Flore Flore left :  Et... du coup ?'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574222158763851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222158763817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 246
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Lucie Lucie right :  Elle s'est suicid\xE9e...\n\nLucie hide :\n\nFlore
+      hide :\n\nQuentin hide :"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &8144996210373830778
 MonoBehaviour:
   m_ObjectHideFlags: 2

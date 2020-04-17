@@ -79,7 +79,7 @@ public class EffectsManager : MonoBehaviour
 
             if (invert == false)
             {
-                depthIntensity += 0.5f;
+                depthIntensity += 0.8f;
                 depthOfField.focalLength.Override(depthIntensity);
                 if(depthIntensity >= 100)
                 {
@@ -89,7 +89,7 @@ public class EffectsManager : MonoBehaviour
             }
             if (invert)
             {
-                depthIntensity -= 0.5f;
+                depthIntensity -= 0.8f;
                 depthOfField.focalLength.Override(depthIntensity);
                 if (depthIntensity <= 0)
                 {
@@ -98,7 +98,7 @@ public class EffectsManager : MonoBehaviour
                 }
             }
 
-            if(invertNumber >= 8)
+            if(invertNumber >= 9)
             {
                 depthOfField.enabled.Override(false);
                 effectTwo = false;
