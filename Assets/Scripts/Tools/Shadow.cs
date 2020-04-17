@@ -36,7 +36,7 @@ public class Shadow : MonoBehaviour
             }
         }
         
-        if (distance < 0.2f && goTimer != true)
+        if (distance < 0.3f && goTimer != true)
         {
             audioSource.PlayOneShot(triggerSound);
             Destroy(GetComponent<SpriteRenderer>());
