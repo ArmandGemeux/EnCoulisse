@@ -4671,6 +4671,7 @@ GameObject:
   - component: {fileID: 8102574220863786688}
   - component: {fileID: 8102574220863786686}
   - component: {fileID: 8102574220863786685}
+  - component: {fileID: 8102574220863786692}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4733,9 +4734,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1258059400903477233}
-  selectedCommands:
-  - {fileID: 4488151557053624896}
+  - {fileID: 8102574220863786679}
+  selectedCommands: []
   variables:
   - {fileID: 9152882499861399436}
   - {fileID: 1817614425625760309}
@@ -4864,8 +4864,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 202.81972
-    y: 98.24141
+    x: 201.09558
+    y: 94.79314
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4882,6 +4882,7 @@ MonoBehaviour:
   - {fileID: 8102574220863786682}
   - {fileID: 8102574220863786683}
   - {fileID: 8102574220863786684}
+  - {fileID: 8102574220863786692}
   - {fileID: 8102574220863786690}
   - {fileID: 8102574220863786689}
   - {fileID: 8102574220863786688}
@@ -4989,7 +4990,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : Je ne peux pas encore passer par l\xE0..."
+    stringVal: 'Quentin middle : {i}{color=lightblue} On dirait que le temps n''a
+      aucun effet sur ces statues..'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -5185,6 +5187,36 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &8102574220863786692
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574220863786672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 168
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin middle : {i}{color=lightblue} Ce n'est pas \xE7a qui va m'aider
+      a retrouver mes souvenirs. Continuons !"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &8144996210620264931
 MonoBehaviour:
   m_ObjectHideFlags: 2
