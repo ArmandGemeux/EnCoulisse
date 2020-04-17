@@ -2102,7 +2102,7 @@ MonoBehaviour:
   - {fileID: 8102574222484129267}
   - {fileID: 1561067457}
   - {fileID: 1561067456}
-  - {fileID: 1561067455}
+  - {fileID: 8102574222484129280}
   - {fileID: 1561067454}
   - {fileID: 1561067453}
   - {fileID: 1561067452}
@@ -2112,6 +2112,7 @@ MonoBehaviour:
   - {fileID: 1561067450}
   - {fileID: 1561067449}
   - {fileID: 1561067448}
+  - {fileID: 1561067455}
   - {fileID: 1561067447}
   - {fileID: 1561067446}
   - {fileID: 1561067445}
@@ -2247,7 +2248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -166.69778
+    x: -164.37221
     y: 503.25598
     width: 120
     height: 40
@@ -2920,7 +2921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 37.87857
+    x: 40.20415
     y: 582.0826
     width: 141.16278
     height: 40
@@ -2935,6 +2936,7 @@ MonoBehaviour:
   - {fileID: 1561067488}
   - {fileID: 1561067487}
   - {fileID: 1561067486}
+  - {fileID: 8102574222484129281}
   - {fileID: 1561067485}
   - {fileID: 1561067484}
   - {fileID: 1561067483}
@@ -6101,6 +6103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9079f4e6b5abd144fb0b0ffffd17a6da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseTorch: 0
 --- !u!1 &3493878186595902217
 GameObject:
   m_ObjectHideFlags: 0
@@ -8207,9 +8210,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1561067470}
+  - {fileID: 1561067490}
   selectedCommands:
-  - {fileID: 8102574222484129278}
+  - {fileID: 8102574222484129281}
   variables:
   - {fileID: 9152882500389129422}
   - {fileID: 1817614426190715255}
@@ -8332,6 +8335,8 @@ GameObject:
   - component: {fileID: 8102574222484129275}
   - component: {fileID: 8102574222484129279}
   - component: {fileID: 8102574222484129278}
+  - component: {fileID: 8102574222484129280}
+  - component: {fileID: 8102574222484129281}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -8849,6 +8854,62 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: ed7865577e9799c49bc02d6d74fd333d, type: 3}
   volume: 0.1
   waitUntilFinished: 0
+--- !u!114 &8102574222484129280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222484129266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 218
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 3493878186595902217}
+  targetComponentAssemblyName: LightFollowMouse, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: LightFollowMouse
+  targetMethod: TorchControl
+  targetMethodText: 'TorchControl (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &8102574222484129281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222484129266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 219
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 3493878186595902217}
+  targetComponentAssemblyName: LightFollowMouse, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: LightFollowMouse
+  targetMethod: TorchControl
+  targetMethodText: 'TorchControl (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &8176980068132174413
 MonoBehaviour:
   m_ObjectHideFlags: 0

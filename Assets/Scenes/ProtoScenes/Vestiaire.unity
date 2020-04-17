@@ -629,7 +629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1699717612, guid: 5980053b1c6ca524a817a01f60627aff, type: 3}
       propertyPath: m_Color.r
-      value: 0
+      value: 0.2264151
       objectReference: {fileID: 0}
     - target: {fileID: 1699717612, guid: 5980053b1c6ca524a817a01f60627aff, type: 3}
       propertyPath: m_Color.g
@@ -1076,7 +1076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 181.47096
+    x: 216.35469
     y: 366.56586
     width: 128.13953
     height: 40
@@ -1105,6 +1105,7 @@ MonoBehaviour:
   - {fileID: 1114516981}
   - {fileID: 1114516980}
   - {fileID: 1114516859}
+  - {fileID: 8102574222158763844}
   - {fileID: 1114516858}
   suppressAllAutoSelections: 0
 --- !u!114 &1114516866
@@ -1211,8 +1212,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 271.23178
-    y: 268.7334
+    x: 273.55737
+    y: 271.059
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1269,7 +1270,7 @@ MonoBehaviour:
     booleanVal: 1
   duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 1.5
   fadeMode: 0
   targetColor:
     colorRef: {fileID: 0}
@@ -1475,7 +1476,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 255.12689
-    y: 170.38165
+    y: 172.70723
     width: 146.74417
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1487,6 +1488,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 8102574222158763819}
   - {fileID: 8102574222158763830}
+  - {fileID: 8102574222158763842}
   - {fileID: 1114516907}
   - {fileID: 1114516880}
   - {fileID: 1114516879}
@@ -1650,7 +1652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 352.91995
+    x: 355.24554
     y: 368.76004
     width: 120
     height: 40
@@ -1663,6 +1665,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1114516895}
   - {fileID: 1114516886}
+  - {fileID: 8102574222158763843}
   - {fileID: 1114516885}
   suppressAllAutoSelections: 0
 --- !u!114 &1114516893
@@ -1849,7 +1852,7 @@ MonoBehaviour:
     booleanVal: 1
   duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 1.5
   fadeMode: 0
   targetColor:
     colorRef: {fileID: 0}
@@ -2753,8 +2756,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 254.65497
-    y: 79.4357
+    x: 250.00378
+    y: 72.45895
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5966,6 +5969,10 @@ GameObject:
   - component: {fileID: 8102574222158763829}
   - component: {fileID: 8102574222158763828}
   - component: {fileID: 8102574222158763830}
+  - component: {fileID: 8102574222158763842}
+  - component: {fileID: 8102574222158763845}
+  - component: {fileID: 8102574222158763844}
+  - component: {fileID: 8102574222158763843}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -5986,7 +5993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1146.9355, y: 7.128208}
+  scrollPos: {x: 1142.2255, y: 44.84877}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 407
@@ -5998,9 +6005,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1114516881}
+  - {fileID: 1114516871}
   selectedCommands:
-  - {fileID: 8102574222158763830}
+  - {fileID: 8102574222158763829}
   variables:
   - {fileID: 9152882500042792469}
   - {fileID: 1817614426612485036}
@@ -6342,7 +6349,7 @@ MonoBehaviour:
   messageOLD: 
 --- !u!114 &8102574222158763830
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6646,8 +6653,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 17.087605
-    y: 368.8825
+    x: 14.762024
+    y: 371.2081
     width: 139.30232
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6672,6 +6679,7 @@ MonoBehaviour:
   - {fileID: 8102574222158763824}
   - {fileID: 8102574222158763823}
   - {fileID: 8102574222158763822}
+  - {fileID: 8102574222158763845}
   - {fileID: 8102574222158763821}
   suppressAllAutoSelections: 0
 --- !u!114 &8102574222158763841
@@ -6738,6 +6746,118 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &8102574222158763842
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222158763817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 237
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 968849727}
+  targetComponentAssemblyName: LightFollowMouse, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: LightFollowMouse
+  targetMethod: TorchControl
+  targetMethodText: 'TorchControl (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &8102574222158763843
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222158763817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 240
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 968849727}
+  targetComponentAssemblyName: LightFollowMouse, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: LightFollowMouse
+  targetMethod: TorchControl
+  targetMethodText: 'TorchControl (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &8102574222158763844
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222158763817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 239
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 968849727}
+  targetComponentAssemblyName: LightFollowMouse, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: LightFollowMouse
+  targetMethod: TorchControl
+  targetMethodText: 'TorchControl (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &8102574222158763845
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574222158763817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 238
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 968849727}
+  targetComponentAssemblyName: LightFollowMouse, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: LightFollowMouse
+  targetMethod: TorchControl
+  targetMethodText: 'TorchControl (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &8144996210373830778
 MonoBehaviour:
   m_ObjectHideFlags: 2
