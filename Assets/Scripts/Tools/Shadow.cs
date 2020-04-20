@@ -12,11 +12,12 @@ public class Shadow : MonoBehaviour
     public float timer;
     public bool goTimer;
     public float radius;
+    public Color alpha;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        alpha = GetComponent<SpriteRenderer>().color;
         torchLight = GameObject.FindGameObjectWithTag("TorchLight");
         audioSource = GetComponent<AudioSource>();
     }
@@ -44,6 +45,8 @@ public class Shadow : MonoBehaviour
             Destroy(GetComponent<SpriteRenderer>());
             goTimer = true;
         }
+
+        alpha.a = distance / 10;
 
     }
 }

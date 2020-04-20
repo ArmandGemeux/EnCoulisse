@@ -1209,8 +1209,11 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin middle : Ces statues sont vraiment impr\xE9sionnantes...\n\nQuentin
-      middle : Ce grand th\xE9\xE2tre est vraiment un monument intriguant !"
+    stringVal: 'Quentin middle : {i}{color=lightblue} On dirait que le temps n''a
+      aucun effet sur ces statues..
+
+
+'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1237,7 +1240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1008.1015
+    x: 1010.2754
     y: 197.00539
     width: 150.86957
     height: 40
@@ -1254,6 +1257,7 @@ MonoBehaviour:
   - {fileID: 1400013248}
   - {fileID: 1400013252}
   - {fileID: 1400013249}
+  - {fileID: 8102574220628407477}
   - {fileID: 1400013256}
   - {fileID: 1400013255}
   - {fileID: 1400013257}
@@ -1722,7 +1726,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Vestibule
+    stringVal: Proto - Vestibule
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1400013265
@@ -1822,7 +1826,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Salle de spectacle
+    stringVal: Proto - Salle de spectacle
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!1001 &1487129739
@@ -5087,9 +5091,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1400013250}
+  - {fileID: 8412752928321686727}
   selectedCommands:
-  - {fileID: 1400013249}
+  - {fileID: 1400013267}
   variables:
   - {fileID: 9152882499561012623}
   - {fileID: 1817614425861220406}
@@ -5206,6 +5210,7 @@ GameObject:
   - component: {fileID: 1400013266}
   - component: {fileID: 1400013267}
   - component: {fileID: 8102574220628407476}
+  - component: {fileID: 8102574220628407477}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -5228,6 +5233,36 @@ MonoBehaviour:
   parentBlock: {fileID: 4214185501060108275}
   suppressBlockAutoSelect: 0
   targetButton: {fileID: 1656996321}
+--- !u!114 &8102574220628407477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574220628407475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 171
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin middle : {i}{color=lightblue} Ce n'est pas \xE7a qui va m'aider
+      a retrouver mes souvenirs. Continuons !"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!4 &8102574220628407484
 Transform:
   m_ObjectHideFlags: 0
