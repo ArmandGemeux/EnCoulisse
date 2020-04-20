@@ -339,7 +339,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1373970713}
+  - {fileID: 1094909253}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -591,6 +591,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 467dbc406b9b54c479657e5d3e36ed45, type: 3}
+--- !u!4 &1094909253 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1094909252}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1181432652
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,6 +754,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2be9d49ab897a464b99600f2fe85613c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  postProcessVolume: {fileID: 0}
+  chromaticAberration: {fileID: 0}
+  depthOfField: {fileID: 0}
+  effectOne: 0
+  effectTwo: 0
+  scareEffect: 0
+  invert: 0
+  invertNumber: 0
+  chromAbIntensity: 0
+  depthIntensity: 0
 --- !u!1 &1236845853
 GameObject:
   m_ObjectHideFlags: 0
@@ -920,12 +935,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!224 &1373970713 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 1106703460676028204, guid: 467dbc406b9b54c479657e5d3e36ed45,
-    type: 3}
-  m_PrefabInstance: {fileID: 1094909252}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1487726973
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,18 +1174,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 236.75436, y: 18.023247}
+  scrollPos: {x: 409.83206, y: 69.090614}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8800001
+  zoom: 0.6700003
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 283445897545098935}
   selectedCommands: []
   variables: []
   description: 
@@ -1202,6 +1212,9 @@ GameObject:
   - component: {fileID: 283445897545098939}
   - component: {fileID: 283445897545098938}
   - component: {fileID: 283445897545098932}
+  - component: {fileID: 283445897545098935}
+  - component: {fileID: 283445897545098936}
+  - component: {fileID: 283445897545098940}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1209,6 +1222,49 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &283445897545098935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283445897545098934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 414.04813
+    y: 72.70037
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 2
+  blockName: Fade
+  description: 
+  eventHandler: {fileID: 283445897545098936}
+  commandList:
+  - {fileID: 283445897545098940}
+  suppressAllAutoSelections: 0
+--- !u!114 &283445897545098936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283445897545098934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 283445897545098935}
+  suppressBlockAutoSelect: 0
+  keyPressType: 0
+  keyCode: 102
 --- !u!4 &283445897545098937
 Transform:
   m_ObjectHideFlags: 0
@@ -1265,6 +1321,36 @@ MonoBehaviour:
   commandList:
   - {fileID: 283445897545098932}
   suppressAllAutoSelections: 0
+--- !u!114 &283445897545098940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283445897545098934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 0}
+  tweenType: 2
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  fadeMode: 0
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
 --- !u!1 &5139374739426846313
 GameObject:
   m_ObjectHideFlags: 0
