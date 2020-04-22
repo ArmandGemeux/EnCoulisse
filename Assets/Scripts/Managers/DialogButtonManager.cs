@@ -7,11 +7,15 @@ public class DialogButtonManager : MonoBehaviour
 {
 
     public GameObject pauseMenu;
+    public KeyCode history;
+    public GameObject saveMenu;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        saveMenu = GameObject.Find("SaveMenu");
+
         if (GameObject.FindGameObjectWithTag("PauseMenuManager"))
         {
             pauseMenu = GameObject.FindGameObjectWithTag("PauseMenuManager");
@@ -21,6 +25,12 @@ public class DialogButtonManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(history))
+        {
+            ToggleHistory();
+            saveMenu.GetComponent<Fungus.SaveMenu>().ToggleSaveMenu();
+            saveMenu.GetComponent<Fungus.NarrativeLogMenu>().ToggleNarrativeLogView();
+        }
     }
 
     public void TogglePause()
@@ -52,11 +62,32 @@ public class DialogButtonManager : MonoBehaviour
         Fungus.Flowchart.BroadcastFungusMessage("Skip");
     }
 
+    private void OnEnable()
+    {
+        if(saveMenu != null)
+        {
+            saveMenu.SetActive(true);
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (saveMenu != null)
+        {
+            saveMenu.SetActive(false);
+        }
+    }
+
     public void ToggleHistory()
     {
-
+        if (saveMenu.GetComponent<Canvas>().sortingOrder == 0)
+        {
+            saveMenu.GetComponent<Canvas>().sortingOrder = 2;
+        }
+        else
+        {
+            saveMenu.GetComponent<Canvas>().sortingOrder = 0;
+        }
     }
-    
-
 
 }

@@ -10,6 +10,7 @@ public class UIDraw : MonoBehaviour
     public GameObject elementToHideTwo;
     public static UIDraw s_Singleton;
 
+
     private void Awake()
     {
         if (s_Singleton != null)
@@ -33,7 +34,7 @@ public class UIDraw : MonoBehaviour
     {
         if (Input.GetKeyDown(hideKey))
         {
-            DrawUI();
+            
         }
     }
 
