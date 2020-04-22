@@ -28,10 +28,9 @@ public class LightFollowMouse : MonoBehaviour
         }
         else
         {
-            Cursor.visible = true;
+            SetCursorOn();
         }
-
-        //transform.position = new Vector3(Input.mousePosition.x - Camera.main.transform.position.x, Input.mousePosition.y - Camera.main.transform.position.y, -1);
+        
     }
     public void TorchControl()
     {
@@ -46,5 +45,10 @@ public class LightFollowMouse : MonoBehaviour
     private void OnEnable()
     {
         Cursor.visible = false;
+    }
+
+    private void SetCursorOn()
+    {
+        Cursor.visible = true;
     }
 }

@@ -1,14 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIDraw : MonoBehaviour
 {
-    
+
+    public GameObject backGround;
     public KeyCode hideKey;
-    public GameObject elementToHide;
-    public GameObject elementToHideTwo;
-    public static UIDraw s_Singleton;
+    private static UIDraw s_Singleton;
+    public GameObject screen;
+    public bool uI;
 
 
     private void Awake()
@@ -34,21 +37,51 @@ public class UIDraw : MonoBehaviour
     {
         if (Input.GetKeyDown(hideKey))
         {
-            
+            DrawUI();
+        }
+        if (uI)
+        {
+            var mousePos = Input.mousePosition;
+            mousePos.x -= Screen.width / 2;
+            mousePos.y -= Screen.height / 2;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 
     //fonction pour montrer les éléments d'UI
     public void DrawUI()
     {
-        if(elementToHide == null)
+        
+        int sceneIndex;
+        sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        if(sceneIndex != 0)
         {
-            elementToHide = GameObject.Find("UIManager");
+            if(GameObject.FindGameObjectWithTag("Background") != null)
+            {
+                backGround = GameObject.FindGameObjectWithTag("Background");
+                screen.SetActive(!screen.activeSelf);
+                screen.GetComponent<Image>().sprite = backGround.GetComponent<SpriteRenderer>().sprite;
+                if (screen.activeSelf == true)
+                {
+                    uI = true;
+                }
+                else
+                {
+                    uI = false;
+                }
+            }
         }
-        else
+    }
+    private void OnDisable()
+    {
+        if(uI == true)
         {
-            elementToHide.SetActive(!elementToHide.activeSelf);
-            elementToHideTwo.SetActive(!elementToHide.activeSelf);
+            DrawUI();
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 

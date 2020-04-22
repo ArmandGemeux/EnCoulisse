@@ -20,7 +20,7 @@ public class Jumpscare : MonoBehaviour
     void Update()
     {
         distance =  Vector2.Distance(torchLight.transform.position, gameObject.transform.position);
-        if (distance < 0.2f)
+        if (distance < 0.4f)
         {
             Instantiate(scaryPictures[pictureNumber]);
             Fungus.Flowchart.BroadcastFungusMessage("SCARY");

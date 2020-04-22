@@ -8,18 +8,19 @@ using UnityEngine.SceneManagement;
 public class RoomManager : MonoBehaviour
 {
 
-    /*public string avant;
-    public string arriere;
-    public string gauche;
-    public string droite;
-    
+    private static RoomManager s_Singleton;
 
-    public KeyCode up;
-    public KeyCode down;
-    public KeyCode left;
-    public KeyCode right;*/
-
-
+    private void Awake()
+    {
+        if (s_Singleton != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            s_Singleton = this;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
