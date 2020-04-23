@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
+
 
 public class LightIntensity : MonoBehaviour
 {
@@ -29,9 +31,19 @@ public class LightIntensity : MonoBehaviour
 
         //agrandir
         //lightObject.GetComponent<Light>().range = 0.1f + (10 / (ecart + 0.5f));
-        lightObject.GetComponent<Light>().range = 0.001f + (1 / (distance + 0.5f));
+        if(lightObject.activeSelf == true)
+        {
+            lightObject.GetComponent<Light>().range = 0.001f + (1 / (distance + 0.5f));
+        }
 
-
+        if(distance >= 5)
+        {
+            lightObject.SetActive(false);
+        }
+        else
+        {
+            lightObject.SetActive(true);
+        }
         if (lightObject.GetComponent<Light>().range >= 10)
         {
             lightObject.GetComponent<Light>().range = 10;

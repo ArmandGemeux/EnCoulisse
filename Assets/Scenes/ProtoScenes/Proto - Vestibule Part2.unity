@@ -1270,8 +1270,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1010.2754
-    y: 197.00539
+    x: 1016.7971
+    y: 194.83147
     width: 150.86957
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1288,11 +1288,11 @@ MonoBehaviour:
   - {fileID: 1400013252}
   - {fileID: 1400013249}
   - {fileID: 8102574220628407477}
+  - {fileID: 1400013253}
   - {fileID: 1400013256}
   - {fileID: 1400013255}
   - {fileID: 1400013257}
   - {fileID: 1400013254}
-  - {fileID: 1400013253}
   suppressAllAutoSelections: 0
 --- !u!114 &1400013251
 MonoBehaviour:
@@ -2457,7 +2457,7 @@ PrefabInstance:
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.00004386902
+      value: 0.00008106232
       objectReference: {fileID: 0}
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
@@ -5002,10 +5002,9 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1400013250}
+  selectedBlocks: []
   selectedCommands:
-  - {fileID: 8102574220628407477}
+  - {fileID: 1400013253}
   variables:
   - {fileID: 9152882499561012623}
   - {fileID: 1817614425861220406}
@@ -5177,7 +5176,7 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &8102574220628407478
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5553,6 +5552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 1
   key: Dialogue
   value: 0
