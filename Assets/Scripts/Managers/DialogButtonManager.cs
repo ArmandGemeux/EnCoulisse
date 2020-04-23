@@ -43,9 +43,9 @@ public class DialogButtonManager : MonoBehaviour
 
     public void ToggleSpeed()
     {
-        if (GetComponent<Fungus.Writer>().writingSpeed != 120)
+        if (GetComponent<Fungus.Writer>().writingSpeed != 180)
         {
-            GetComponent<Fungus.Writer>().writingSpeed = 120;
+            GetComponent<Fungus.Writer>().writingSpeed = 180;
 
             //Time.timeScale = 2;
         }

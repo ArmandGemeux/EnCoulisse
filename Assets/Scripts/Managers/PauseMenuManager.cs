@@ -78,7 +78,7 @@ public class PauseMenuManager : MonoBehaviour
     {
         Time.timeScale = 1;
         paused = false;
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene(0);
         Destroy(gameObject);
     }
 
