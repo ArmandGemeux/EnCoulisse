@@ -7,8 +7,7 @@ public class LightIntensity : MonoBehaviour
 
     public GameObject lightObject;
     public GameObject torchLight;
-    public Vector2 distance;
-    public float ecart;
+    public float distance;
 
     // Start is called before the first frame update
     void Start()
@@ -21,8 +20,7 @@ public class LightIntensity : MonoBehaviour
     {
         if(lightObject != null)
         {
-            distance = lightObject.transform.position - torchLight.transform.position;
-            ecart = Mathf.Abs(distance.x + distance.y);
+            distance = Vector2.Distance(torchLight.transform.position, gameObject.transform.position);
         }
 
 
@@ -34,7 +32,7 @@ public class LightIntensity : MonoBehaviour
 
         //agrandir
         //lightObject.GetComponent<Light>().range = 0.1f + (10 / (ecart + 0.5f));
-        lightObject.GetComponent<Light>().range = 0.001f + (1 / (ecart + 0.5f));
+        lightObject.GetComponent<Light>().range = 0.001f + (1 / (distance + 0.5f));
 
 
         if (lightObject.GetComponent<Light>().range >= 10)
