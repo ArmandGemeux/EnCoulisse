@@ -37,7 +37,13 @@ public class UIDraw : MonoBehaviour
     {
         if (Input.GetKeyDown(hideKey))
         {
-            DrawUI();
+            if(GameObject.FindGameObjectWithTag("PauseMenuManager") != null)
+            {
+                if(GameObject.FindGameObjectWithTag("PauseMenuManager").GetComponent<PauseMenuManager>().paused != true)
+                {
+                    DrawUI();
+                }
+            }
         }
         if (uI)
         {
