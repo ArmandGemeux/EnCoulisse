@@ -18,10 +18,7 @@ public class LightIntensity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(lightObject != null)
-        {
-            distance = Vector2.Distance(torchLight.transform.position, gameObject.transform.position);
-        }
+        distance = Vector2.Distance(torchLight.transform.position, gameObject.transform.position);
 
 
         //rétrécir
