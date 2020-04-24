@@ -27,7 +27,6 @@ public class DialogButtonManager : MonoBehaviour
     {
         if (Input.GetKeyDown(history))
         {
-            ToggleHistory();
             saveMenu.GetComponent<Fungus.SaveMenu>().ToggleSaveMenu();
             saveMenu.GetComponent<Fungus.NarrativeLogMenu>().ToggleNarrativeLogView();
         }
@@ -77,17 +76,6 @@ public class DialogButtonManager : MonoBehaviour
             saveMenu.SetActive(false);
         }
     }
-
-    public void ToggleHistory()
-    {
-        if (saveMenu.GetComponent<Canvas>().sortingOrder == 0)
-        {
-            saveMenu.GetComponent<Canvas>().sortingOrder = 2;
-        }
-        else
-        {
-            saveMenu.GetComponent<Canvas>().sortingOrder = 0;
-        }
-    }
+    
 
 }

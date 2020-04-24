@@ -8,6 +8,8 @@ public class EffectsManager : MonoBehaviour
     public PostProcessVolume postProcessVolume;
     public ChromaticAberration chromaticAberration;
     public DepthOfField depthOfField;
+    public ColorGrading coloGrading;
+    public Grain grain;
 
 
     public bool effectOne;
@@ -132,6 +134,30 @@ public class EffectsManager : MonoBehaviour
                 scareEffect = false;
             }
         }
+    }
+
+    public void SouvenirEffects()
+    {
+        postProcessVolume.profile.TryGetSettings(out chromaticAberration);
+        postProcessVolume.profile.TryGetSettings(out coloGrading);
+        postProcessVolume.profile.TryGetSettings(out grain);
+        chromaticAberration.enabled.Override(true);
+        chromaticAberration.intensity.Override(0.25f);
+        coloGrading.enabled.Override(true);
+        coloGrading.saturation.Override(-30f);
+        coloGrading.postExposure.Override(3.39f);
+        grain.enabled.Override(true);
+        grain.intensity.Override(0.74f);
+    }
+
+    public void ResetEP()
+    {
+        postProcessVolume.profile.TryGetSettings(out chromaticAberration);
+        postProcessVolume.profile.TryGetSettings(out coloGrading);
+        postProcessVolume.profile.TryGetSettings(out grain);
+        chromaticAberration.enabled.Override(false);
+        coloGrading.enabled.Override(false);
+        grain.enabled.Override(false);
     }
 
 }

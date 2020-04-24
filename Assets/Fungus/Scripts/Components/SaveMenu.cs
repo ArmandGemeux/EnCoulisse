@@ -218,6 +218,8 @@ namespace Fungus
                 }).setOnComplete( () => {
                     saveMenuGroup.alpha = 0f;
                 });
+
+                GetComponent<Canvas>().sortingOrder = 0;
             }
             else
             {
@@ -229,6 +231,7 @@ namespace Fungus
                 }).setOnComplete( () => {
                     saveMenuGroup.alpha = 1f;
                 });
+                GetComponent<Canvas>().sortingOrder = 2;
             }
 
             saveMenuActive = !saveMenuActive;
