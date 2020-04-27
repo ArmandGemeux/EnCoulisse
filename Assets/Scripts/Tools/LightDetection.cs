@@ -24,11 +24,13 @@ public class LightDetection : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         lightSignal.SetActive(true);
+        GetComponentInParent<LightIntensity>().detected = true;
     }
 
     //lors de l'éloignement, la lumière se désactive
     private void OnTriggerExit(Collider other)
     {
         lightSignal.SetActive(false);
+        GetComponentInParent<LightIntensity>().detected = false;
     }
 }
