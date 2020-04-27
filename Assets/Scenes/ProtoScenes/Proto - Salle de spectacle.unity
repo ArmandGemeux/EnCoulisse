@@ -582,6 +582,7 @@ MonoBehaviour:
   eventHandler: {fileID: 743235797}
   commandList:
   - {fileID: 743235799}
+  - {fileID: 8102574220583656093}
   - {fileID: 743235798}
   - {fileID: 743235801}
   suppressAllAutoSelections: 0
@@ -5005,6 +5006,7 @@ GameObject:
   - component: {fileID: 8102574220583656090}
   - component: {fileID: 8102574220583656091}
   - component: {fileID: 8102574220583656092}
+  - component: {fileID: 8102574220583656093}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -5037,9 +5039,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1258059400644645836}
+  - {fileID: 743235800}
   selectedCommands:
-  - {fileID: 5949282602038470034}
+  - {fileID: 8102574220583656093}
   variables:
   - {fileID: 9152882499604599729}
   - {fileID: 1817614425910019592}
@@ -5448,6 +5450,23 @@ MonoBehaviour:
   suppressBlockAutoSelect: 0
   keyPressType: 0
   keyCode: 274
+--- !u!114 &8102574220583656093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574220583656077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 166
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 614127153c9926d45b297e9ba3094cf5, type: 3}
+  volume: 0.519
+  waitUntilFinished: 0
 --- !u!114 &8144996210875229662
 MonoBehaviour:
   m_ObjectHideFlags: 2
