@@ -156,7 +156,8 @@ public class EffectsManager : MonoBehaviour
         postProcessVolume.profile.TryGetSettings(out coloGrading);
         postProcessVolume.profile.TryGetSettings(out grain);
         chromaticAberration.enabled.Override(false);
-        coloGrading.enabled.Override(false);
+        coloGrading.postExposure.Override(0.5f);
+        coloGrading.saturation.Override(0f);
         grain.enabled.Override(false);
     }
 
