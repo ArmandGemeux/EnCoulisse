@@ -2219,7 +2219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 247.17023
+    x: 241.76483
     y: 505.53406
     width: 120
     height: 40
@@ -3391,6 +3391,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3435661436184075715, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3671844114775258490, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_IsActive
@@ -3965,6 +3970,12 @@ GameObject:
 --- !u!1 &1724562448 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3671844114775258490, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
+    type: 3}
+  m_PrefabInstance: {fileID: 1724562445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1724562449 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3435661436184075715, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
     type: 3}
   m_PrefabInstance: {fileID: 1724562445}
   m_PrefabAsset: {fileID: 0}
@@ -6126,8 +6137,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1561067490}
-  selectedCommands: []
+  - {fileID: 1561067470}
+  selectedCommands:
+  - {fileID: 8102574222484129302}
   variables:
   - {fileID: 9152882500389129422}
   - {fileID: 1817614426190715255}
@@ -6948,8 +6960,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 716.75793
-    y: 332.03665
+    x: 719.46063
+    y: 332.03668
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7459,7 +7471,7 @@ MonoBehaviour:
   staticEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1724562449}
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
