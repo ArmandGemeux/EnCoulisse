@@ -23,7 +23,7 @@ public class LightIntensity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (detected)
+        if (detected && gameObject.CompareTag("Room"))
         {
             distance = Vector2.Distance(torchLight.transform.position, gameObject.transform.position);
 
