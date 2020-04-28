@@ -11,6 +11,8 @@ public class LightIntensity : MonoBehaviour
     public GameObject torchLight;
     public float distance;
     public bool detected;
+    public float alphaText;
+    public TextMeshProUGUI alphaColor;
 
     // Start is called before the first frame update
     void Start()
@@ -25,15 +27,10 @@ public class LightIntensity : MonoBehaviour
         {
             distance = Vector2.Distance(torchLight.transform.position, gameObject.transform.position);
 
+            alphaText = 0.3f / distance;
+            
+            alphaColor.alpha = alphaText;
 
-            //rétrécir
-            //lightObject.GetComponent<Light>().range = 0.1f + (ecart / 2);
-            //lightObject.GetComponent<Light>().range = 0.7f + (ecart / 20);
-            //lightObject.GetComponent<Light>().range = 0.7f + (ecart);
-
-
-            //agrandir
-            //lightObject.GetComponent<Light>().range = 0.1f + (10 / (ecart + 0.5f));
             if (lightObject.activeSelf == true)
             {
                 lightObject.GetComponent<Light>().range = 0.001f + (1 / (distance + 0.5f));
