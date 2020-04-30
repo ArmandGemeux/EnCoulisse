@@ -56,7 +56,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -414,8 +414,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lightObject: {fileID: 1009746316140120615}
   torchLight: {fileID: 0}
-  distance: {x: 0, y: 0}
-  ecart: 0
+  distance: 0
+  detected: 0
+  alphaText: 0
+  alphaColor: {fileID: 0}
+  footImage: {fileID: 0}
+  alphaFoot: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1009746316997961884
 GameObject:
   m_ObjectHideFlags: 0
