@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 3918855092101709804}
   - component: {fileID: 5941382775508685223}
   m_Layer: 5
-  m_Name: PICTURE
+  m_Name: PICTURE - Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -182,6 +182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0091499d97ecebb4a90b1b85b5dd9b46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  documentContents: []
+  actualContent: 0
 --- !u!223 &438475625339172010
 Canvas:
   m_ObjectHideFlags: 0
@@ -460,7 +462,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: IMAGE BIEN FLIPANTE
+  m_text: IMAGE BIEN FLIPPANTE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -529,7 +531,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 6974305741795079135}
-    characterCount: 19
+    characterCount: 20
     spriteCount: 0
     spaceCount: 2
     wordCount: 3

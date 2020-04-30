@@ -1743,7 +1743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 4.512166
+    x: 7.7379723
     y: 223.23964
     width: 173.87097
     height: 40
@@ -1993,18 +1993,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Flore hide :
-
-      Choix hide :
-
-
-      Lucie Lucie middle : Tu as fait le bon choix... Quelque chose peut encore trainer
-      dehors.
-
-
-      Lucie hide :
-
-'
+    stringVal: "Flore hide :\nChoix hide :\n\nLucie Lucie middle : Tu as fait le bon
+      choix... Quelque chose peut encore tra\xEEner dehors.\n\nLucie hide :\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3118,7 +3108,7 @@ PrefabInstance:
     - target: {fileID: 2321900926710481137, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_text
-      value: On reste ici ...
+      value: On reste ici...
       objectReference: {fileID: 0}
     - target: {fileID: 2577221619677703339, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
@@ -5748,8 +5738,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1561067497}
-  selectedCommands: []
+  - {fileID: 1561067470}
+  selectedCommands:
+  - {fileID: 1561067468}
   variables:
   - {fileID: 9152882500389129422}
   - {fileID: 1817614426190715255}
