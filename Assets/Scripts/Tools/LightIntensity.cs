@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Fungus;
 using TMPro;
+using UnityEngine.UI;
 
 public class LightIntensity : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class LightIntensity : MonoBehaviour
     public bool detected;
     public float alphaText;
     public TextMeshProUGUI alphaColor;
+    public GameObject footImage;
+    public Color alphaFoot;
 
     // Start is called before the first frame update
     void Start()
@@ -27,9 +30,14 @@ public class LightIntensity : MonoBehaviour
         {
             distance = Vector2.Distance(torchLight.transform.position, gameObject.transform.position);
 
+            alphaFoot = footImage.GetComponent<Image>().color;
+
             alphaText = 0.3f / distance;
             
             alphaColor.alpha = alphaText;
+            alphaFoot.a = alphaText;
+
+            footImage.GetComponent<Image>().color = alphaFoot;
 
             if (lightObject.activeSelf == true)
             {
@@ -39,6 +47,7 @@ public class LightIntensity : MonoBehaviour
             if (distance >= 5)
             {
                 lightObject.SetActive(false);
+                
             }
             else
             {
@@ -48,7 +57,6 @@ public class LightIntensity : MonoBehaviour
             {
                 lightObject.GetComponent<Light>().range = 10;
             }
-
         }
         
     }
