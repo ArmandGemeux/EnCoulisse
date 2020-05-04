@@ -142,9 +142,10 @@ public class EffectsManager : MonoBehaviour
         postProcessVolume.profile.TryGetSettings(out coloGrading);
         postProcessVolume.profile.TryGetSettings(out grain);
         chromaticAberration.enabled.Override(true);
-        chromaticAberration.intensity.Override(0.25f);
+        chromaticAberration.intensity.Override(0.75f);
         coloGrading.enabled.Override(true);
         coloGrading.saturation.Override(-30f);
+        coloGrading.temperature.Override(-75f);
         coloGrading.postExposure.Override(3.39f);
         grain.enabled.Override(true);
         grain.intensity.Override(0.74f);
@@ -157,6 +158,7 @@ public class EffectsManager : MonoBehaviour
         postProcessVolume.profile.TryGetSettings(out grain);
         chromaticAberration.enabled.Override(false);
         coloGrading.postExposure.Override(0.5f);
+        coloGrading.temperature.Override(0f);
         coloGrading.saturation.Override(0f);
         grain.enabled.Override(false);
     }
