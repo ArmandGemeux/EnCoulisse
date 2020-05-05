@@ -80,12 +80,12 @@ GameObject:
   - component: {fileID: -5467183894113896825}
   - component: {fileID: 9041198679102834819}
   - component: {fileID: -4209857181036365333}
-  - component: {fileID: 5547287539408298041}
-  - component: {fileID: -5169140317540245567}
-  - component: {fileID: -7689491558591089833}
-  - component: {fileID: -4071782660299453241}
-  - component: {fileID: 2631011838174223787}
-  - component: {fileID: 6250621420619232096}
+  - component: {fileID: 3331398418896417045}
+  - component: {fileID: 8690135029730441536}
+  - component: {fileID: 2513097859313737359}
+  - component: {fileID: 4861168171234870029}
+  - component: {fileID: 6266011954714406878}
+  - component: {fileID: 2506629838821916835}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -120,21 +120,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1320.3293, y: 38.703594}
+  scrollPos: {x: 986.3451, y: 78.09675}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.39999998
+  zoom: 0.43
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 8412752927941870123}
-  selectedCommands:
-  - {fileID: 5937871777458364666}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 9152882498997236579}
   - {fileID: 1817614425569552090}
@@ -226,7 +224,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 121.18097
     y: 210.94502
-    width: 124.00001
+    width: 131.86046
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -270,14 +268,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 782.53143
     y: 203.46416
-    width: 120
+    width: 126.27907
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 8
   blockName: Go UP button
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 6266011954714406878}
   commandList:
   - {fileID: 3607744537868093745}
   - {fileID: 7481853737557580720}
@@ -299,7 +297,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 533.0431
     y: 199.72586
-    width: 132
+    width: 144.88373
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -341,16 +339,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 116.0352
-    y: 280.21136
-    width: 120.00001
+    x: 126.23929
+    y: 278.17056
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 31
   blockName: Go Left Arrow
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 3331398418896417045}
   commandList:
   - {fileID: 8572495635988637112}
   - {fileID: 5656009804982587608}
@@ -436,14 +434,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 534.564
     y: 277.1174
-    width: 128
+    width: 143.02325
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 52
   blockName: Go Down Arrow
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 4861168171234870029}
   commandList:
   - {fileID: 4410078163182627119}
   - {fileID: 5958291838265028046}
@@ -529,14 +527,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 791.07336
     y: 271.24896
-    width: 120
+    width: 124.4186
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 53
   blockName: Go UP Arrow
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 2506629838821916835}
   commandList:
   - {fileID: 3731211572458230873}
   - {fileID: 6865321820650211212}
@@ -622,14 +620,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 305.0518
     y: 203.39064
-    width: 128
+    width: 141.16278
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 68
   blockName: Go Right Button
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 8690135029730441536}
   commandList:
   - {fileID: 7804423513292875592}
   - {fileID: 5960967507812236703}
@@ -649,16 +647,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 309.83517
-    y: 278.5085
-    width: 124.00001
+    x: 309.8352
+    y: 280.5493
+    width: 139.30232
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 69
   blockName: Go Right Arrow
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 2513097859313737359}
   commandList:
   - {fileID: 1539035035131166526}
   - {fileID: 4098455508088564807}
@@ -740,8 +738,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
-  key: Dialogue
+  scope: 1
+  key: InteractionsExt
   value: 0
 --- !u!114 &1817614425569552090
 MonoBehaviour:
@@ -1817,7 +1815,7 @@ MonoBehaviour:
   messageTarget: 0
   _message:
     stringRef: {fileID: 0}
-    stringVal: Change Up
+    stringVal: Room Up
   messageOLD: 
 --- !u!114 &4778676244049347865
 MonoBehaviour:
@@ -1855,7 +1853,7 @@ MonoBehaviour:
   messageTarget: 0
   _message:
     stringRef: {fileID: 0}
-    stringVal: Change Right
+    stringVal: Room Right
   messageOLD: 
 --- !u!114 &5795020033852386875
 MonoBehaviour:
@@ -1874,7 +1872,7 @@ MonoBehaviour:
   messageTarget: 0
   _message:
     stringRef: {fileID: 0}
-    stringVal: Change Up
+    stringVal: Room Up
   messageOLD: 
 --- !u!114 &504092362094360520
 MonoBehaviour:
@@ -1890,9 +1888,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 318.30414
-    y: 360.0169
-    width: 120
+    x: 326.46735
+    y: 351.8537
+    width: 126.27907
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2075,7 +2073,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 539.6588
     y: 351.25674
-    width: 120
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2645,7 +2643,7 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &5547287539408298041
+--- !u!114 &3331398418896417045
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2654,40 +2652,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221058423391}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 815.0423
-    y: 90.26334
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 146
-  blockName: Pause
-  description: 
-  eventHandler: {fileID: -5169140317540245567}
-  commandList:
-  - {fileID: -7689491558591089833}
-  suppressAllAutoSelections: 0
---- !u!114 &-5169140317540245567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221058423391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 5547287539408298041}
+  parentBlock: {fileID: 4765504291643288996}
   suppressBlockAutoSelect: 0
-  message: setPause
---- !u!114 &-7689491558591089833
+  keyPressType: 0
+  keyCode: 276
+--- !u!114 &8690135029730441536
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2696,164 +2668,72 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221058423391}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 147
-  indentLevel: 0
-  variable: {fileID: 9152882498997236579}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &-4071782660299453241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221058423391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 850.69446
-    y: 35.48073
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 146
-  blockName: Unpause
-  description: 
-  eventHandler: {fileID: 6250621420619232096}
-  commandList:
-  - {fileID: 2631011838174223787}
-  suppressAllAutoSelections: 0
---- !u!114 &2631011838174223787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221058423391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 149
-  indentLevel: 0
-  variable: {fileID: 9152882498997236579}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &6250621420619232096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221058423391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: -4071782660299453241}
+  parentBlock: {fileID: 1314895621988472407}
   suppressBlockAutoSelect: 0
-  message: setUnpause
+  targetButton: {fileID: 0}
+--- !u!114 &2513097859313737359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221058423391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1821800902322546779}
+  suppressBlockAutoSelect: 0
+  keyPressType: 0
+  keyCode: 275
+--- !u!114 &4861168171234870029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221058423391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 2893414282501779868}
+  suppressBlockAutoSelect: 0
+  keyPressType: 0
+  keyCode: 274
+--- !u!114 &6266011954714406878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221058423391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 4214185500768829727}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 0}
+--- !u!114 &2506629838821916835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221058423391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 5669239157546161360}
+  suppressBlockAutoSelect: 0
+  keyPressType: 0
+  keyCode: 273
