@@ -634,7 +634,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 427.34763
-    y: 99.15258
+    y: 96.826996
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -643,8 +643,7 @@ MonoBehaviour:
   blockName: Start
   description: 
   eventHandler: {fileID: 851334116}
-  commandList:
-  - {fileID: 851334117}
+  commandList: []
   suppressAllAutoSelections: 0
 --- !u!114 &851334116
 MonoBehaviour:
@@ -661,25 +660,6 @@ MonoBehaviour:
   parentBlock: {fileID: 851334115}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
---- !u!114 &851334117
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  duration: 1
-  targetAlpha: 0
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
 --- !u!1 &874180908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1654,7 +1634,7 @@ PrefabInstance:
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000082969666
+      value: 14.300023
       objectReference: {fileID: 0}
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
@@ -4597,7 +4577,6 @@ GameObject:
   - component: {fileID: 8102574221219800203}
   - component: {fileID: 851334115}
   - component: {fileID: 851334116}
-  - component: {fileID: 851334117}
   - component: {fileID: 8445485716914261449}
   - component: {fileID: 2660308721273397079}
   - component: {fileID: 4214185500594544584}
@@ -4715,7 +4694,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 504092362267994399}
+  - {fileID: 851334115}
   selectedCommands: []
   variables:
   - {fileID: 9152882499103829428}

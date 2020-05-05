@@ -459,8 +459,7 @@ MonoBehaviour:
   blockName: Start
   description: 
   eventHandler: {fileID: 851334116}
-  commandList:
-  - {fileID: 851334117}
+  commandList: []
   suppressAllAutoSelections: 0
 --- !u!114 &851334116
 MonoBehaviour:
@@ -477,25 +476,6 @@ MonoBehaviour:
   parentBlock: {fileID: 851334115}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
---- !u!114 &851334117
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  duration: 1
-  targetAlpha: 0
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
 --- !u!1 &874180908
 GameObject:
   m_ObjectHideFlags: 0
@@ -4724,7 +4704,6 @@ GameObject:
   - component: {fileID: 8102574221219800203}
   - component: {fileID: 851334115}
   - component: {fileID: 851334116}
-  - component: {fileID: 851334117}
   - component: {fileID: 8445485716914261449}
   - component: {fileID: 2660308721273397079}
   - component: {fileID: 4214185500594544584}
@@ -4807,7 +4786,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &8102574221219800201
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4824,7 +4803,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &8102574221219800202
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4864,9 +4843,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1258059401284595145}
-  selectedCommands:
-  - {fileID: 7773034424919398528}
+  - {fileID: 851334115}
+  selectedCommands: []
   variables:
   - {fileID: 9152882499103829428}
   - {fileID: 1817614425404045325}

@@ -19,6 +19,8 @@ public class EffectsManager : MonoBehaviour
     public int invertNumber;
     public float chromAbIntensity;
     public float depthIntensity;
+    public float flou;
+    public bool goReveil;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +34,7 @@ public class EffectsManager : MonoBehaviour
         CadavreEffect();
         SouvenirEffect();
         JumpscareEffect();
+        Reveil();
     }
 
 
@@ -149,6 +152,29 @@ public class EffectsManager : MonoBehaviour
         coloGrading.postExposure.Override(3.39f);
         grain.enabled.Override(true);
         grain.intensity.Override(0.74f);
+    }
+
+    public void GoReveil()
+    {
+        flou = 300;
+        goReveil = true;
+    }
+
+    public void Reveil()
+    {
+        if (goReveil)
+        {
+            postProcessVolume.profile.TryGetSettings(out depthOfField);
+            depthOfField.enabled.Override(true);
+            depthOfField.focalLength.Override(flou);
+            flou -= 0.5f;
+            if(flou <= 0)
+            {
+                ResetEP();
+                goReveil = false;
+            }
+        }
+
     }
 
     public void ResetEP()
