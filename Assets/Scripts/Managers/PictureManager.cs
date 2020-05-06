@@ -16,10 +16,7 @@ public class PictureManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameObject.CompareTag("Jumpscare"))
-        {
-            Destroy(gameObject, 0.1f);
-        }
+        JumpScare();
     }
     public void Previous()
     {
@@ -36,6 +33,14 @@ public class PictureManager : MonoBehaviour
 
         documentContents[actualContent].SetActive(true);
 
+    }
+
+    public void JumpScare()
+    {
+        if (gameObject.CompareTag("Jumpscare"))
+        {
+            Destroy(gameObject, 0.1f);
+        }
     }
 
     public void next()
@@ -61,6 +66,18 @@ public class PictureManager : MonoBehaviour
     public void OutData()
     {
         Fungus.Flowchart.BroadcastFungusMessage("OutData");
+        Destroy(gameObject);
+    }
+
+    public void SendPhoto()
+    {
+        Fungus.Flowchart.BroadcastFungusMessage("OutPhoto");
+        Destroy(gameObject);
+    }
+
+    public void SendShake()
+    {
+        Fungus.Flowchart.BroadcastFungusMessage("Shake");
         Destroy(gameObject);
     }
 

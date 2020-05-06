@@ -112,6 +112,12 @@ public class EffectsManager : MonoBehaviour
         }
     }
 
+    public void Adrenaline()
+    {
+        postProcessVolume.profile.TryGetSettings(out chromaticAberration);
+        chromaticAberration.enabled.Override(true);
+        chromaticAberration.intensity.Override(0.75f);
+    }
 
     public void Jumpscare()
     {
