@@ -869,6 +869,7 @@ MonoBehaviour:
   - {fileID: 8102574221219800218}
   - {fileID: 8102574221219800217}
   - {fileID: 8102574221219800216}
+  - {fileID: 8102574221219800406}
   - {fileID: 8102574221219800215}
   - {fileID: 8102574221219800214}
   - {fileID: 8102574221219800213}
@@ -2906,7 +2907,7 @@ PrefabInstance:
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 14.300064
+      value: 0.00002861023
       objectReference: {fileID: 0}
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
@@ -6237,6 +6238,15 @@ GameObject:
   - component: {fileID: 8102574221219800395}
   - component: {fileID: 8102574221219800396}
   - component: {fileID: 8102574221219800398}
+  - component: {fileID: 8102574221219800399}
+  - component: {fileID: 8102574221219800397}
+  - component: {fileID: 8102574221219800400}
+  - component: {fileID: 8102574221219800401}
+  - component: {fileID: 8102574221219800402}
+  - component: {fileID: 8102574221219800403}
+  - component: {fileID: 8102574221219800404}
+  - component: {fileID: 8102574221219800405}
+  - component: {fileID: 8102574221219800406}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6314,8 +6324,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 851334115}
-  selectedCommands: []
+  - {fileID: 8102574221219800227}
+  selectedCommands:
+  - {fileID: 8102574221219800403}
   variables:
   - {fileID: 9152882499103829428}
   - {fileID: 1817614425404045325}
@@ -6651,8 +6662,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Maintenant qu\u2019on est tous r\xE9unis,
-      on devrait s\u2019occuper de fouiller un peu cette salle."
+    stringVal: "Quentin : {color=blue} Maintenant qu\u2019on est tous r\xE9unis, on
+      devrait s\u2019occuper de fouiller un peu cette salle."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -6681,9 +6692,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} En tout cas elle est vraiment bizarre
-      cette pi\xE8ce\u2026\r\nJ\u2019ai vraiment envie de regarder un peu ce qui se
-      passe ici\u2026"
+    stringVal: "Quentin : {color=blue} En tout cas elle est vraiment bizarre cette
+      pi\xE8ce\u2026\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -6818,7 +6828,7 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Bordel t\u2019es l\xE0 L\xE9o ! Qu\u2019est
+    stringVal: "Quentin : {color=blue} Bordel t\u2019es l\xE0 L\xE9o ! Qu\u2019est
       ce que tu faisais on commen\xE7ait \xE0 s\u2019inqui\xE9ter !"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -6936,8 +6946,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Qu\u2019est ce que cette pi\xE8ce ? \xC7a
-      sent\u2026 Le renferm\xE9."
+    stringVal: "Quentin : {color=blue} Qu\u2019est ce que cette pi\xE8ce ? \xC7a sent\u2026
+      Le renferm\xE9."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -6997,11 +7007,15 @@ MonoBehaviour:
   - {fileID: 8102574221219800245}
   - {fileID: 8102574221219800244}
   - {fileID: 8102574221219800251}
+  - {fileID: 8102574221219800400}
   - {fileID: 8102574221219800250}
   - {fileID: 8102574221219800254}
+  - {fileID: 8102574221219800401}
   - {fileID: 8102574221219800252}
+  - {fileID: 8102574221219800402}
   - {fileID: 8102574221219800253}
   - {fileID: 8102574221219800255}
+  - {fileID: 8102574221219800403}
   - {fileID: 8102574221219800256}
   - {fileID: 8102574221219800257}
   suppressAllAutoSelections: 0
@@ -7187,8 +7201,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 724.40607
-    y: 255.30164
+    x: 729.40607
+    y: 260.30164
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7207,6 +7221,7 @@ MonoBehaviour:
   - {fileID: 8102574221219800262}
   - {fileID: 8102574221219800264}
   - {fileID: 8102574221219800263}
+  - {fileID: 8102574221219800405}
   - {fileID: 8102574221219800265}
   - {fileID: 8102574221219800266}
   - {fileID: 8102574221219800267}
@@ -7403,7 +7418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 541.6455
+    x: 544.1455
     y: 255.30167
     width: 160
     height: 40
@@ -7422,7 +7437,10 @@ MonoBehaviour:
   - {fileID: 8102574221219800237}
   - {fileID: 8102574221219800258}
   - {fileID: 8102574221219800259}
+  - {fileID: 8102574221219800404}
   - {fileID: 8102574221219800260}
+  - {fileID: 8102574221219800399}
+  - {fileID: 8102574221219800397}
   - {fileID: 8102574221219800261}
   suppressAllAutoSelections: 0
 --- !u!114 &8102574221219800244
@@ -7594,7 +7612,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Tu penses \xE0 un truc satanique ?"
+    stringVal: "Quentin : {color=blue} Tu penses \xE0 un truc satanique ?"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7624,8 +7642,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Flore Flore middle : J\u2019ai d\xE9j\xE0 vu ce style de structure
-      dans des livres. Un point central, des objets divers \xE9parpill\xE9s tout autour,
-      \xE7a me semble vraiment \xEAtre un autel."
+      dans des livres."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7655,8 +7672,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Flore Flore middle : La structure globale me fait vraiment facilement
-      penser \xE0 un autel, mais tous ces d\xE9lires\u2026 c\u2019est vraiment pas
-      mon domaine pour \xEAtre honn\xEAte."
+      penser \xE0 un autel, mais tous ces d\xE9lires\u2026 "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7685,7 +7701,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Tiens regarde par ici soeurette, on dirait
+    stringVal: "Quentin : {color=blue} Tiens regarde par ici soeurette, on dirait
       qu\u2019il y a des trucs griffonn\xE9s sur le derri\xE8re de l\u2019autel."
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -7717,8 +7733,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Flore Flore middle : Non\u2026 pas forc\xE9ment satanique, mais \xE7a
       doit forc\xE9ment avoir un rapport \xE0 la religion, \xE0 un culte o\xF9 quelque
-      chose du genre\u2026 j\u2019en sais trop rien c\u2019est vraiment pas un truc
-      commun\u2026"
+      chose du genre\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7748,8 +7763,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Flore Flore middle : Tu as raison, on n\u2019y voit pas grand chose
-      les inscriptions ont presque totalement disparues. Je vais essayer de rendre
-      \xE7a plus visible."
+      les inscriptions ont presque totalement disparues."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7814,7 +7828,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Je devrais regarder aux alentours et fouiller
+    stringVal: "Quentin : {color=blue} Je devrais regarder aux alentours et fouiller
       un peu la pi\xE8ce, histoire d\u2019avoir une id\xE9e de la salle o\xF9 je me
       trouve."
   clearPrevious:
@@ -7845,9 +7859,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Tiens, on dirait que des gens sont pass\xE9s
-      dans cette salle en vue des traces de pas. Les ouvriers ont certainement d\xFB
-      passer par cette pi\xE8ce quand ils ont effectu\xE9s les r\xE9novations. "
+    stringVal: "Quentin : {color=blue} Tiens, on dirait que des gens sont pass\xE9s
+      dans cette salle en vue des traces de pas. "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7876,10 +7889,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} \xC7a m\u2019inqui\xE8te quand m\xEAme
-      un peu que les traces de pas soient \xE0 sens unique\u2026 elles se sont peut
-      \xEAtre juste effac\xE9es avec le temps qui sait\u2026 pas la peine de pr\xE9venir
-      les autres, \xE7a risquerait juste de leur faire peur pour rien."
+    stringVal: "Quentin : {color=blue} \xC7a m\u2019inqui\xE8te quand m\xEAme un peu
+      que les traces de pas soient \xE0 sens unique\u2026 "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7959,7 +7970,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Lucie Lucie middle : \xC7a ressemble \xE0 un autel de culte, un truc
       de religion d\xE9bile, vous pouvez le d\xE9truire \xE7a me ferait ni chaud ni
-      froid, \xE7a me rendrait m\xEAme un fier service."
+      froid"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7988,7 +7999,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} On en a aucune id\xE9e pour l\u2019instant,
+    stringVal: "Quentin : {color=blue} On en a aucune id\xE9e pour l\u2019instant,
       \xE9vite d\u2019y toucher c\u2019est peut-\xEAtre fragile."
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -8108,8 +8119,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} \xC7a m\u2019est \xE9gal, si les autres
-      sont d\u2019accord, \xE7a me va aussi."
+    stringVal: "Quentin : {color=blue} \xC7a m\u2019est \xE9gal, si les autres sont
+      d\u2019accord, \xE7a me va aussi."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8502,8 +8513,8 @@ MonoBehaviour:
   - {fileID: 8102574221219800332}
   - {fileID: 8102574221219800331}
   - {fileID: 8102574221219800329}
-  - {fileID: 8102574221219800298}
   - {fileID: 8102574221219800299}
+  - {fileID: 8102574221219800298}
   - {fileID: 8102574221219800300}
   - {fileID: 8102574221219800301}
   - {fileID: 8102574221219800328}
@@ -8751,7 +8762,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} C\u2019est quoi ce bordel ?!"
+    stringVal: "Quentin : {color=blue} C\u2019est quoi ce bordel ?!"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8868,7 +8879,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Quentin : {color=lightblue} QUOI ?'
+    stringVal: 'Quentin : {color=blue} QUOI ?'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9064,8 +9075,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Quentin : {color=lightblue} Je vais aller les chercher ! Partez, VITE
-      !'
+    stringVal: 'Quentin : {color=blue} Je vais aller les chercher ! Partez, VITE !'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9248,7 +9258,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} MATH\xC9O ! LUCIE ! L\xC9O ?\r\nFAIS CHIER
+    stringVal: "Quentin : {color=blue} MATH\xC9O ! LUCIE ! L\xC9O ?\r\nFAIS CHIER
       ! Je sais pas o\xF9 ils sont partis\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -9278,8 +9288,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Faut que je retourne avec Ma\xEBva et
-      Flore le plus vite possible."
+    stringVal: "Quentin : {color=blue} Faut que je retourne avec Ma\xEBva et Flore
+      le plus vite possible."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9325,7 +9335,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Ok ! J\u2019y suis presq\u2026"
+    stringVal: "Quentin : {color=blue} Ok ! J\u2019y suis presq\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9392,8 +9402,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} On dirait que ce truc me barre la route
-      et continue de me regarder fixement avec des yeux rouges vides\u2026 j\u2019ai
+    stringVal: "Quentin : {color=blue} On dirait que ce truc me barre la route et
+      continue de me regarder fixement avec des yeux rouges vides\u2026 j\u2019ai
       un mauvais pressentiment. \n"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -9423,8 +9433,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} J\u2019arrive \xE0 voir de la lumi\xE8re
-      juste derri\xE8re, je suis plus tr\xE8s loin !\n"
+    stringVal: "Quentin : {color=blue} J\u2019arrive \xE0 voir de la lumi\xE8re juste
+      derri\xE8re, je suis plus tr\xE8s loin !\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9453,7 +9463,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} C\u2019est quoi cette chose\u2026\r\n"
+    stringVal: "Quentin : {color=blue} C\u2019est quoi cette chose\u2026\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -10470,7 +10480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 356.7671
+    x: 359.2671
     y: 522.71454
     width: 176
     height: 40
@@ -10684,8 +10694,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 571.59265
-    y: 523.33014
+    x: 579.09265
+    y: 520.83014
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -10726,7 +10736,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Quentin : {i}{color=lightblue} * Quentin sprint vers les escaliers*'
+    stringVal: 'Quentin : {i}{color=blue} * Quentin sprint vers les escaliers*'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -10984,9 +10994,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=lightblue} Mon dieu... j'ai senti comme une odeur
-      putride et une sensation de froid, je ne sais pas ce que c'\xE9tait mais je
-      suis pass\xE9 \xE0 c\xF4t\xE9 !"
+    stringVal: "Quentin : {i}{color=blue} Mon dieu... j'ai senti comme une odeur putride
+      et une sensation de froid, je ne sais pas ce que c'\xE9tait mais je suis pass\xE9
+      \xE0 c\xF4t\xE9 !"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -11312,7 +11322,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Matth\xE9o ?"
+    stringVal: "Quentin : {color=blue} Matth\xE9o ?"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -11539,8 +11549,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} C\u2019est quoi ce truc ? J\u2019ai froid
-      tout d\u2019un coup\u2026 Et je me sens tir\xE9 vers l\u2019arri\xE8re..."
+    stringVal: "Quentin : {color=blue} C\u2019est quoi ce truc ? J\u2019ai froid tout
+      d\u2019un coup\u2026 Et je me sens tir\xE9 vers l\u2019arri\xE8re..."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -11844,6 +11854,36 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &8102574221219800397
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 816
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin : {color=blue} Pas la peine de pr\xE9venir les autres, \xE7a
+      risquerait juste de leur faire peur pour rien."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &8102574221219800398
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11908,6 +11948,244 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &8102574221219800399
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 815
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin : {color=blue} Elles se sont peut \xEAtre juste effac\xE9es
+      avec le temps qui sait\u2026 "
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800400
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 817
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Flore Flore middle :  Un point central, des objets divers \xE9parpill\xE9s
+      tout autour, \xE7a me semble vraiment \xEAtre un autel."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800401
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 818
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Flore Flore middle : J\u2019en sais trop rien c\u2019est vraiment
+      pas un truc commun\u2026"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800402
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 819
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Flore Flore middle : C\u2019est vraiment pas mon domaine pour \xEAtre
+      honn\xEAte."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800403
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 820
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Flore Flore middle : Je vais essayer de rendre \xE7a plus visible."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800404
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 821
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin : {color=blue} Les ouvriers ont certainement d\xFB passer
+      par cette pi\xE8ce quand ils ont effectu\xE9s les r\xE9novations.  "
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800405
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 822
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Lucie Lucie middle : Ca me rendrait m\xEAme un fier service."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 823
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin : {color=blue} J\u2019ai vraiment envie de regarder un peu
+      ce qui se passe ici\u2026\n"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!4 &8102574221901483030
 Transform:
   m_ObjectHideFlags: 0
