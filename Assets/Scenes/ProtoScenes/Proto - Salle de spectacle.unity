@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 8102574220583656078}
 --- !u!4 &102476165
 Transform:
   m_ObjectHideFlags: 1
@@ -512,33 +512,6 @@ MonoBehaviour:
   parentBlock: {fileID: 743235800}
   suppressBlockAutoSelect: 0
   message: SCARY
---- !u!114 &743235798
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574220583656077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 98
-  indentLevel: 0
-  description: 
-  targetObject: {fileID: 1846408078}
-  targetComponentAssemblyName: 
-  targetComponentFullname: 
-  targetComponentText: 
-  targetMethod: 
-  targetMethodText: 
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: 
-  showInherited: 0
-  callMode: 0
 --- !u!114 &743235799
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -583,7 +556,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 743235799}
   - {fileID: 8102574220583656093}
-  - {fileID: 743235798}
   - {fileID: 743235801}
   suppressAllAutoSelections: 0
 --- !u!114 &743235801
@@ -5077,7 +5049,6 @@ GameObject:
   - component: {fileID: 2631011837439917433}
   - component: {fileID: 6250621421085004722}
   - component: {fileID: 743235797}
-  - component: {fileID: 743235798}
   - component: {fileID: 743235799}
   - component: {fileID: 743235800}
   - component: {fileID: 743235801}
@@ -5130,7 +5101,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 743235800}
+  - {fileID: 8102574220583656084}
   selectedCommands: []
   variables:
   - {fileID: 9152882499604599729}
