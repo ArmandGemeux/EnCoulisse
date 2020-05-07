@@ -6205,14 +6205,12 @@ GameObject:
   - component: {fileID: 8102574221219800344}
   - component: {fileID: 8102574221219800343}
   - component: {fileID: 8102574221219800342}
-  - component: {fileID: 8102574221219800366}
   - component: {fileID: 8102574221219800365}
   - component: {fileID: 8102574221219800371}
   - component: {fileID: 8102574221219800370}
   - component: {fileID: 8102574221219800369}
   - component: {fileID: 8102574221219800368}
   - component: {fileID: 8102574221219800367}
-  - component: {fileID: 8102574221219800372}
   - component: {fileID: 8102574221219800373}
   - component: {fileID: 8102574221219800376}
   - component: {fileID: 8102574221219800375}
@@ -6246,6 +6244,7 @@ GameObject:
   - component: {fileID: 8102574221219800404}
   - component: {fileID: 8102574221219800405}
   - component: {fileID: 8102574221219800406}
+  - component: {fileID: 8102574221219800366}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6323,9 +6322,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 8102574221219800364}
+  - {fileID: 8102574221219800349}
   selectedCommands:
-  - {fileID: 8102574221219800384}
+  - {fileID: 8102574221219800391}
   variables:
   - {fileID: 9152882499103829428}
   - {fileID: 1817614425404045325}
@@ -6988,7 +6987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 369.3201
+    x: 366.9945
     y: 259.6495
     width: 148.60464
     height: 40
@@ -7418,7 +7417,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 544.1455
-    y: 255.30167
+    y: 266.92963
     width: 152.32558
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -10479,8 +10478,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 356.7671
-    y: 522.71454
+    x: 359.09268
+    y: 520.389
     width: 167.20929
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -10496,14 +10495,13 @@ MonoBehaviour:
   - {fileID: 8102574221219800352}
   - {fileID: 8102574221219800351}
   - {fileID: 8102574221219800350}
-  - {fileID: 8102574221219800366}
   - {fileID: 8102574221219800365}
   - {fileID: 8102574221219800371}
   - {fileID: 8102574221219800370}
   - {fileID: 8102574221219800369}
   - {fileID: 8102574221219800368}
   - {fileID: 8102574221219800367}
-  - {fileID: 8102574221219800372}
+  - {fileID: 8102574221219800366}
   - {fileID: 8102574221219800373}
   - {fileID: 8102574221219800376}
   - {fileID: 8102574221219800375}
@@ -10759,7 +10757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 783
+  itemId: 824
   indentLevel: 0
   description: 
   delay: 0
@@ -10768,7 +10766,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1756842951}
-        m_MethodName: Adrenaline
+        m_MethodName: SouvenirEffects
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10921,61 +10919,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &8102574221219800372
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 790
-  indentLevel: 0
-  description: 
-  delay: 0
-  invokeType: 0
-  staticEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1756842951}
-        m_MethodName: ResetEP
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  booleanParameter:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  booleanEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  integerParameter:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  integerEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  floatParameter:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  floatEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  stringParameter:
-    stringRef: {fileID: 0}
-    stringVal: 
-  stringEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &8102574221219800373
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11153,7 +11096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 2
   key: IntroductionPartTwo
   value: 0
 --- !u!114 &8102574221219800379
