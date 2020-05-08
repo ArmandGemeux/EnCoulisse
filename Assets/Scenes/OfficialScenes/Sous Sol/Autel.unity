@@ -407,7 +407,7 @@ PrefabInstance:
     - target: {fileID: 7893159883735989741, guid: 0cbc62adf58b7c943a6ccfb99550c4da,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0cbc62adf58b7c943a6ccfb99550c4da, type: 3}
@@ -844,7 +844,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 546.3011
-    y: 158.80374
+    y: 161.30374
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -854,8 +854,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 851334116}
   commandList:
-  - {fileID: 8102574221219800211}
+  - {fileID: 8102574221219800259}
+  - {fileID: 8102574221219800252}
   - {fileID: 8102574221219800380}
+  - {fileID: 8102574221219800211}
+  - {fileID: 8102574221219800404}
   - {fileID: 8102574221219800286}
   - {fileID: 8102574221219800279}
   - {fileID: 8102574221219800278}
@@ -2906,7 +2909,7 @@ PrefabInstance:
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.00004863739
+      value: 14.300026
       objectReference: {fileID: 0}
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
@@ -3409,6 +3412,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78c3e73be5e45434f96afbe08a1555b1, type: 3}
+--- !u!114 &2035845114 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2172652394763672365, guid: 78c3e73be5e45434f96afbe08a1555b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 2035845113}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f026ccc4919ac4dac2652010caed82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2114474075
 GameObject:
   m_ObjectHideFlags: 0
@@ -3539,7 +3554,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -487.4862
     y: 457.5281
-    width: 120
+    width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3650,7 +3665,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -260.3412
     y: 459.25674
-    width: 120
+    width: 136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3699,7 +3714,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -494.94824
     y: 311.39062
-    width: 128
+    width: 148
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3935,7 +3950,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -490.1648
     y: 388.5493
-    width: 124.00001
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4113,7 +4128,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -265.43597
     y: 385.1174
-    width: 128
+    width: 150
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4717,7 +4732,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -17.468567
     y: 311.46417
-    width: 120
+    width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4986,7 +5001,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -673.76074
     y: 386.17056
-    width: 120.00001
+    width: 136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5321,7 +5336,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -8.926636
     y: 379.24896
-    width: 120
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5774,7 +5789,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -266.9569
     y: 307.72586
-    width: 132
+    width: 152
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6306,6 +6321,15 @@ GameObject:
   - component: {fileID: 8102574221219800402}
   - component: {fileID: 8102574221219800405}
   - component: {fileID: 8102574221219800366}
+  - component: {fileID: 8102574221219800259}
+  - component: {fileID: 8102574221219800252}
+  - component: {fileID: 8102574221219800403}
+  - component: {fileID: 8102574221219800399}
+  - component: {fileID: 8102574221219800398}
+  - component: {fileID: 8102574221219800397}
+  - component: {fileID: 8102574221219800372}
+  - component: {fileID: 8102574221219800260}
+  - component: {fileID: 8102574221219800404}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6371,11 +6395,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1458.3284, y: -73.704834}
+  scrollPos: {x: 1426.7445, y: -61.07118}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.39999998
+  zoom: 0.4
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -6383,9 +6407,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 8102574221219800282}
+  - {fileID: 851334115}
   selectedCommands:
-  - {fileID: 8102574221219800396}
+  - {fileID: 8102574221219800404}
   variables:
   - {fileID: 9152882499103829428}
   - {fileID: 1817614425404045325}
@@ -7049,8 +7073,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 366.9945
-    y: 262.1495
-    width: 128
+    y: 264.6495
+    width: 156
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7060,6 +7084,7 @@ MonoBehaviour:
   eventHandler: {fileID: 8102574221219800226}
   commandList:
   - {fileID: 8102574221219800249}
+  - {fileID: 8102574221219800403}
   - {fileID: 8102574221219800248}
   - {fileID: 8102574221219800247}
   - {fileID: 8102574221219800246}
@@ -7258,7 +7283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 731.1918
+    x: 728.6918
     y: 266.0159
     width: 120
     height: 40
@@ -7270,6 +7295,7 @@ MonoBehaviour:
   eventHandler: {fileID: 8102574221219800228}
   commandList:
   - {fileID: 8102574221219800234}
+  - {fileID: 8102574221219800398}
   - {fileID: 8102574221219800233}
   - {fileID: 8102574221219800232}
   - {fileID: 8102574221219800231}
@@ -7477,7 +7503,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 539.3346
     y: 266.92963
-    width: 136
+    width: 160
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7487,6 +7513,7 @@ MonoBehaviour:
   eventHandler: {fileID: 8102574221219800236}
   commandList:
   - {fileID: 8102574221219800242}
+  - {fileID: 8102574221219800399}
   - {fileID: 8102574221219800241}
   - {fileID: 8102574221219800240}
   - {fileID: 8102574221219800239}
@@ -7707,6 +7734,27 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &8102574221219800252
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 826
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 358110937}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &8102574221219800253
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7866,6 +7914,91 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &8102574221219800259
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 825
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 358110938}
+  tweenType: 2
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  fadeMode: 0
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+--- !u!114 &8102574221219800260
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 832
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2035845114}
+        m_MethodName: Shake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &8102574221219800261
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8447,8 +8580,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 558.7626
-    y: 389.8316
-    width: 120
+    y: 387.3316
+    width: 136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10253,7 +10386,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 774.35944
     y: 524.2271
-    width: 132
+    width: 156
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10263,6 +10396,7 @@ MonoBehaviour:
   eventHandler: {fileID: 8102574221219800342}
   commandList:
   - {fileID: 8102574221219800348}
+  - {fileID: 8102574221219800260}
   - {fileID: 8102574221219800347}
   - {fileID: 8102574221219800346}
   - {fileID: 8102574221219800345}
@@ -10445,7 +10579,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 359.09268
     y: 519.7734
-    width: 148
+    width: 176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10455,6 +10589,7 @@ MonoBehaviour:
   eventHandler: {fileID: 8102574221219800341}
   commandList:
   - {fileID: 8102574221219800355}
+  - {fileID: 8102574221219800397}
   - {fileID: 8102574221219800354}
   - {fileID: 8102574221219800353}
   - {fileID: 8102574221219800352}
@@ -10668,6 +10803,7 @@ MonoBehaviour:
   eventHandler: {fileID: 8102574221219800357}
   commandList:
   - {fileID: 8102574221219800363}
+  - {fileID: 8102574221219800372}
   - {fileID: 8102574221219800362}
   - {fileID: 8102574221219800361}
   - {fileID: 8102574221219800360}
@@ -10884,6 +11020,61 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &8102574221219800372
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 831
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2035845114}
+        m_MethodName: Shake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &8102574221219800373
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11141,7 +11332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 797
-  indentLevel: 1
+  indentLevel: 0
   description: 
   delay: 0
   invokeType: 0
@@ -11760,6 +11951,171 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &8102574221219800397
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 830
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2035845114}
+        m_MethodName: Shake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8102574221219800398
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 829
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2035845114}
+        m_MethodName: Shake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8102574221219800399
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 828
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2035845114}
+        m_MethodName: Shake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &8102574221219800400
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11851,6 +12207,79 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &8102574221219800403
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 827
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2035845114}
+        m_MethodName: Shake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8102574221219800404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 870
+  indentLevel: 1
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
 --- !u!114 &8102574221219800405
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12209,7 +12638,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -678.81903
     y: 318.945
-    width: 124.00001
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12302,7 +12731,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -674.737
     y: 467.21844
-    width: 120
+    width: 122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
