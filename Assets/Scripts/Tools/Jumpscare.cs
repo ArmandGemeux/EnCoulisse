@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Jumpscare : MonoBehaviour
 {
-
-    public List<GameObject> scaryPictures;
+    
     public int pictureNumber;
     public GameObject torchLight;
     public float distance;
@@ -22,7 +21,6 @@ public class Jumpscare : MonoBehaviour
         distance =  Vector2.Distance(torchLight.transform.position, gameObject.transform.position);
         if (distance < 0.6f)
         {
-            Instantiate(scaryPictures[pictureNumber]);
             Fungus.Flowchart.BroadcastFungusMessage("SCARY");
             Destroy(this.gameObject);
         }

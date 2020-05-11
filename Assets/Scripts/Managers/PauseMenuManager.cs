@@ -45,8 +45,9 @@ public class PauseMenuManager : MonoBehaviour
             Time.timeScale = 0;
             paused = true;
             Fungus.Flowchart.BroadcastFungusMessage("setPause");
-
         }
+
+        
 
         else
         {
