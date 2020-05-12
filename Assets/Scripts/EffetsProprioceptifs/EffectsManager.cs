@@ -9,6 +9,7 @@ public class EffectsManager : MonoBehaviour
     public ChromaticAberration chromaticAberration;
     public DepthOfField depthOfField;
     public ColorGrading coloGrading;
+    public Vignette vignette;
     public Grain grain;
 
 
@@ -183,12 +184,22 @@ public class EffectsManager : MonoBehaviour
 
     }
 
+    public void TimerStress()
+    {
+        postProcessVolume.profile.TryGetSettings(out vignette);
+        vignette.enabled.Override(true);
+        vignette.color.Override(Color.red);
+        vignette.intensity.Override(0.5f);
+    }
+
     public void ResetEP()
     {
         postProcessVolume.profile.TryGetSettings(out chromaticAberration);
         postProcessVolume.profile.TryGetSettings(out coloGrading);
         postProcessVolume.profile.TryGetSettings(out grain);
+        postProcessVolume.profile.TryGetSettings(out vignette);
         chromaticAberration.enabled.Override(false);
+        vignette.enabled.Override(false);
         coloGrading.postExposure.Override(0.5f);
         coloGrading.temperature.Override(0f);
         coloGrading.saturation.Override(0f);
