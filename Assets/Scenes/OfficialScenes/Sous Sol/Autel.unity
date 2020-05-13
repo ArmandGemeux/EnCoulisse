@@ -261,6 +261,152 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 250689084}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &277575688
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LiberationSans SDF Material
+  m_Shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2846298, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Ambient: 0.5
+    - _Bevel: 0.5
+    - _BevelClamp: 0
+    - _BevelOffset: 0
+    - _BevelRoundness: 0
+    - _BevelWidth: 0
+    - _BumpFace: 0
+    - _BumpOutline: 0
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Diffuse: 0.5
+    - _DstBlend: 0
+    - _FaceDilate: 0
+    - _FaceUVSpeedX: 0
+    - _FaceUVSpeedY: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GlowInner: 0.05
+    - _GlowOffset: 0
+    - _GlowOuter: 0.05
+    - _GlowPower: 0.75
+    - _GradientScale: 10
+    - _LightAngle: 3.1416
+    - _MaskSoftnessX: 0
+    - _MaskSoftnessY: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OutlineSoftness: 0
+    - _OutlineUVSpeedX: 0
+    - _OutlineUVSpeedY: 0
+    - _OutlineWidth: 0
+    - _Parallax: 0.02
+    - _PerspectiveFilter: 0.875
+    - _Reflectivity: 10
+    - _ScaleRatioA: 0.9
+    - _ScaleRatioB: 0.73125
+    - _ScaleRatioC: 0.73125
+    - _ScaleX: 1
+    - _ScaleY: 1
+    - _ShaderFlags: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpecularPower: 2
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TextureHeight: 1024
+    - _TextureWidth: 1024
+    - _UVSec: 0
+    - _UnderlayDilate: 0
+    - _UnderlayOffsetX: 0
+    - _UnderlayOffsetY: 0
+    - _UnderlaySoftness: 0
+    - _VertexOffsetX: 0
+    - _VertexOffsetY: 0
+    - _WeightBold: 0.75
+    - _WeightNormal: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
+    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
+    - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
 --- !u!1 &306899078 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4021153982981483438, guid: 0cbc62adf58b7c943a6ccfb99550c4da,
@@ -860,6 +1006,7 @@ MonoBehaviour:
   eventHandler: {fileID: 851334116}
   commandList:
   - {fileID: 8102574221219800211}
+  - {fileID: 8102574221219800487}
   - {fileID: 8102574221219800404}
   - {fileID: 8102574221219800286}
   - {fileID: 8102574221219800279}
@@ -873,6 +1020,7 @@ MonoBehaviour:
   - {fileID: 8102574221219800219}
   - {fileID: 8102574221219800218}
   - {fileID: 8102574221219800217}
+  - {fileID: 8102574221219800401}
   - {fileID: 8102574221219800216}
   - {fileID: 8102574221219800215}
   - {fileID: 8102574221219800214}
@@ -3618,7 +3766,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -487.4862
     y: 457.5281
-    width: 120
+    width: 128.90408
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3708,7 +3856,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -260.3412
     y: 459.25674
-    width: 120
+    width: 128.90408
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3757,7 +3905,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -494.94824
     y: 311.39062
-    width: 126.8
+    width: 146.43832
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3929,7 +4077,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -490.1648
     y: 388.5493
-    width: 120.4
+    width: 138.76709
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4043,7 +4191,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -265.43597
     y: 385.1174
-    width: 120.4
+    width: 138.76709
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4632,7 +4780,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -17.468567
     y: 311.46417
-    width: 120
+    width: 131.09586
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4885,7 +5033,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -673.76074
     y: 386.17056
-    width: 120
+    width: 129.99997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5162,7 +5310,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -8.926636
     y: 379.24896
-    width: 120
+    width: 123.42463
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5584,7 +5732,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -266.9569
     y: 307.72586
-    width: 126.8
+    width: 146.43832
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6020,19 +6168,10 @@ GameObject:
   - component: {fileID: 8102574221219800301}
   - component: {fileID: 8102574221219800302}
   - component: {fileID: 8102574221219800303}
-  - component: {fileID: 8102574221219800304}
-  - component: {fileID: 8102574221219800305}
-  - component: {fileID: 8102574221219800307}
-  - component: {fileID: 8102574221219800306}
-  - component: {fileID: 8102574221219800308}
-  - component: {fileID: 8102574221219800310}
-  - component: {fileID: 8102574221219800309}
   - component: {fileID: 8102574221219800312}
-  - component: {fileID: 8102574221219800311}
   - component: {fileID: 8102574221219800313}
   - component: {fileID: 8102574221219800317}
   - component: {fileID: 8102574221219800316}
-  - component: {fileID: 8102574221219800315}
   - component: {fileID: 8102574221219800314}
   - component: {fileID: 8102574221219800318}
   - component: {fileID: 8102574221219800337}
@@ -6040,15 +6179,9 @@ GameObject:
   - component: {fileID: 8102574221219800335}
   - component: {fileID: 8102574221219800334}
   - component: {fileID: 8102574221219800333}
-  - component: {fileID: 8102574221219800332}
   - component: {fileID: 8102574221219800331}
   - component: {fileID: 8102574221219800330}
   - component: {fileID: 8102574221219800329}
-  - component: {fileID: 8102574221219800328}
-  - component: {fileID: 8102574221219800327}
-  - component: {fileID: 8102574221219800326}
-  - component: {fileID: 8102574221219800325}
-  - component: {fileID: 8102574221219800324}
   - component: {fileID: 8102574221219800323}
   - component: {fileID: 8102574221219800322}
   - component: {fileID: 8102574221219800321}
@@ -6081,16 +6214,9 @@ GameObject:
   - component: {fileID: 8102574221219800344}
   - component: {fileID: 8102574221219800343}
   - component: {fileID: 8102574221219800342}
-  - component: {fileID: 8102574221219800365}
   - component: {fileID: 8102574221219800371}
-  - component: {fileID: 8102574221219800370}
-  - component: {fileID: 8102574221219800369}
-  - component: {fileID: 8102574221219800368}
   - component: {fileID: 8102574221219800367}
-  - component: {fileID: 8102574221219800373}
-  - component: {fileID: 8102574221219800376}
   - component: {fileID: 8102574221219800375}
-  - component: {fileID: 8102574221219800374}
   - component: {fileID: 8102574221219800377}
   - component: {fileID: 8102574221219800378}
   - component: {fileID: 8102574221219800379}
@@ -6185,6 +6311,42 @@ GameObject:
   - component: {fileID: 8102574221219800465}
   - component: {fileID: 8102574221219800467}
   - component: {fileID: 8102574221219800400}
+  - component: {fileID: 8102574221219800401}
+  - component: {fileID: 8102574221219800470}
+  - component: {fileID: 8102574221219800469}
+  - component: {fileID: 8102574221219800468}
+  - component: {fileID: 8102574221219800402}
+  - component: {fileID: 8102574221219800474}
+  - component: {fileID: 8102574221219800473}
+  - component: {fileID: 8102574221219800472}
+  - component: {fileID: 8102574221219800471}
+  - component: {fileID: 8102574221219800478}
+  - component: {fileID: 8102574221219800477}
+  - component: {fileID: 8102574221219800476}
+  - component: {fileID: 8102574221219800481}
+  - component: {fileID: 8102574221219800479}
+  - component: {fileID: 8102574221219800485}
+  - component: {fileID: 8102574221219800484}
+  - component: {fileID: 8102574221219800483}
+  - component: {fileID: 8102574221219800482}
+  - component: {fileID: 8102574221219800305}
+  - component: {fileID: 8102574221219800304}
+  - component: {fileID: 8102574221219800309}
+  - component: {fileID: 8102574221219800365}
+  - component: {fileID: 8102574221219800332}
+  - component: {fileID: 8102574221219800326}
+  - component: {fileID: 8102574221219800315}
+  - component: {fileID: 8102574221219800311}
+  - component: {fileID: 8102574221219800487}
+  - component: {fileID: 8102574221219800486}
+  - component: {fileID: 8102574221219800480}
+  - component: {fileID: 8102574221219800308}
+  - component: {fileID: 8102574221219800324}
+  - component: {fileID: 8102574221219800306}
+  - component: {fileID: 8102574221219800325}
+  - component: {fileID: 8102574221219800328}
+  - component: {fileID: 8102574221219800374}
+  - component: {fileID: 8102574221219800369}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6250,11 +6412,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1840.6465, y: 217.0211}
+  scrollPos: {x: -207.953, y: -234.44687}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.25
+  zoom: 0.73000026
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -6264,7 +6426,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 8102574221219800282}
   selectedCommands:
-  - {fileID: 8102574221219800340}
+  - {fileID: 8102574221219800474}
   variables:
   - {fileID: 9152882499103829428}
   - {fileID: 1817614425404045325}
@@ -6601,8 +6763,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=cyan} Maintenant qu\u2019on est tous r\xE9unis, on
-      devrait s\u2019occuper de fouiller un peu cette salle."
+    stringVal: "Quentin : {i}{color=cyan} L\u2019atmosph\xE8re est pas rassurante\u2026
+      je le sens pas.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -6631,8 +6793,7 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=cyan} En tout cas elle est vraiment bizarre cette
-      pi\xE8ce\u2026 J\u2019ai vraiment envie de regarder un peu ce qui se passe ici\u2026\n"
+    stringVal: "Quentin : {color=cyan} C\u2019est vraiment bizarre cet endroit..\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -6661,8 +6822,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Matth\xE9o Mattheo right : \xC7a d\xE9fonce ton truc on dirait un
-      autel de d\xE9g\xE9n\xE9r\xE9s sataniques."
+    stringVal: "Flore Flore hide:\nMatth\xE9o Mattheo right : \xC7a d\xE9fonce ton
+      truc on dirait un autel de d\xE9g\xE9n\xE9r\xE9s sataniques."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -6737,8 +6898,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "L\xE9onard Leonard middle : Bah rien de sp\xE9cial\u2026 Mais regardez
-      ce que j\u2019ai trouv\xE9 ! "
+    stringVal: "Lucie Lucie hide:\nL\xE9onard Leonard middle : Bah rien de sp\xE9cial\u2026
+      Mais regardez ce que j\u2019ai trouv\xE9 ! "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -6767,7 +6928,7 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=cyan} Bordel t\u2019es l\xE0 L\xE9o ! Qu\u2019est
+    stringVal: "Quentin : {color=cyan} Bordel, t\u2019es l\xE0 L\xE9o ! Qu\u2019est
       ce que tu faisais on commen\xE7ait \xE0 s\u2019inqui\xE9ter !"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -6930,7 +7091,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 366.9945
     y: 267.1495
-    width: 133.2
+    width: 148.6301
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6946,6 +7107,8 @@ MonoBehaviour:
   - {fileID: 8102574221219800246}
   - {fileID: 8102574221219800245}
   - {fileID: 8102574221219800244}
+  - {fileID: 8102574221219800470}
+  - {fileID: 8102574221219800469}
   - {fileID: 8102574221219800251}
   - {fileID: 8102574221219800250}
   - {fileID: 8102574221219800254}
@@ -7355,9 +7518,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 539.3346
+    x: 538.27075
     y: 266.92963
-    width: 139.6
+    width: 154.10956
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7374,6 +7537,8 @@ MonoBehaviour:
   - {fileID: 8102574221219800238}
   - {fileID: 8102574221219800237}
   - {fileID: 8102574221219800258}
+  - {fileID: 8102574221219800468}
+  - {fileID: 8102574221219800402}
   - {fileID: 8102574221219800261}
   suppressAllAutoSelections: 0
 --- !u!114 &8102574221219800244
@@ -7574,9 +7739,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Flore Flore middle : J\u2019ai d\xE9j\xE0 \xE9tudi\xE9 de structure
-      \xE0 la fac. Un point central, des objets divers \xE9parpill\xE9s tout autour,
-      \xE7a ressemble un autel."
+    stringVal: "Flore Flore middle : J\u2019ai d\xE9j\xE0 \xE9tudi\xE9 ce genre de
+      structure \xE0 la fac. Un point central, des objets divers \xE9parpill\xE9s
+      tout autour, \xE7a ressemble \xE0 un autel..."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7651,7 +7816,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Flore Flore middle : Non\u2026 pas forc\xE9ment satanique. Mais \xE7a
-      doit forc\xE9ment avoir un rapport \xE0 la religion, \xE0 un culte o\xF9 quelque
+      doit forc\xE9ment avoir un rapport avec la religion, \xE0 un culte o\xF9 quelque
       chose du genre\u2026 "
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -7747,9 +7912,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=lightblue} Je devrais regarder aux alentours et
-      fouiller un peu la pi\xE8ce. Des traces de pas ? Peut-\xEAtre celles des ouvriers
-      ?"
+    stringVal: "L\xE9onard Leonard hide:\nMa\xEBva Maeva hide:\nMatth\xE9o Mattheo
+      hide:\nQuentin : {i}{color=lightblue} Cette pi\xE8ce me dit vraiment rien...
+      Je devrais regarder aux alentours et fouiller un peu la pi\xE8ce.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7903,9 +8068,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Lucie Lucie middle : \xC7a ressemble \xE0 un autel de culte, un truc
-      de religion d\xE9bile, vous pouvez le d\xE9truire \xE7a me ferait ni chaud ni
-      froid."
+    stringVal: "L\xE9onard Leonard hide:\nLucie Lucie unhide:\nLucie Lucie middle
+      : \xC7a ressemble \xE0 un autel de culte, un truc de religion d\xE9bile. Vous
+      pouvez le d\xE9truire \xE7a me ferait ni chaud ni froid."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7964,8 +8129,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Flore Flore left : T\u2019es un peu dure quand m\xEAme Lucie, tu pourrais
-      essayer de respecter les croyances des gens un minimum quand m\xEAme."
+    stringVal: "Ma\xEBva Maeva hide:\nFlore Flore left : T\u2019es dure Lucie, tu
+      pourrais essayer de respecter les croyances des gens un minimum..."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7995,7 +8160,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Lucie Lucie middle : Je ne veux pas \xEAtre li\xE9e \xE0 la d\xE9cadence
-      de cette soci\xE9t\xE9 tu m\u2019excuseras."
+      de cette soci\xE9t\xE9, tu m\u2019excuseras."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8024,8 +8189,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "L\xE9onard Leonard middle : Ouais bonne id\xE9e ! \xC7a peut \xEAtre
-      cool si les autres sont d'accord."
+    stringVal: "Lucie Lucie hide:\nL\xE9onard Leonard unhide:\nL\xE9onard Leonard
+      middle : Ouais bonne id\xE9e ! \xC7a peut \xEAtre cool si les autres sont d'accord."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8084,7 +8249,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Ma\xEBva Maeva left : Ouiiii !!! \xC7a va percer sur Insta \xE7a !"
+    stringVal: "Flore Flore hide:\nMa\xEBva Maeva unhide:\nMa\xEBva Maeva left : Ouiiii
+      !!! \xC7a va percer sur Insta \xE7a !"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8143,7 +8309,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "L\xE9onard Leonard right : Vous venez pas les filles ?"
+    stringVal: "L\xE9onard Leonard middle : Vous venez pas les filles ?"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8172,8 +8338,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Flore Flore left : Non merci, les photos de groupe c\u2019est pas
-      trop mon truc\u2026"
+    stringVal: "Ma\xEBva Maeva hide:\nFlore Flore unhide:\nFlore Flore left : Non
+      merci, les photos de groupe c\u2019est pas trop mon truc\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8202,9 +8368,10 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Lucie Lucie middle : T\u2019as vraiment cru que j\u2019avais envie
-      d\u2019\xEAtre associ\xE9e \xE0 une bande de d\xE9g\xE9n\xE9r\xE9s comme vous
-      et ruiner ma r\xE9putation ? Jamais de la vie."
+    stringVal: "Matth\xE9o Mattheo hide:\nLucie Lucie unhide:\nLucie Lucie right :
+      T\u2019as vraiment cru que j\u2019avais envie que les gens sache que je suis
+      entr\xE9e par effraction dans un b\xE2timent historique et ruiner ma r\xE9putation
+      ? Jamais de la vie."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8233,7 +8400,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "L\xE9onard Leonard middle : Bon, bon, si vous voulez\u2026"
+    stringVal: "L\xE9onard Leonard middle : Bon, bon, comme vous voulez\u2026\nMatth\xE9o
+      Mattheo unhide:\nLucie Lucie hide:\nMa\xEBva Maeva unhide:\nFlore Flore hide:"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8262,7 +8430,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: Allez.. 3, 2, 1 !
+    stringVal: "L\xE9onard : Allez.. 3, 2, 1 !\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8419,7 +8587,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 560.5887
     y: 383.3316
-    width: 120
+    width: 132.19174
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8431,10 +8599,11 @@ MonoBehaviour:
   - {fileID: 8102574221219800283}
   - {fileID: 8102574221219800280}
   - {fileID: 8102574221219800288}
-  - {fileID: 8102574221219800295}
+  - {fileID: 8102574221219800481}
   - {fileID: 8102574221219800289}
   - {fileID: 8102574221219800290}
   - {fileID: 8102574221219800287}
+  - {fileID: 8102574221219800474}
   - {fileID: 8102574221219800291}
   - {fileID: 8102574221219800292}
   - {fileID: 8102574221219800293}
@@ -8444,37 +8613,36 @@ MonoBehaviour:
   - {fileID: 8102574221219800297}
   - {fileID: 8102574221219800285}
   - {fileID: 8102574221219800330}
+  - {fileID: 8102574221219800485}
   - {fileID: 8102574221219800333}
-  - {fileID: 8102574221219800332}
   - {fileID: 8102574221219800331}
   - {fileID: 8102574221219800329}
+  - {fileID: 8102574221219800305}
+  - {fileID: 8102574221219800484}
   - {fileID: 8102574221219800298}
+  - {fileID: 8102574221219800483}
+  - {fileID: 8102574221219800479}
+  - {fileID: 8102574221219800478}
+  - {fileID: 8102574221219800482}
   - {fileID: 8102574221219800299}
   - {fileID: 8102574221219800300}
+  - {fileID: 8102574221219800477}
+  - {fileID: 8102574221219800473}
+  - {fileID: 8102574221219800476}
+  - {fileID: 8102574221219800295}
   - {fileID: 8102574221219800301}
-  - {fileID: 8102574221219800328}
-  - {fileID: 8102574221219800327}
-  - {fileID: 8102574221219800326}
-  - {fileID: 8102574221219800325}
-  - {fileID: 8102574221219800324}
-  - {fileID: 8102574221219800307}
   - {fileID: 8102574221219800302}
+  - {fileID: 8102574221219800472}
+  - {fileID: 8102574221219800471}
   - {fileID: 8102574221219800303}
-  - {fileID: 8102574221219800304}
-  - {fileID: 8102574221219800305}
   - {fileID: 8102574221219800337}
-  - {fileID: 8102574221219800306}
   - {fileID: 8102574221219800336}
-  - {fileID: 8102574221219800308}
-  - {fileID: 8102574221219800310}
-  - {fileID: 8102574221219800309}
   - {fileID: 8102574221219800323}
   - {fileID: 8102574221219800322}
   - {fileID: 8102574221219800321}
   - {fileID: 8102574221219800320}
   - {fileID: 8102574221219800319}
   - {fileID: 8102574221219800312}
-  - {fileID: 8102574221219800311}
   - {fileID: 8102574221219800335}
   - {fileID: 8102574221219800318}
   - {fileID: 8102574221219800334}
@@ -8483,7 +8651,6 @@ MonoBehaviour:
   - {fileID: 8102574221219800317}
   - {fileID: 8102574221219800395}
   - {fileID: 8102574221219800316}
-  - {fileID: 8102574221219800315}
   - {fileID: 8102574221219800314}
   - {fileID: 8102574221219800259}
   - {fileID: 8102574221219800396}
@@ -8514,7 +8681,7 @@ MonoBehaviour:
   itemId: 676
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 3f6a686caba2839468e476beb366fa5e, type: 3}
-  volume: 0.519
+  volume: 0.362
   waitUntilFinished: 0
 --- !u!114 &8102574221219800284
 MonoBehaviour:
@@ -8672,7 +8839,7 @@ MonoBehaviour:
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 69b61aefb5817974fa5db9987e0764b9, type: 3}
   volume: 0.43
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &8102574221219800288
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8707,7 +8874,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=cyan} C\u2019est quoi ce bordel ?!"
+    stringVal: "Flore Flore hide:\nQuentin : {color=cyan} C\u2019est quoi ce bordel
+      ?!"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8736,7 +8904,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Ma\xEBva Maeva right : Un...un\u2026 un tremblement de terre !!!"
+    stringVal: "Ma\xEBva Maeva unhide:\nMa\xEBva Maeva left : Un...un\u2026 un tremblement
+      de terre ?!"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8765,8 +8934,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Matth\xE9o Mattheo middle : On dirait qu\u2019y a un molosse dans
-      la pi\xE8ce c\u2019est quoi cette merde ?!"
+    stringVal: "Matth\xE9o Mattheo unhide:\nMatth\xE9o Mattheo right : On dirait qu\u2019y
+      a un molosse dans la pi\xE8ce c\u2019est quoi cette merde ?!"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8795,7 +8964,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Flore Flore left : QUENTIN !'
+    stringVal: "L\xE9onard Leonard hide:\nFlore Flore unhide:\nFlore Flore middle
+      : QUENTIN !"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8824,7 +8994,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Quentin : {color=cyan} QUOI ?'
+    stringVal: "Quentin : {color=cyan} QUOI ?\nMa\xEBva Maeva hide:\nMatth\xE9o Mattheo
+      hide:\nFlore Flore hide:"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8931,8 +9102,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "L\xE9onard Leonard middle : Nos lampes elles\u2026 ont plant\xE9es\u2026
-      je sais pas."
+    stringVal: "L\xE9onard   : Nos lampes elles\u2026 ont plant\xE9es\u2026 je sais
+      pas !"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8961,8 +9132,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Flore Flore left : Ma\xEBva, Quentin ! Faut qu\u2019on sorte d\u2019ici
-      !!"
+    stringVal: "Flore : Ma\xEBva, Quentin ! Faut qu\u2019on sorte d\u2019ici !!"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8991,7 +9161,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Ma\xEBva Maeva right : J\u2019arrive ! Mais\u2026 et les autres ?"
+    stringVal: "Ma\xEBva : J\u2019arrive ! Mais\u2026 et les autres ?"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9020,7 +9190,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Quentin : {color=cyan} Je vais aller les chercher ! Partez, VITE !'
+    stringVal: 'Quentin : {i}{color=cyan} Merde !! Je les ai perdu de vue.'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9049,9 +9219,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "??? : PUTAIN ! Je vois que dalle y a de la poussi\xE8re partout !
-      J\u2019esp\xE8re que les autres vont bien. \r\nL\xC9O ! LUCIE ! Vous \xEAtes
-      l\xE0 ?!"
+    stringVal: "??? : QUENTIN ! QUENTIN T\u2019ES O\xD9 ?!?!"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9080,8 +9248,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "??? : Oui ! On a r\xE9ussi \xE0 trouver un chemin vers l\xE0 bas avec
-      Lucie, suis-nous !"
+    stringVal: "Quentin : {i}{color=cyan} Y a ces lumi\xE8res dans l'escalier aussi..
+      Faut que je choisisse"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9106,11 +9274,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 698
-  indentLevel: 0
+  itemId: 968
+  indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: '??? : Dites, vous avez vu les autres ?!'
+    stringVal: "Matth\xE9o Mattheo middle : Cours Quentin allez !"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9132,27 +9300,52 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 699
+  itemId: 967
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "??? : Non mais\u2026 j\u2019ai confiance en Quentin. C\u2019est pas
-      un mec qui se laisse faire !"
-  clearPrevious:
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 639053388}
+        m_MethodName: SpamLight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
     booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
     floatRef: {fileID: 0}
     floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &8102574221219800306
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9165,27 +9358,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 701
-  indentLevel: 0
-  soundClip: {fileID: 0}
-  volume: 0.485
-  waitUntilFinished: 1
---- !u!114 &8102574221219800307
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 700
-  indentLevel: 0
-  soundClip: {fileID: 0}
-  volume: 0.528
+  itemId: 984
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: 71ba012c6c3c70145bea74a52845b643, type: 3}
+  volume: 1
   waitUntilFinished: 1
 --- !u!114 &8102574221219800308
 MonoBehaviour:
@@ -9196,58 +9372,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 702
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=cyan} MATH\xC9O ! LUCIE ! L\xC9O ?\r\nFAIS CHIER
-      ! Je sais pas o\xF9 ils sont partis\u2026"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  itemId: 980
+  indentLevel: 1
 --- !u!114 &8102574221219800309
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 704
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=lightblue} Faut que je retourne avec Ma\xEBva
-      et Flore le plus vite possible."
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &8102574221219800310
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9259,11 +9389,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 703
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 3f6a686caba2839468e476beb366fa5e, type: 3}
-  volume: 0.521
-  waitUntilFinished: 1
+  itemId: 970
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: b872cfa4cc5ae0e41b5cd9c1833457e8, type: 3}
+  volume: 0.5
+  waitUntilFinished: 0
 --- !u!114 &8102574221219800311
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9273,26 +9403,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 706
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=lightblue} Ok ! J\u2019y suis presq\u2026"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  itemId: 976
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: 48b607604e20f0042a8f65cd5405740b, type: 3}
+  volume: 1
+  waitUntilFinished: 1
 --- !u!114 &8102574221219800312
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9370,27 +9488,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 710
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=lightblue} J\u2019arrive \xE0 voir de la lumi\xE8re
-      juste derri\xE8re, je suis plus tr\xE8s loin !\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  itemId: 975
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: 48b607604e20f0042a8f65cd5405740b, type: 3}
+  volume: 1
+  waitUntilFinished: 1
 --- !u!114 &8102574221219800316
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9586,18 +9691,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 727
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1376454884}
-  activeState:
+  itemId: 981
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin : {i}{color=lightblue} Mon dieu... j'ai senti comme une odeur
+      putride et une sensation de froid, je ne sais pas ce que c'\xE9tait mais je
+      suis pass\xE9 \xE0 c\xF4t..."
+  clearPrevious:
     booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &8102574221219800325
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9607,27 +9722,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 726
-  indentLevel: 0
-  targetObjects:
-  - {fileID: 306899078}
-  tweenType: 2
-  waitUntilFinished:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  duration:
-    floatRef: {fileID: 0}
-    floatVal: 0.5
-  fadeMode: 0
-  targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
-  targetAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 0
+  itemId: 985
+  indentLevel: 1
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Vestiaire
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &8102574221219800326
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9637,17 +9741,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bacd6d8da56644cbb2c9a43f96750c3, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 725
-  indentLevel: 0
-  spriteRenderers:
-  - {fileID: 1487944558}
-  sprite: {fileID: 21300000, guid: 3405defe2dba9af48b0e47f23f9d03a4, type: 3}
---- !u!114 &8102574221219800327
+  itemId: 974
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: 48b607604e20f0042a8f65cd5405740b, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &8102574221219800328
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9657,8 +9761,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 724
-  indentLevel: 0
+  itemId: 989
+  indentLevel: 1
   targetObjects:
   - {fileID: 306899078}
   tweenType: 2
@@ -9675,27 +9779,6 @@ MonoBehaviour:
   targetAlpha:
     floatRef: {fileID: 0}
     floatVal: 1
---- !u!114 &8102574221219800328
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 723
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1376454884}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &8102574221219800329
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9777,14 +9860,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bacd6d8da56644cbb2c9a43f96750c3, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 719
-  indentLevel: 0
-  spriteRenderers:
-  - {fileID: 1487944558}
-  sprite: {fileID: 21300000, guid: fd146402e42212e47949af1992a20995, type: 3}
+  itemId: 973
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: 48b607604e20f0042a8f65cd5405740b, type: 3}
+  volume: 1
+  waitUntilFinished: 1
 --- !u!114 &8102574221219800333
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10234,7 +10317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 922.4833
     y: 505.85974
-    width: 133.2
+    width: 148.6301
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10257,6 +10340,7 @@ MonoBehaviour:
   - {fileID: 8102574221219800388}
   - {fileID: 8102574221219800389}
   - {fileID: 8102574221219800394}
+  - {fileID: 8102574221219800486}
   - {fileID: 8102574221219800393}
   - {fileID: 8102574221219800392}
   - {fileID: 8102574221219800391}
@@ -10429,9 +10513,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 501.9311
+    x: 503.30096
     y: 507.6616
-    width: 152.4
+    width: 168.35612
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10452,19 +10536,21 @@ MonoBehaviour:
   - {fileID: 8102574221219800352}
   - {fileID: 8102574221219800351}
   - {fileID: 8102574221219800350}
-  - {fileID: 8102574221219800365}
+  - {fileID: 8102574221219800315}
+  - {fileID: 8102574221219800311}
   - {fileID: 8102574221219800371}
-  - {fileID: 8102574221219800370}
-  - {fileID: 8102574221219800369}
-  - {fileID: 8102574221219800368}
+  - {fileID: 8102574221219800328}
+  - {fileID: 8102574221219800374}
   - {fileID: 8102574221219800367}
   - {fileID: 8102574221219800366}
-  - {fileID: 8102574221219800373}
-  - {fileID: 8102574221219800376}
+  - {fileID: 8102574221219800324}
+  - {fileID: 8102574221219800306}
+  - {fileID: 8102574221219800369}
+  - {fileID: 8102574221219800308}
   - {fileID: 8102574221219800375}
   - {fileID: 8102574221219800377}
   - {fileID: 8102574221219800379}
-  - {fileID: 8102574221219800374}
+  - {fileID: 8102574221219800325}
   suppressAllAutoSelections: 0
 --- !u!114 &8102574221219800357
 MonoBehaviour:
@@ -10671,9 +10757,15 @@ MonoBehaviour:
   - {fileID: 8102574221219800360}
   - {fileID: 8102574221219800359}
   - {fileID: 8102574221219800358}
+  - {fileID: 8102574221219800332}
+  - {fileID: 8102574221219800365}
   - {fileID: 8102574221219800381}
+  - {fileID: 8102574221219800326}
+  - {fileID: 8102574221219800304}
   - {fileID: 8102574221219800382}
   - {fileID: 8102574221219800387}
+  - {fileID: 8102574221219800309}
+  - {fileID: 8102574221219800480}
   - {fileID: 8102574221219800386}
   - {fileID: 8102574221219800385}
   - {fileID: 8102574221219800384}
@@ -10688,26 +10780,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 784
+  itemId: 972
   indentLevel: 1
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'Quentin : {i}{color=cyan} * Quentin sprint vers les escaliers*'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  soundClip: {fileID: 8300000, guid: 71ba012c6c3c70145bea74a52845b643, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &8102574221219800366
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10784,83 +10864,27 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &8102574221219800368
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 788
-  indentLevel: 1
-  targetObjects:
-  - {fileID: 306899078}
-  tweenType: 2
-  waitUntilFinished:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  duration:
-    floatRef: {fileID: 0}
-    floatVal: 0.5
-  fadeMode: 0
-  targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
-  targetAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 0
 --- !u!114 &8102574221219800369
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bacd6d8da56644cbb2c9a43f96750c3, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 787
+  itemId: 992
   indentLevel: 1
-  spriteRenderers:
-  - {fileID: 1487944558}
-  sprite: {fileID: 21300000, guid: fd146402e42212e47949af1992a20995, type: 3}
---- !u!114 &8102574221219800370
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 786
-  indentLevel: 1
-  targetObjects:
-  - {fileID: 306899078}
-  tweenType: 2
-  waitUntilFinished:
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1376454884}
+  activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  duration:
-    floatRef: {fileID: 0}
-    floatVal: 0.5
-  fadeMode: 0
-  targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
-  targetAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &8102574221219800371
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10937,56 +10961,36 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8102574221219800373
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 791
-  indentLevel: 1
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=lightblue} Mon dieu... j'ai senti comme une odeur
-      putride et une sensation de froid, je ne sais pas ce que c'\xE9tait mais je
-      suis pass\xE9 \xE0 c\xF4t\xE9 !"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &8102574221219800374
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 794
+  itemId: 990
   indentLevel: 1
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: Vestiaire
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
+  targetObjects:
+  - {fileID: 306899078}
+  tweenType: 2
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.5
+  fadeMode: 0
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 0
 --- !u!114 &8102574221219800375
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11017,27 +11021,6 @@ MonoBehaviour:
   targetAlpha:
     floatRef: {fileID: 0}
     floatVal: 1
---- !u!114 &8102574221219800376
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 792
-  indentLevel: 1
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1376454884}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &8102574221219800377
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11213,7 +11196,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Matth\xE9o Mattheo middle : Cours Quentin allez !"
+    stringVal: "Quentin : {i}{color=cyan}  Faut que je me dirige vers le bruit que
+      j\u2019ai entendu avant, c\u2019est le meilleur truc \xE0 faire !\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -11242,7 +11226,7 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=cyan} Matth\xE9o ?"
+    stringVal: "Quentin : {color=cyan} C\u2019est bon je suis l\xE0, on se barre !\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -11998,8 +11982,68 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Flore Flore middle : j\u2019en sais trop rien. C\u2019est vraiment
-      pas commun\u2026 "
+    stringVal: "Flore Flore middle : J\u2019en sais trop rien en vrai. C\u2019est
+      vraiment pas commun\u2026 "
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800401
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 947
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Ma\xEBva Maeva left: Vous imaginez les followers que \xE7a pourrait
+      me donner de prendre une photo de \xE7a ?\r\n"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800402
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 951
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin : {i}{color=lightblue} C\u2019est humide et \xE7a pue. Pourquoi
+      cet endroit n\u2019est pas entretenu ?"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -12092,7 +12136,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
@@ -12615,7 +12659,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1058.1606
     y: 52.1483
-    width: 120
+    width: 122.32874
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13372,7 +13416,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1098.8792
     y: 504.19623
-    width: 206.8
+    width: 241.78076
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14365,6 +14409,482 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &8102574221219800468
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 950
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin : {i}{color=lightblue} Des traces de pas ? Peut-\xEAtre celles
+      des ouvriers ?\r\n"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800469
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 949
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Flore Flore middle : Avec plaisir. Alors, voyons voir...'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800470
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 948
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "L\xE9onard Leonard hide:\nMa\xEBva Maeva hide:\nMatth\xE9o Mattheo
+      hide:\nQuentin : {color=cyan} Flore, tu es en Histoire non ? Tu veux y jeter
+      un coup d\u2019oeil ?\r\n"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800471
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 955
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Quentin : {i}{color=cyan} Putain mais il est ou ?!'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800472
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 954
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin : {i}{color=cyan} Math\xE9o ?!"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800473
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 953
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 3f6a686caba2839468e476beb366fa5e, type: 3}
+  volume: 0.519
+  waitUntilFinished: 1
+--- !u!114 &8102574221219800474
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 952
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Ma\xEBva Maeva left : Vous\u2026 vous avez entendu\u2026?!\r\n"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &8102574221219800476
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 958
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 306899078}
+  tweenType: 2
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.5
+  fadeMode: 0
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 0
+--- !u!114 &8102574221219800477
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 957
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 306899078}
+  tweenType: 2
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.5
+  fadeMode: 0
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+--- !u!114 &8102574221219800478
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 956
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 3f6a686caba2839468e476beb366fa5e, type: 3}
+  volume: 0.519
+  waitUntilFinished: 0
+--- !u!114 &8102574221219800479
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 962
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 639053388}
+        m_MethodName: SpamLight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8102574221219800480
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 979
+  indentLevel: 1
+--- !u!114 &8102574221219800481
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 960
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 250689085}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &8102574221219800482
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 966
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 250689085}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &8102574221219800483
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 965
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 250689085}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &8102574221219800484
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 964
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 250689085}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &8102574221219800485
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 963
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 250689085}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &8102574221219800486
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 978
+  indentLevel: 1
+--- !u!114 &8102574221219800487
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 977
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: 2609fde0033f0064983cd3b80fe39811, type: 3}
+  volume: 0.7
+  loop: 0
 --- !u!4 &8102574221901483030
 Transform:
   m_ObjectHideFlags: 0
@@ -14635,7 +15155,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -678.81903
     y: 318.945
-    width: 120.4
+    width: 137.6712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14728,7 +15248,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -674.737
     y: 467.21844
-    width: 120
+    width: 120.13696
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
