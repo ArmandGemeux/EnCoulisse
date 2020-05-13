@@ -156,7 +156,7 @@ public class EffectsManager : MonoBehaviour
         coloGrading.enabled.Override(true);
         coloGrading.saturation.Override(-30f);
         coloGrading.temperature.Override(-75f);
-        coloGrading.postExposure.Override(3.39f);
+        coloGrading.postExposure.Override(0.7f);
         grain.enabled.Override(true);
         grain.intensity.Override(0.74f);
     }

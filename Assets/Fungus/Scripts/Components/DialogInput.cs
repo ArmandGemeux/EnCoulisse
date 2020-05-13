@@ -3,6 +3,7 @@
 
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 namespace Fungus
 {
@@ -48,6 +49,10 @@ namespace Fungus
 
         protected Writer writer;
 
+        public bool canAutomatic;
+
+        public GameObject buttonAutomatic;
+
         protected virtual void Awake()
         {
             writer = GetComponent<Writer>();
@@ -87,7 +92,7 @@ namespace Fungus
             if (writer != null && writer.IsWriting)
             {
                 if (Input.GetButtonDown(currentStandaloneInputModule.submitButton) ||
-                    (cancelEnabled && Input.GetButton(currentStandaloneInputModule.cancelButton)))
+                    (cancelEnabled && Input.GetButton(currentStandaloneInputModule.cancelButton)) || canAutomatic)
                 {
                     SetNextLineFlag();
                 }
@@ -150,6 +155,19 @@ namespace Fungus
         public virtual void SetNextLineFlag()
         {
             nextLineInputFlag = true;
+        }
+        public void SetAutomatic()
+        {
+            if(canAutomatic == false)
+            {
+                buttonAutomatic.GetComponent<Image>().color = Color.grey;
+                canAutomatic = true;
+            }
+            else
+            {
+                buttonAutomatic.GetComponent<Image>().color = Color.white;
+                canAutomatic = false;
+            }
         }
 
         /// <summary>

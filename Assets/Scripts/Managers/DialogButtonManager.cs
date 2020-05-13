@@ -81,5 +81,8 @@ public class DialogButtonManager : MonoBehaviour
         }
     }
     
+    public void AutomiaticMod()
+    {
+    }
 
 }
