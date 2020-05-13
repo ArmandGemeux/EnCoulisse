@@ -120,6 +120,152 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!21 &57844630
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LiberationSans SDF Material
+  m_Shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2846298, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Ambient: 0.5
+    - _Bevel: 0.5
+    - _BevelClamp: 0
+    - _BevelOffset: 0
+    - _BevelRoundness: 0
+    - _BevelWidth: 0
+    - _BumpFace: 0
+    - _BumpOutline: 0
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Diffuse: 0.5
+    - _DstBlend: 0
+    - _FaceDilate: 0
+    - _FaceUVSpeedX: 0
+    - _FaceUVSpeedY: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GlowInner: 0.05
+    - _GlowOffset: 0
+    - _GlowOuter: 0.05
+    - _GlowPower: 0.75
+    - _GradientScale: 10
+    - _LightAngle: 3.1416
+    - _MaskSoftnessX: 0
+    - _MaskSoftnessY: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OutlineSoftness: 0
+    - _OutlineUVSpeedX: 0
+    - _OutlineUVSpeedY: 0
+    - _OutlineWidth: 0
+    - _Parallax: 0.02
+    - _PerspectiveFilter: 0.875
+    - _Reflectivity: 10
+    - _ScaleRatioA: 0.9
+    - _ScaleRatioB: 0.73125
+    - _ScaleRatioC: 0.73125
+    - _ScaleX: 1
+    - _ScaleY: 1
+    - _ShaderFlags: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpecularPower: 2
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TextureHeight: 1024
+    - _TextureWidth: 1024
+    - _UVSec: 0
+    - _UnderlayDilate: 0
+    - _UnderlayOffsetX: 0
+    - _UnderlayOffsetY: 0
+    - _UnderlaySoftness: 0
+    - _VertexOffsetX: 0
+    - _VertexOffsetY: 0
+    - _WeightBold: 0.75
+    - _WeightNormal: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
+    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
+    - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
 --- !u!114 &117730543 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7530635195922601710, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
@@ -160,7 +306,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &186372419
 GameObject:
@@ -341,7 +487,7 @@ PrefabInstance:
     - target: {fileID: 7893159883735989737, guid: 0cbc62adf58b7c943a6ccfb99550c4da,
         type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7893159883735989737, guid: 0cbc62adf58b7c943a6ccfb99550c4da,
         type: 3}
@@ -466,7 +612,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &522623373
 PrefabInstance:
@@ -523,7 +669,7 @@ PrefabInstance:
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
@@ -813,7 +959,7 @@ PrefabInstance:
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
@@ -1095,7 +1241,7 @@ PrefabInstance:
     - target: {fileID: 6504360210046384045, guid: 5980053b1c6ca524a817a01f60627aff,
         type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 6504360210046384045, guid: 5980053b1c6ca524a817a01f60627aff,
         type: 3}
@@ -1390,7 +1536,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1046344748
 PrefabInstance:
@@ -1452,7 +1598,7 @@ PrefabInstance:
     - target: {fileID: 6070441217139203274, guid: 5b64c69e84291f142a13ba9935797d35,
         type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 6070441217139203274, guid: 5b64c69e84291f142a13ba9935797d35,
         type: 3}
@@ -1505,7 +1651,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &1145758417
 Material:
@@ -1718,7 +1864,7 @@ PrefabInstance:
     - target: {fileID: 7893159883735989737, guid: 0cbc62adf58b7c943a6ccfb99550c4da,
         type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 7893159883735989737, guid: 0cbc62adf58b7c943a6ccfb99550c4da,
         type: 3}
@@ -1980,7 +2126,7 @@ PrefabInstance:
     - target: {fileID: 6504360210046384045, guid: 5980053b1c6ca524a817a01f60627aff,
         type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 6504360210046384045, guid: 5980053b1c6ca524a817a01f60627aff,
         type: 3}
@@ -2095,7 +2241,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1228960543
 PrefabInstance:
@@ -2382,18 +2528,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &1355916697 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2198051766991050942, guid: 39ffb43b3797cf84188acddc4155128b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1885811920}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f6478b25a400c642b2dee75f022ab12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1357001719
 GameObject:
   m_ObjectHideFlags: 0
@@ -2569,7 +2703,7 @@ PrefabInstance:
     - target: {fileID: 7893159883735989737, guid: 0cbc62adf58b7c943a6ccfb99550c4da,
         type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 7893159883735989737, guid: 0cbc62adf58b7c943a6ccfb99550c4da,
         type: 3}
@@ -3053,18 +3187,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1467064158}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1482794047 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2198051766991050942, guid: 39ffb43b3797cf84188acddc4155128b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1228960543}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f6478b25a400c642b2dee75f022ab12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1500996196
 GameObject:
   m_ObjectHideFlags: 0
@@ -3093,7 +3215,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1538461262
 PrefabInstance:
@@ -3145,7 +3267,7 @@ PrefabInstance:
     - target: {fileID: 222258702359741068, guid: 9a6ad8df7b1a2194f893b051d3ffe7b7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 222258702359741068, guid: 9a6ad8df7b1a2194f893b051d3ffe7b7,
         type: 3}
@@ -3270,7 +3392,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1613570015
 GameObject:
@@ -3300,7 +3422,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1648821236
 GameObject:
@@ -3330,7 +3452,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1655112255
 PrefabInstance:
@@ -3432,7 +3554,7 @@ PrefabInstance:
     - target: {fileID: 3347007241038604158, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 3347007241038604158, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
@@ -3728,7 +3850,7 @@ PrefabInstance:
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 14.300008
+      value: 14.299981
       objectReference: {fileID: 0}
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
@@ -3978,7 +4100,7 @@ PrefabInstance:
     - target: {fileID: 7893159883735989737, guid: 0cbc62adf58b7c943a6ccfb99550c4da,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 7893159883735989737, guid: 0cbc62adf58b7c943a6ccfb99550c4da,
         type: 3}
@@ -4164,7 +4286,7 @@ PrefabInstance:
     - target: {fileID: 1009746316699555855, guid: 6b3f5e94e1b1ae341a4cab24f6bd7f89,
         type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: 6b3f5e94e1b1ae341a4cab24f6bd7f89,
         type: 3}
@@ -4219,90 +4341,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1885811920
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2198051766991050929, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050929, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050929, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050929, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050929, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050929, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050929, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050929, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050929, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050929, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050929, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050942, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: dimColor.a
-      value: 0.45490196
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050942, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: dimPortraits
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050943, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: m_Name
-      value: Stage 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198051766991050943, guid: 39ffb43b3797cf84188acddc4155128b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 39ffb43b3797cf84188acddc4155128b, type: 3}
 --- !u!1 &1930657460 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6504360209564928809, guid: 5980053b1c6ca524a817a01f60627aff,
@@ -4490,7 +4528,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &196533294708508091
 MonoBehaviour:
@@ -4544,7 +4582,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -658.5154
     y: 368.82214
-    width: 123.103455
+    width: 127.09092
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4613,7 +4651,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -433.87054
     y: 370.55078
-    width: 125.862076
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4661,7 +4699,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -668.47736
     y: 222.68477
-    width: 138.27588
+    width: 143.09091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4833,7 +4871,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -663.694
     y: 299.84332
-    width: 134.13794
+    width: 138.72728
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4947,7 +4985,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -438.96533
     y: 296.41144
-    width: 136.89656
+    width: 141.63637
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4988,7 +5026,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3513466829434271096
 MonoBehaviour:
@@ -5458,7 +5496,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -190.99792
     y: 222.75829
-    width: 124.482765
+    width: 128.54547
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5696,7 +5734,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -847.2898
     y: 297.4646
-    width: 125.862076
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5922,7 +5960,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -182.456
     y: 290.54297
-    width: 120.34483
+    width: 124.18182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6317,7 +6355,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -440.48627
     y: 219.01999
-    width: 141.03448
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6877,7 +6915,6 @@ GameObject:
   - component: {fileID: 8102574221219800351}
   - component: {fileID: 8102574221219800345}
   - component: {fileID: 8102574221219800319}
-  - component: {fileID: 8102574221219800353}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6928,19 +6965,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 496.36246, y: 114.03072}
+  scrollPos: {x: 572.05597, y: 57.755653}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 404
-  zoom: 0.5799999
+  zoom: 0.54999995
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 8102574221219800270}
+  selectedCommands:
+  - {fileID: 8102574221219800291}
   variables:
   - {fileID: 9152882499103829428}
   - {fileID: 1817614425404045325}
@@ -7739,10 +7778,10 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "\nL\xE9onard Leonard middle : Il date ton article l\xE0\u2026 \xE7a
-      fait quand m\xEAme 6 mois que le b\xE2timent est ferm\xE9 au public et que personne
-      n\u2019en parle. Et si personne n\u2019en parle, on a qu\u2019\xE0 aller voir
-      !"
+    stringVal: "Matth\xE9o hide :\n\nL\xE9onard Leonard middle : Il date ton article
+      l\xE0\u2026 \xE7a fait quand m\xEAme 6 mois que le b\xE2timent est ferm\xE9
+      au public et que personne n\u2019en parle. Et si personne n\u2019en parle, on
+      a qu\u2019\xE0 aller voir !"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7801,7 +7840,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "\nMatth\xE9o Mattheo middle : \xC7a d\xE9chire ton histoire meuf ! "
+    stringVal: "Ma\xEBva hide :\nMatth\xE9o unhide :\nMatth\xE9o Mattheo middle :
+      \xC7a d\xE9chire ton histoire meuf ! "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8038,8 +8078,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "\nFlore Flore right : Allez allez, \xE7a fait 3 ans que j\u2019les
-      supporte, tu t\u2019y feras."
+    stringVal: "Matth\xE9o hide :\nFlore Flore right : Allez allez, \xE7a fait 3 ans
+      que j\u2019les supporte, tu t\u2019y feras."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8906,7 +8946,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 332.57483
-    y: 321.5965
+    y: 323.41467
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -9473,8 +9513,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Lucie Lucie middle : Enfin une d\xE9cision qui a du sens !  Prenez
-      note bande de malades !"
+    stringVal: "L\xE9onard hide :\n\nLucie Lucie left : Enfin une d\xE9cision qui
+      a du sens !  Prenez note bande de malades !"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9503,10 +9543,10 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "\n\nMatth\xE9o Mattheo middle : Gros tu d\xE9\xE7ois s\xE9rieux, \xE7a
-      sera rapide on va juste se poser tranquillement l\xE0 bas, c\u2019est juste
-      pour s\u2019\xE9clater un peu quoi ! On commen\xE7ait \xE0 se faire chier nan
-      ?"
+    stringVal: "Lucie hide :\nFlore hide :\n\nMatth\xE9o Mattheo right : Gros tu d\xE9\xE7ois
+      s\xE9rieux, \xE7a sera rapide on va juste se poser tranquillement l\xE0 bas,
+      c\u2019est juste pour s\u2019\xE9clater un peu quoi ! On commen\xE7ait \xE0
+      se faire chier nan ?"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9535,9 +9575,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "\n\nL\xE9onard Leonard middle : On en a pour 2 - 3 heures au max,
-      d\xE9tends toi un peu, on dirait que l\u2019alcool te rend plus fragile que
-      d\u2019habitude."
+    stringVal: "Matth\xE9o hide :\n\nL\xE9onard Leonard right : On en a pour 2 - 3
+      heures au max, d\xE9tends toi un peu, on dirait que l\u2019alcool te rend plus
+      fragile que d\u2019habitude."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9595,8 +9635,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "\n\nMatth\xE9o Mattheo middle : Voil\xE0 \xE7a c\u2019est le Quentin
-      que j\u2019connais ! Te laisse pas faire !"
+    stringVal: "L\xE9onard hide :\nMatth\xE9o unhide :\nMatth\xE9o Mattheo right :
+      Voil\xE0 \xE7a c\u2019est le Quentin que j\u2019connais ! Te laisse pas faire
+      !"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9625,8 +9666,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "\n\nL\xE9onard Leonard middle : J\u2019veux juste dire que bon, visiblement
-      t\u2019es le seul qui est pas chaud pour y aller \u2026"
+    stringVal: "Matth\xE9o hide :\nL\xE9onard unhide :\nL\xE9onard Leonard right :
+      J\u2019veux juste dire que bon, visiblement t\u2019es le seul qui est pas chaud
+      pour y aller \u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9655,7 +9697,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "\nLucie Lucie middle : Et MOI j\u2019existe pas peut-\xEAtre ?!"
+    stringVal: "\nLucie Lucie left : Et MOI j\u2019existe pas peut-\xEAtre ?!"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9684,7 +9726,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Flore Flore middle : Me m\xEAle pas \xE0 \xE7a gros d\xE9bile."
+    stringVal: "Flore unhide :\n\nFlore Flore middle : Me m\xEAle pas \xE0 \xE7a gros
+      d\xE9bile."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9713,7 +9756,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "\nL\xE9onard Leonard middle : T\u2019es \u201Cpresque\u201D le seul
+    stringVal: "\nL\xE9onard Leonard right : T\u2019es \u201Cpresque\u201D le seul
       \xE0 ne pas vouloir y aller alors que les autres sont visiblement pour.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -9802,8 +9845,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 418.33102
-    y: 226.8219
+    x: 432.12418
+    y: 223.37363
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -9836,7 +9879,6 @@ MonoBehaviour:
   - {fileID: 8102574221219800249}
   - {fileID: 8102574221219800248}
   - {fileID: 8102574221219800247}
-  - {fileID: 8102574221219800353}
   - {fileID: 8102574221219800246}
   - {fileID: 8102574221219800245}
   - {fileID: 8102574221219800244}
@@ -11012,7 +11054,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "L\xE9onard Leonard middle : \xC7a me donne un peu le sentiment que
+    stringVal: "L\xE9onard Leonard right : \xC7a me donne un peu le sentiment que
       t\u2019as la trouille, et avoir la trouille devant sa petite soeur c\u2019est
       un peu la honte.\n"
   clearPrevious:
@@ -11607,26 +11649,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &8102574221219800353
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1ff0f540016ff64ab1556db6fe1e10f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 901
-  indentLevel: 0
-  display: 3
-  stage: {fileID: 1355916697}
-  replacedStage: {fileID: 1482794047}
-  useDefaultSettings: 1
-  fadeDuration: 0
-  waitUntilFinished: 0
 --- !u!114 &8102574221219800354
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12921,7 +12943,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 741.8542
     y: 58.985645
-    width: 139.65518
+    width: 144.54547
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13987,7 +14009,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -852.34814
     y: 230.23914
-    width: 130
+    width: 134.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
