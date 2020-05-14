@@ -1174,6 +1174,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenuManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4355417987640736270, guid: ad6eeeb95a0d72c4db2198312ef096ae,
+        type: 3}
+      propertyPath: torchLight
+      value: 
+      objectReference: {fileID: 1730573999}
     - target: {fileID: 4355417987640736271, guid: ad6eeeb95a0d72c4db2198312ef096ae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2232,7 +2237,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1730573998}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1730573999}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9079f4e6b5abd144fb0b0ffffd17a6da, type: 3}
@@ -2692,6 +2697,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a98ff47dc6b75c41867c7d5eb6dfee3, type: 3}
+--- !u!1 &1730573999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5059435188207915946, guid: 6a98ff47dc6b75c41867c7d5eb6dfee3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1730573998}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1837662509 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1009746316699555840, guid: b8fade5fde939c2458e7cd77117ff7bf,
