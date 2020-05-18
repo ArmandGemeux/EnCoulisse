@@ -767,7 +767,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 522.764
-    y: -62.946114
+    y: -60.446114
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3866,7 +3866,7 @@ PrefabInstance:
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 14.300055
+      value: 0.000039100647
       objectReference: {fileID: 0}
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
@@ -4678,7 +4678,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -658.5154
     y: 368.82214
-    width: 121.30435
+    width: 122.94118
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4747,7 +4747,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -433.87054
     y: 370.55078
-    width: 124.78261
+    width: 127.64706
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4795,7 +4795,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -668.47736
     y: 222.68477
-    width: 135.21739
+    width: 141.76471
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4967,7 +4967,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -663.694
     y: 299.84332
-    width: 133.47827
+    width: 137.05882
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5081,7 +5081,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -438.96533
     y: 296.41144
-    width: 136.95651
+    width: 141.76471
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5592,7 +5592,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -190.99792
     y: 222.75829
-    width: 121.30435
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5830,7 +5830,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -847.2898
     y: 297.4646
-    width: 124.78261
+    width: 132.35294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6056,7 +6056,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -182.456
     y: 290.54297
-    width: 120
+    width: 125.29411
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6451,7 +6451,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -440.48627
     y: 219.01999
-    width: 138.69565
+    width: 146.47058
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7024,6 +7024,7 @@ GameObject:
   - component: {fileID: 8102574221219800438}
   - component: {fileID: 8102574221219800444}
   - component: {fileID: 8102574221219800349}
+  - component: {fileID: 8102574221219800360}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -7074,19 +7075,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1039.8324, y: 288.2056}
+  scrollPos: {x: 1693.2074, y: 144.87256}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.46
+  zoom: 0.34
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 8102574221219800298}
+  selectedCommands:
+  - {fileID: 8102574221219800234}
   variables:
   - {fileID: 9152882499103829428}
   - {fileID: 1817614425404045325}
@@ -7789,9 +7792,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=lightblue} Putain ma t\xEAte\u2026\r\nQuentin
-      : {i}{color=lightblue} Qu\u2019est-ce que je fous ici ? \u2026 J\u2019suis o\xF9
-      ? "
+    stringVal: "Quentin : {i}{color=cyan} Putain ma t\xEAte\u2026\r\nQuentin : {i}{color=cyan}
+      Qu\u2019est-ce que je fous ici ? \u2026 J\u2019suis o\xF9 ? "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7920,8 +7922,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} J\u2019crois que les gens en font trop.
-      Le nombre de rumeurs qui passent sur Twitter \xE0 ce sujet c\u2019est abus\xE9. "
+    stringVal: "Quentin : {color=cyan} J\u2019crois que les gens en font trop. Le
+      nombre de rumeurs qui passent sur Twitter \xE0 ce sujet c\u2019est abus\xE9. "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7980,7 +7982,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Ouais, j\u2019avoue que c\u2019est intriguant,
+    stringVal: "Quentin : {color=cyan} Ouais, j\u2019avoue que c\u2019est intriguant,
       mais de l\xE0 \xE0 entrer dedans, j\u2019suis pas s\xFBr que \xE7a soit une
       bonne id\xE9e."
   clearPrevious:
@@ -8066,10 +8068,10 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=lightblue} \xC7a y est je m'en souviens !\nQuentin
-      : {i}{color=lightblue} Maintenant il faut retrouver mes amis, et ma soeur...\nQuentin
-      : {i}{color=lightblue} Je pense que je vais commencer par les salles que je
-      connais d\xE9j\xE0."
+    stringVal: "Quentin : {i}{color=cyan} \xC7a y est je m'en souviens !\nQuentin
+      : {i}{color=cyan} Maintenant il faut retrouver mes amis, et ma soeur...\nQuentin
+      : {i}{color=cyan} Je pense que je vais commencer par les salles que je connais
+      d\xE9j\xE0."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8248,8 +8250,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} On peut pas dire qu\u2019il y en a pas
-      si on va pas v\xE9rifier j\u2019imagine."
+    stringVal: "Quentin : {color=cyan} On peut pas dire qu\u2019il y en a pas si on
+      va pas v\xE9rifier j\u2019imagine."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8339,7 +8341,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: Quentin :{color=lightblue} Hum ? De quoi ?
+    stringVal: Quentin :{color=cyan} Hum ? De quoi ?
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8879,8 +8881,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=lightblue} Flore ? On \xE9tait tous ici\u2026\nQuentin
-      : {i}{color=lightblue} Faut que je la retrouve. "
+    stringVal: "Quentin : {i}{color=cyan} Flore ? On \xE9tait tous ici\u2026\nQuentin
+      : {i}{color=cyan} Faut que je la retrouve. "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8940,8 +8942,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=lightblue} Ce d\xE9cor, cette ambiance\u2026 On
-      dirait le Grand Th\xE9\xE2tre. Flore m\u2019y avait emmen\xE9\u2026 "
+    stringVal: "Quentin : {i}{color=cyan} Ce d\xE9cor, cette ambiance\u2026 On dirait
+      le Grand Th\xE9\xE2tre. Flore m\u2019y avait emmen\xE9\u2026 "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9299,9 +9301,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Ecoutez, en vrai je pense que c\u2019est
-      juste des conneries tout \xE7a, j\u2019ai pas envie de prendre de risques, \xE7a
-      pourrait mal tourner."
+    stringVal: "Quentin : {color=cyan} Ecoutez, en vrai je pense que c\u2019est juste
+      des conneries tout \xE7a, j\u2019ai pas envie de prendre de risques, \xE7a pourrait
+      mal tourner."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9586,8 +9588,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 515.75745
-    y: 324.2672
+    x: 521.6398
+    y: 309.56137
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -9715,7 +9717,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} R\xE9p\xE8te ?\nMatth\xE9o unhide :"
+    stringVal: "Quentin : {color=cyan} R\xE9p\xE8te ?\nMatth\xE9o unhide :"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9893,7 +9895,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} D\xE9j\xE0 qu\u2019un groupe de six jeunes
+    stringVal: "Quentin : {color=cyan} D\xE9j\xE0 qu\u2019un groupe de six jeunes
       qui restent l\xE0 \xE0 regarder une fen\xEAtre, c\u2019est un peu suspect, alors
       s\u2019approcher d\u2019elle avec un gros bout de bois c\u2019est pas la meilleure
       solution je pense."
@@ -10343,8 +10345,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} On est cens\xE9s \xEAtre discrets \xE0
-      la base Math\xE9o. "
+    stringVal: "Quentin : {color=cyan} On est cens\xE9s \xEAtre discrets \xE0 la base
+      Math\xE9o. "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -10403,7 +10405,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Bien vu, on devrait pouvoir entrer discr\xE8tement."
+    stringVal: "Quentin : {color=cyan} Bien vu, on devrait pouvoir entrer discr\xE8tement."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -10888,7 +10890,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 144.2259
     y: -43.19324
-    width: 120
+    width: 120.588234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11208,7 +11210,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 437.74286
     y: 443.33487
-    width: 120
+    width: 120.588234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11899,6 +11901,23 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &8102574221219800360
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 920
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: 124d9539c82036a4fb941f8207b5e1fb, type: 3}
+  volume: 0.54
+  waitUntilFinished: 1
 --- !u!114 &8102574221219800366
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12211,7 +12230,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1217.7502
     y: -143.48708
-    width: 120
+    width: 120.588234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12829,7 +12848,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 431.9075
     y: 87.71704
-    width: 120
+    width: 120.588234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12873,9 +12892,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1178.1704
+    x: 1180.6704
     y: 283.94547
-    width: 136.95651
+    width: 148.82352
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13028,8 +13047,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 739.81335
-    y: 61.159557
-    width: 138.69565
+    y: 58.21838
+    width: 146.47058
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13043,6 +13062,7 @@ MonoBehaviour:
   - {fileID: 8102574221219800344}
   - {fileID: 8102574221219800420}
   - {fileID: 8102574221219800408}
+  - {fileID: 8102574221219800360}
   - {fileID: 8102574221219800407}
   - {fileID: 8102574221219800413}
   - {fileID: 8102574221219800318}
@@ -13320,8 +13340,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=lightblue} Ces lustres n'ont pas l'air d'avoir
-      bien vieilli... Je dois \xE9viter de passer en dessous."
+    stringVal: "Quentin : {i}{color=cyan} Ces lustres n'ont pas l'air d'avoir bien
+      vieilli... Je dois \xE9viter de passer en dessous."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -13578,9 +13598,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=lightblue} Si on se fait chopper par les flics ou
-      que le Grand Th\xE9\xE2tre est infest\xE9 de squatteurs on aura pas l\u2019air
-      con."
+    stringVal: "Quentin : {color=cyan} Si on se fait chopper par les flics ou que
+      le Grand Th\xE9\xE2tre est infest\xE9 de squatteurs on aura pas l\u2019air con."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -13694,8 +13713,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Quentin : {color=lightblue} Bon, je vais jouer le jeu. Deux heures
-      max ok ?
+    stringVal: 'Quentin : {color=cyan} Bon, je vais jouer le jeu. Deux heures max
+      ok ?
 
 '
   clearPrevious:
@@ -13885,7 +13904,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1075.4683
     y: -135.65907
-    width: 120
+    width: 120.588234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14553,7 +14572,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -852.34814
     y: 230.23914
-    width: 126.52174
+    width: 137.05882
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
