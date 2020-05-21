@@ -230,7 +230,7 @@ PrefabInstance:
     - target: {fileID: 7570692459741564245, guid: bb7d4d1479359dc4483049eb7cdd6b3f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.00004386902
+      value: 0.000056266785
       objectReference: {fileID: 0}
     - target: {fileID: 7570692459741564245, guid: bb7d4d1479359dc4483049eb7cdd6b3f,
         type: 3}
@@ -504,6 +504,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 385431421786853015, guid: 03be52abab09f6d49bdd1350b4215fcf,
         type: 3}
+      propertyPath: portraits.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 385431421786853015, guid: 03be52abab09f6d49bdd1350b4215fcf,
+        type: 3}
       propertyPath: setSayDialog
       value: 
       objectReference: {fileID: 7530635195922601710}
@@ -512,6 +517,12 @@ PrefabInstance:
       propertyPath: portraits.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: d563f8c9d7a68284385c37e4c5ae6ab8,
+        type: 3}
+    - target: {fileID: 385431421786853015, guid: 03be52abab09f6d49bdd1350b4215fcf,
+        type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6b749be4c0ded72479b34ad05e717d22,
         type: 3}
     - target: {fileID: 385431421786853016, guid: 03be52abab09f6d49bdd1350b4215fcf,
         type: 3}
@@ -725,6 +736,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3901098422759905855, guid: 86837f34e23fd374a87c5a73d24d175b,
         type: 3}
+      propertyPath: portraits.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901098422759905855, guid: 86837f34e23fd374a87c5a73d24d175b,
+        type: 3}
       propertyPath: setSayDialog
       value: 
       objectReference: {fileID: 7530635195922601710}
@@ -733,6 +749,12 @@ PrefabInstance:
       propertyPath: portraits.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: 5f162dc4de2f7c149b4fc0a31e517a6a,
+        type: 3}
+    - target: {fileID: 3901098422759905855, guid: 86837f34e23fd374a87c5a73d24d175b,
+        type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3303573344d323343aa429260db99311,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86837f34e23fd374a87c5a73d24d175b, type: 3}
@@ -897,7 +919,7 @@ PrefabInstance:
     - target: {fileID: 4621563048954590162, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4621563048954590162, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
@@ -1067,17 +1089,17 @@ PrefabInstance:
     - target: {fileID: 7127447700834976094, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 4
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7127447700834976094, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7127447700834976094, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7127447700834976094, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
@@ -1097,12 +1119,12 @@ PrefabInstance:
     - target: {fileID: 8266192706631856711, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8266192706631856711, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8266192706631856711, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
@@ -1322,9 +1344,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7855004508089812083, guid: e33cf61f8a45fd74f80066a355f01560,
         type: 3}
+      propertyPath: portraits.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855004508089812083, guid: e33cf61f8a45fd74f80066a355f01560,
+        type: 3}
       propertyPath: setSayDialog
       value: 
       objectReference: {fileID: 7530635195922601710}
+    - target: {fileID: 7855004508089812083, guid: e33cf61f8a45fd74f80066a355f01560,
+        type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 92bf5e4b6b62a724b8ed3a6af1dc8045,
+        type: 3}
     - target: {fileID: 7855004508089812108, guid: e33cf61f8a45fd74f80066a355f01560,
         type: 3}
       propertyPath: m_Name
@@ -1348,7 +1381,7 @@ PrefabInstance:
     - target: {fileID: 7609570955260441946, guid: afea3ba98f53fb34aaaba09864fadf3e,
         type: 3}
       propertyPath: portraits.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7609570955260441946, guid: afea3ba98f53fb34aaaba09864fadf3e,
         type: 3}
@@ -1360,6 +1393,12 @@ PrefabInstance:
       propertyPath: portraits.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: 2135f3c0ea40a2c4480d58ef0267863d,
+        type: 3}
+    - target: {fileID: 7609570955260441946, guid: afea3ba98f53fb34aaaba09864fadf3e,
+        type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: fec4fe0bd995e674fb24f8faf3d2158d,
         type: 3}
     - target: {fileID: 7609570955260441947, guid: afea3ba98f53fb34aaaba09864fadf3e,
         type: 3}
@@ -1438,9 +1477,20 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 988210483747135254, guid: a1c17beff53e190418b49871c973f54f,
         type: 3}
+      propertyPath: portraits.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 988210483747135254, guid: a1c17beff53e190418b49871c973f54f,
+        type: 3}
       propertyPath: setSayDialog
       value: 
       objectReference: {fileID: 7530635195922601710}
+    - target: {fileID: 988210483747135254, guid: a1c17beff53e190418b49871c973f54f,
+        type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3acc5a94cebae7d41911991364404e1c,
+        type: 3}
     - target: {fileID: 988210483747135255, guid: a1c17beff53e190418b49871c973f54f,
         type: 3}
       propertyPath: m_Name
