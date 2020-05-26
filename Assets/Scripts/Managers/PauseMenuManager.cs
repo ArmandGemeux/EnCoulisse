@@ -11,6 +11,11 @@ public class PauseMenuManager : MonoBehaviour
     public GameObject torchLight;
     public bool paused;
     public bool reversed;
+    public GameObject pressP;
+    public GameObject pP;
+    public bool canPressP;
+    public bool spawnP;
+    public float timerP;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +32,27 @@ public class PauseMenuManager : MonoBehaviour
             TogglePauseMenu();
         }
 
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            canPressP = true;
+            spawnP = true;
+        }
+
+        if (canPressP)
+        {
+            if (spawnP)
+            {
+                pP = Instantiate(pressP);
+                spawnP = false;
+            }
+            timerP += Time.deltaTime;
+            if(timerP >= 3)
+            {
+                Destroy(pP);
+                timerP = 0;
+                canPressP = false;
+            }
+        }
         
     }
 
@@ -34,7 +60,7 @@ public class PauseMenuManager : MonoBehaviour
     public void TogglePauseMenu()
     {
         pauseMenu.SetActive(!pauseMenu.activeSelf);
-
+        
         if(pauseMenu.activeSelf == true)
         {
             if(torchLight.activeSelf == true)
@@ -88,4 +114,6 @@ public class PauseMenuManager : MonoBehaviour
     {
         Application.Quit();
     }
+    
+
 }

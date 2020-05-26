@@ -984,7 +984,7 @@ PrefabInstance:
     - target: {fileID: 7893159883735989741, guid: 0cbc62adf58b7c943a6ccfb99550c4da,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0cbc62adf58b7c943a6ccfb99550c4da, type: 3}
@@ -4388,7 +4388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 31.37738
     y: 443.39062
-    width: 126.8
+    width: 133.07693
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4560,7 +4560,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 33.835205
     y: 520.5493
-    width: 120.4
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4674,7 +4674,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258.56403
     y: 517.11743
-    width: 120.4
+    width: 131.53847
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5501,7 +5501,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -149.76071
     y: 518.17053
-    width: 120
+    width: 122.30769
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6172,7 +6172,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 257.0431
     y: 439.72586
-    width: 126.8
+    width: 133.07693
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6692,6 +6692,10 @@ GameObject:
   - component: {fileID: 8102574221219800384}
   - component: {fileID: 8102574221219800355}
   - component: {fileID: 8102574221219800353}
+  - component: {fileID: 8102574221219800386}
+  - component: {fileID: 8102574221219800385}
+  - component: {fileID: 8102574221219800388}
+  - component: {fileID: 8102574221219800387}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6757,19 +6761,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 2140.407, y: -24.980133}
+  scrollPos: {x: -17.633759, y: -221.44954}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.25
+  zoom: 0.52
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 8102574221219800207}
+  selectedCommands:
+  - {fileID: 8102574221219800221}
   variables:
   - {fileID: 9152882499103829428}
   - {fileID: 1817614425404045325}
@@ -6929,13 +6935,17 @@ MonoBehaviour:
   - {fileID: 8102574221219800210}
   - {fileID: 8102574221219800209}
   - {fileID: 8102574221219800216}
+  - {fileID: 8102574221219800386}
   - {fileID: 8102574221219800354}
   - {fileID: 8102574221219800218}
   - {fileID: 8102574221219800325}
+  - {fileID: 8102574221219800385}
   - {fileID: 8102574221219800219}
   - {fileID: 8102574221219800220}
   - {fileID: 8102574221219800221}
+  - {fileID: 8102574221219800388}
   - {fileID: 8102574221219800342}
+  - {fileID: 8102574221219800387}
   - {fileID: 8102574221219800230}
   - {fileID: 8102574221219800223}
   - {fileID: 8102574221219800222}
@@ -7273,7 +7283,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Quentin : {color=cyan} Je vais aller le chercher\u2026 Il est jamais
-      venu, il est peut-\xEAtre parti voir le hall ?\nMatth\xE9o Mattheo hide:\nLucie
+      venu, il est peut-\xEAtre all\xE9 dans le hall ?\nMatth\xE9o Mattheo hide:\nLucie
       Lucie hide:\nFlore Flore hide:"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -7452,7 +7462,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1203.462
     y: 457.15546
-    width: 146
+    width: 146.92308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7982,7 +7992,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1483.3671
     y: 524.031
-    width: 162
+    width: 162.3077
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8180,9 +8190,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1198.9064
+    x: 1197.0881
     y: 526.07526
-    width: 158.8
+    width: 160.76923
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8364,9 +8374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 943.1937
+    x: 946.8301
     y: 531.3271
-    width: 171.6
+    width: 174.61539
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8748,7 +8758,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Quentin :{color=cyan} Je fais plus confiance \xE0 la vue qu'a l'ou\xEFe.
-      Allons voir le hall.\nFlore Flore hide:"
+      Allons dans le hall.\nFlore Flore hide:"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9416,7 +9426,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 945.99945
     y: 603.1699
-    width: 181.2
+    width: 183.84616
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9876,7 +9886,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2624.1758
     y: 342.75446
-    width: 130
+    width: 133.07693
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10013,7 +10023,7 @@ MonoBehaviour:
   itemId: 925
   indentLevel: 1
   soundClip: {fileID: 8300000, guid: a05d92d36f4b57640871f5b4321c91ab, type: 3}
-  volume: 0.047
+  volume: 0.115
   waitUntilFinished: 0
 --- !u!114 &8102574221219800326
 MonoBehaviour:
@@ -10361,7 +10371,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1465.1785
     y: 608.3374
-    width: 171.6
+    width: 171.53847
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10830,7 +10840,7 @@ MonoBehaviour:
   itemId: 935
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: b5645f60f08f73c4d8753dda65f201c7, type: 3}
-  volume: 0.155
+  volume: 0.243
   loop: 1
 --- !u!114 &8102574221219800356
 MonoBehaviour:
@@ -10848,7 +10858,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1189.9429
     y: 242.8817
-    width: 120.4
+    width: 125.38462
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -10941,7 +10951,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -535.249
     y: 348.12506
-    width: 155.6
+    width: 160.76923
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11735,7 +11745,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Quentin :{color=cyan} Je fais plus confiance \xE0 la vue qu'a l'ou\xEFe.
-      Allons voir le hall.\nFlore Flore hide:"
+      Allons dans le hall.\nFlore Flore hide:"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -11765,6 +11775,74 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: b5645f60f08f73c4d8753dda65f201c7, type: 3}
   volume: 0.155
   loop: 1
+--- !u!114 &8102574221219800385
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 938
+  indentLevel: 1
+  volume: 0.115
+  fadeDuration: 1
+  waitUntilFinished: 1
+--- !u!114 &8102574221219800386
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 937
+  indentLevel: 1
+  volume: 0
+  fadeDuration: 1
+  waitUntilFinished: 1
+--- !u!114 &8102574221219800387
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 940
+  indentLevel: 1
+  volume: 0.115
+  fadeDuration: 1
+  waitUntilFinished: 1
+--- !u!114 &8102574221219800388
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 939
+  indentLevel: 1
+  volume: 0
+  fadeDuration: 1
+  waitUntilFinished: 1
 --- !u!4 &8102574221901483030
 Transform:
   m_ObjectHideFlags: 0
@@ -12035,7 +12113,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -154.81903
     y: 450.945
-    width: 120.4
+    width: 125.38462
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
