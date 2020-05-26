@@ -156,6 +156,13 @@ namespace Fungus
         {
             nextLineInputFlag = true;
         }
+
+        public void SetNoAutomatic()
+        {
+            buttonAutomatic.GetComponent<Image>().color = Color.white;
+            canAutomatic = false;
+        }
+
         public void SetAutomatic()
         {
             if(canAutomatic == false)

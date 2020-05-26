@@ -80,9 +80,5 @@ public class DialogButtonManager : MonoBehaviour
             saveMenu.SetActive(false);
         }
     }
-    
-    public void AutomiaticMod()
-    {
-    }
 
 }
