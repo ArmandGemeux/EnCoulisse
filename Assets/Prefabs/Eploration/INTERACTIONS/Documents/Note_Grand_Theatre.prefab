@@ -34,8 +34,8 @@ RectTransform:
   m_Father: {fileID: 4328850782497969508}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.8744052, y: 0}
-  m_AnchorMax: {x: 1, y: 0.13651514}
+  m_AnchorMin: {x: 0.91233695, y: 0}
+  m_AnchorMax: {x: 1, y: 0.13651513}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -65,8 +65,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4048ee63f847e04439d64d7e106cc8bc, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -234,8 +234,8 @@ RectTransform:
   m_Father: {fileID: 7327556207633370228}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.15, y: 0.10978788}
-  m_AnchorMax: {x: 0.85, y: 0.7177879}
+  m_AnchorMin: {x: 0.38924456, y: 0.38418713}
+  m_AnchorMax: {x: 0.65416205, y: 0.73599935}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -265,19 +265,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Type\tSalle d\u2019op\xE9ra\r\n\nLieu\tBordeaux\r\n\nEn 1756, ann\xE9e
-    au cours de laquelle un incendie d\xE9truit la salle de spectacle qui s'\xE9l\xE8ve
-    sur les foss\xE9s de l'H\xF4tel de Ville (aujourd'hui cours Victor-Hugo), la ville
-    de Bordeaux ne poss\xE8de plus de th\xE9\xE2tre.\r\nTrois hommes vont conjuguer
-    leurs efforts, malgr\xE9 toutes les difficult\xE9s, pour donner \xE0 la capitale
-    de la Guyenne un monument qui soit digne d'elle : le Mar\xE9chal de Richelieu,
-    gouverneur de la province ; Dupr\xE9 de Saint-Maur, intendant de la g\xE9n\xE9ralit\xE9
-    ; Victor Louis, architecte.\r\n\r\nC'est ainsi que le Grand-Th\xE9\xE2tre, dont
-    les plans sont trac\xE9s et les travaux commenc\xE9s en 1773, est inaugur\xE9
-    le 7 avril 1780, par une repr\xE9sentation d'Athalie de Racine, pr\xE9c\xE9d\xE9e
-    d'un \"\xE0-propos\" de Blincourt : Le Jugement d'Apollon, devant une salle bond\xE9e
-    o\xF9 se pressent 1 700 spectateurs.\r\nLe prix de la construction a d\xE9pass\xE9
-    le chiffre fix\xE9 par Louis de 2 436 629 livres."
+  m_text: "Type : Salle d\u2019op\xE9ra\r\n\nLieu : Bordeaux\r\n\nArchitecte : Victor
+    Louis\n\nInauguration : 7 avril 1780\n\nCapacit\xE9 : 1 100\n\nConstruit entre
+    1773 et 1780 sur les glacis du ch\xE2teau Trompette \xE0 l'emplacement du forum
+    gallo-romain o\xF9 se trouvait le \"temple des Piliers de Tutelle\", du nom de
+    la d\xE9esse Tutela protectrice de la ville.\r\n\r\nLa construction s'interrompt
+    sous la volont\xE9 du roi mais Victor Louis r\xE9ussit \xE0 le convaincre de la
+    faire reprendre."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e73b97149eea0f4e881e93b2bfa3091, type: 2}
   m_sharedMaterial: {fileID: 5645249168123573689, guid: 1e73b97149eea0f4e881e93b2bfa3091,
@@ -306,7 +300,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 13.35
+  m_fontSize: 11.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -323,7 +317,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 205
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -347,12 +341,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 3921762714732687886}
-    characterCount: 902
+    characterCount: 440
     spriteCount: 0
-    spaceCount: 151
-    wordCount: 145
+    spaceCount: 79
+    wordCount: 69
     linkCount: 0
-    lineCount: 20
+    lineCount: 19
     pageCount: 1
     materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
@@ -552,7 +546,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -621,13 +615,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 4981225250845801774}
-    characterCount: 4
+    characterCount: 0
     spriteCount: 0
     spaceCount: 0
-    wordCount: 1
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -987,8 +981,8 @@ RectTransform:
   m_Father: {fileID: 7327556207633370228}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.04853455, y: 0.81428975}
-  m_AnchorMax: {x: 0.947421, y: 0.9480241}
+  m_AnchorMin: {x: 0.39124942, y: 0.7902623}
+  m_AnchorMax: {x: 0.64492697, y: 0.9133688}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1047,7 +1041,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 46.7
+  m_fontSize: 30
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1475,8 +1469,8 @@ RectTransform:
   m_Father: {fileID: 4328850782497969508}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.19995612, y: 0}
-  m_AnchorMax: {x: 0.8033219, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1506,7 +1500,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: dd5194b36db303d419620f69f2fc97b7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
