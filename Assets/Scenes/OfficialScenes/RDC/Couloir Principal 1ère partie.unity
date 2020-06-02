@@ -1565,7 +1565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 8102574221219800203}
+  selectedFlowchart: {fileID: 8102574221901483034}
 --- !u!4 &877568337
 Transform:
   m_ObjectHideFlags: 1
@@ -2646,7 +2646,7 @@ PrefabInstance:
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 14.3000145
+      value: 14.300027
       objectReference: {fileID: 0}
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
@@ -5001,6 +5001,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1533880480096601361}
   - {fileID: 4635257855820671378}
+  - {fileID: 8102574221901483035}
   suppressAllAutoSelections: 0
 --- !u!114 &5647854450280266915
 MonoBehaviour:
@@ -8866,6 +8867,7 @@ GameObject:
   - component: {fileID: 3678893580440293536}
   - component: {fileID: 5684944769622300215}
   - component: {fileID: 6031928855746779561}
+  - component: {fileID: 8102574221901483035}
   m_Layer: 0
   m_Name: EssentialFlowchart
   m_TagString: Untagged
@@ -8897,7 +8899,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 5547287538640721535}
   selectedCommands: []
   variables: []
   description: 
@@ -8910,6 +8913,27 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
+--- !u!114 &8102574221901483035
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221901483033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 966
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1730573999}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &8144996211312925659
 MonoBehaviour:
   m_ObjectHideFlags: 2

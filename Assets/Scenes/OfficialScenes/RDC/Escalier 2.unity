@@ -1718,6 +1718,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.0006713867
       objectReference: {fileID: 0}
+    - target: {fileID: 3224809862148060373, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00012207031
+      objectReference: {fileID: 0}
     - target: {fileID: 3347007241038604157, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_Name
@@ -2001,7 +2006,7 @@ PrefabInstance:
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000014305115
+      value: 0.00002670288
       objectReference: {fileID: 0}
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
@@ -3920,7 +3925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 732.03815
+    x: 729.86426
     y: 126.93679
     width: 120
     height: 40
@@ -3980,6 +3985,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1533880480096601361}
   - {fileID: 4635257855820671378}
+  - {fileID: 8102574221901483035}
   suppressAllAutoSelections: 0
 --- !u!114 &5656009804888051215
 MonoBehaviour:
@@ -4901,7 +4907,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &8102574221219800201
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4931,7 +4937,7 @@ MonoBehaviour:
     floatVal: 1
 --- !u!114 &8102574221219800202
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4963,7 +4969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 986.3451, y: 78.09675}
+  scrollPos: {x: 874.7173, y: 185.07355}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -4974,10 +4980,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1258059401284595145}
-  selectedCommands:
-  - {fileID: 8102574221219800201}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 9152882499103829428}
   - {fileID: 1817614425404045325}
@@ -5039,6 +5043,7 @@ GameObject:
   - component: {fileID: 3678893580440293536}
   - component: {fileID: 5684944769622300215}
   - component: {fileID: 6031928855746779561}
+  - component: {fileID: 8102574221901483035}
   m_Layer: 0
   m_Name: EssentialFlowchart
   m_TagString: Untagged
@@ -5070,8 +5075,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 5547287538640721535}
+  selectedCommands:
+  - {fileID: 8102574221901483035}
   variables: []
   description: 
   stepPause: 0
@@ -5083,6 +5090,27 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
+--- !u!114 &8102574221901483035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221901483033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 227
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1730573999}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &8144996211312925659
 MonoBehaviour:
   m_ObjectHideFlags: 2

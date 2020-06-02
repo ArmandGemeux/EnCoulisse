@@ -947,7 +947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 8102574221219800203}
+  selectedFlowchart: {fileID: 8102574221901483034}
 --- !u!4 &877568337
 Transform:
   m_ObjectHideFlags: 1
@@ -1705,6 +1705,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.0006713867
       objectReference: {fileID: 0}
+    - target: {fileID: 3224809862148060373, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00012207031
+      objectReference: {fileID: 0}
     - target: {fileID: 3347007241038604157, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_Name
@@ -1988,7 +1993,7 @@ PrefabInstance:
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000041007996
+      value: 14.300041
       objectReference: {fileID: 0}
     - target: {fileID: 8787564853441628655, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
@@ -2350,7 +2355,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.5138
     y: 349.5281
-    width: 126.27907
+    width: 127.09092
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2509,7 +2514,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 305.0518
     y: 203.39064
-    width: 141.16278
+    width: 143.09091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2745,7 +2750,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 309.8352
     y: 280.5493
-    width: 139.30232
+    width: 138.72728
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2923,7 +2928,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 534.564
     y: 277.1174
-    width: 143.02325
+    width: 141.63637
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3512,7 +3517,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 784.857
     y: 203.46416
-    width: 126.27907
+    width: 128.54547
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3907,7 +3912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 732.03815
+    x: 729.86426
     y: 126.93679
     width: 120
     height: 40
@@ -3967,6 +3972,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1533880480096601361}
   - {fileID: 4635257855820671378}
+  - {fileID: 8102574221901483035}
   suppressAllAutoSelections: 0
 --- !u!114 &5656009804888051215
 MonoBehaviour:
@@ -4048,7 +4054,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 791.07336
     y: 271.24896
-    width: 124.4186
+    width: 124.18182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4539,7 +4545,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 533.0431
     y: 199.72586
-    width: 144.88373
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4964,20 +4970,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 986.3451, y: 78.09675}
+  scrollPos: {x: 528.54663, y: 208.90692}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.43
+  zoom: 0.54999995
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 8102574221219800215}
-  - {fileID: 8102574221219800209}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 9152882499103829428}
@@ -5164,7 +5168,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -156.38037
     y: 105.684875
-    width: 128.13953
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5347,7 +5351,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -158.55444
     y: 27.423935
-    width: 128.13953
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5438,6 +5442,7 @@ GameObject:
   - component: {fileID: 3678893580440293536}
   - component: {fileID: 5684944769622300215}
   - component: {fileID: 6031928855746779561}
+  - component: {fileID: 8102574221901483035}
   m_Layer: 0
   m_Name: EssentialFlowchart
   m_TagString: Untagged
@@ -5469,8 +5474,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 5547287538640721535}
+  selectedCommands:
+  - {fileID: 4635257855820671378}
   variables: []
   description: 
   stepPause: 0
@@ -5482,6 +5489,27 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
+--- !u!114 &8102574221901483035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221901483033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 966
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1730573999}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &8144996211312925659
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5674,7 +5702,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 118.855385
     y: 213.2706
-    width: 131.86046
+    width: 134.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
