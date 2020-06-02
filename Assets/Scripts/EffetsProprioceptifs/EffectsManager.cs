@@ -19,6 +19,7 @@ public class EffectsManager : MonoBehaviour
     public bool invert;
     public int invertNumber;
     public float chromAbIntensity;
+    public float temperature;
     public float depthIntensity;
     public float flou;
     public bool goReveil;
@@ -43,6 +44,7 @@ public class EffectsManager : MonoBehaviour
     public void Cadavre()
     {
         chromAbIntensity = 1f;
+        temperature = 100f;
         postProcessVolume.profile.TryGetSettings(out chromaticAberration);
         effectOne = true;
     }
@@ -51,17 +53,22 @@ public class EffectsManager : MonoBehaviour
     {
         if (effectOne == true)
         {
+            postProcessVolume.profile.TryGetSettings(out coloGrading);
+            coloGrading.temperature.Override(temperature);
+            coloGrading.enabled.Override(true);
             chromaticAberration.enabled.Override(true);
             chromaticAberration.intensity.Override(chromAbIntensity);
             if (chromAbIntensity > 0)
             {
+                temperature -= 1f;
                 chromAbIntensity -= 0.01f;
                 chromaticAberration.intensity.Override(chromAbIntensity);
             }
             if (chromAbIntensity <= 0)
             {
                 chromaticAberration.enabled.Override(false);
-                effectOne = false;
+                coloGrading.enabled.Override(false);
+               effectOne = false;
             }
         }
     }
@@ -104,7 +111,7 @@ public class EffectsManager : MonoBehaviour
                 }
             }
 
-            if(invertNumber >= 9)
+            if(invertNumber >= 4)
             {
                 depthOfField.enabled.Override(false);
                 effectTwo = false;
@@ -163,7 +170,7 @@ public class EffectsManager : MonoBehaviour
 
     public void GoReveil()
     {
-        flou = 300;
+        flou = 200;
         goReveil = true;
     }
 
@@ -177,7 +184,6 @@ public class EffectsManager : MonoBehaviour
             flou -= 0.5f;
             if(flou <= 0)
             {
-                ResetEP();
                 goReveil = false;
             }
         }
