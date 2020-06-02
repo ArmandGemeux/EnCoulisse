@@ -3474,7 +3474,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 57.45
+  m_fontSize: 57.4
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -9756,7 +9756,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 58.35
+  m_fontSize: 58.3
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -17718,7 +17718,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 61.3
+  m_fontSize: 61.25
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -18042,6 +18042,7 @@ GameObject:
   - component: {fileID: 6064366718493821499}
   - component: {fileID: 6064366718493821518}
   - component: {fileID: 6064366718493821503}
+  - component: {fileID: 6064366718493821519}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -18135,7 +18136,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 6064366718493821486}
   selectedCommands:
-  - {fileID: 6064366718493821503}
+  - {fileID: 6064366718493821519}
   variables:
   - {fileID: 6064366718493821496}
   description: 
@@ -18535,6 +18536,7 @@ MonoBehaviour:
   - {fileID: 6064366718493821503}
   - {fileID: 6064366718493821484}
   - {fileID: 6064366718493821483}
+  - {fileID: 6064366718493821519}
   suppressAllAutoSelections: 0
 --- !u!114 &6064366718493821487
 MonoBehaviour:
@@ -19349,6 +19351,23 @@ MonoBehaviour:
   targetAlpha:
     floatRef: {fileID: 0}
     floatVal: 0
+--- !u!114 &6064366718493821519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6064366718493821464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 141
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: a2451f30da4ba2940987b8064faeedb2, type: 3}
+  volume: 0.176
+  loop: 1
 --- !u!114 &6064366718493821523
 MonoBehaviour:
   m_ObjectHideFlags: 2
