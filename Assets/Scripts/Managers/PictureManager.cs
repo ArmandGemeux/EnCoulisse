@@ -60,7 +60,13 @@ public class PictureManager : MonoBehaviour
     public void SendMes()
     {
         Fungus.Flowchart.BroadcastFungusMessage("OutPicture");
-        Destroy(gameObject, 2f);
+        Destroy(gameObject);
+    }
+
+    public void SendMes2()
+    {
+        Fungus.Flowchart.BroadcastFungusMessage("OutPicture2");
+        Destroy(gameObject);
     }
 
     public void OutData()
