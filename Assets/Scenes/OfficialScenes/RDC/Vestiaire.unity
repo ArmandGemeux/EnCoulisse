@@ -8687,14 +8687,10 @@ GameObject:
   - component: {fileID: 1787411517}
   - component: {fileID: 1787411516}
   - component: {fileID: 1787411515}
-  - component: {fileID: 1787411514}
   - component: {fileID: 1787411513}
   - component: {fileID: 1787411512}
   - component: {fileID: 1787411511}
   - component: {fileID: 1787411510}
-  - component: {fileID: 1787411509}
-  - component: {fileID: 1787411508}
-  - component: {fileID: 1787411507}
   - component: {fileID: 1787411505}
   - component: {fileID: 1787411504}
   - component: {fileID: 1787411503}
@@ -9043,6 +9039,9 @@ GameObject:
   - component: {fileID: 1787411796}
   - component: {fileID: 1787411795}
   - component: {fileID: 1787411195}
+  - component: {fileID: 1787411196}
+  - component: {fileID: 1787411233}
+  - component: {fileID: 1787411219}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -9146,6 +9145,35 @@ MonoBehaviour:
   parentTransformOLD: {fileID: 0}
   spawnPositionOLD: {x: 0, y: 0, z: 0}
   spawnRotationOLD: {x: 0, y: 0, z: 0}
+--- !u!114 &1787411196
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1446
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Flore Flore left : Attends L\xE9o, \xE9vite de partir seul."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &1787411197
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9518,6 +9546,23 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: 34a24e604ae800b438404838a4946de3, type: 3}
   volume: 0.3
   waitUntilFinished: 0
+--- !u!114 &1787411219
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1448
+  indentLevel: 1
+  volume: 0.158
+  fadeDuration: 2.4
+  waitUntilFinished: 1
 --- !u!114 &1787411220
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9930,6 +9975,23 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1787411233
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1447
+  indentLevel: 1
+  volume: 0
+  fadeDuration: 3
+  waitUntilFinished: 0
 --- !u!114 &1787411234
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14603,7 +14665,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2544.3396
     y: 627.7037
-    width: 123.442635
+    width: 135.47949
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16738,7 +16800,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2376.7908
     y: 231.36084
-    width: 144.42624
+    width: 156.3014
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -17271,59 +17333,8 @@ MonoBehaviour:
   itemId: 1434
   indentLevel: 1
   soundClip: {fileID: 8300000, guid: 831a6fe6ba694d0488abe048095d1f55, type: 3}
-  volume: 0.641
+  volume: 0.5
   waitUntilFinished: 0
---- !u!114 &1787411507
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 939
-  indentLevel: 1
-  volume: 0
-  fadeDuration: 1
-  waitUntilFinished: 1
---- !u!114 &1787411508
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 938
-  indentLevel: 1
-  volume: 0.115
-  fadeDuration: 1
-  waitUntilFinished: 1
---- !u!114 &1787411509
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 937
-  indentLevel: 1
-  volume: 0
-  fadeDuration: 1
-  waitUntilFinished: 1
 --- !u!114 &1787411510
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17331,7 +17342,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
   m_Name: 
@@ -17348,7 +17359,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
   m_Name: 
@@ -17365,7 +17376,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
   m_Name: 
@@ -17382,7 +17393,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
   m_Name: 
@@ -17390,22 +17401,8 @@ MonoBehaviour:
   itemId: 930
   indentLevel: 1
   soundClip: {fileID: 8300000, guid: b5645f60f08f73c4d8753dda65f201c7, type: 3}
-  volume: 0.556
+  volume: 0.158
   loop: 1
---- !u!114 &1787411514
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 928
-  indentLevel: 0
 --- !u!114 &1787411515
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17413,7 +17410,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
   m_Name: 
@@ -17427,7 +17424,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
   m_Name: 
@@ -17441,7 +17438,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
@@ -17449,7 +17446,7 @@ MonoBehaviour:
   itemId: 925
   indentLevel: 1
   soundClip: {fileID: 8300000, guid: a05d92d36f4b57640871f5b4321c91ab, type: 3}
-  volume: 0.115
+  volume: 0.043
   waitUntilFinished: 0
 --- !u!114 &1787411518
 MonoBehaviour:
@@ -17466,7 +17463,7 @@ MonoBehaviour:
   itemId: 923
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 26d6061df4f18ac4882eb8c9544822c5, type: 3}
-  volume: 0.257
+  volume: 0.158
   loop: 1
 --- !u!114 &1787411519
 MonoBehaviour:
@@ -17597,7 +17594,7 @@ MonoBehaviour:
   itemId: 917
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 5453ff9eeb55eb545b635c0271745d94, type: 3}
-  volume: 0.595
+  volume: 0.5
   waitUntilFinished: 0
 --- !u!114 &1787411525
 MonoBehaviour:
@@ -17614,7 +17611,7 @@ MonoBehaviour:
   itemId: 916
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 5453ff9eeb55eb545b635c0271745d94, type: 3}
-  volume: 0.595
+  volume: 0.5
   waitUntilFinished: 0
 --- !u!114 &1787411526
 MonoBehaviour:
@@ -17809,7 +17806,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Lucie Lucie right: J'ai confondu avec le reflet de nos lampes, d\xE9sol\xE9e"
+    stringVal: "Lucie Lucie right: \xC7a devait \xEAtre le reflet de nos lampes, d\xE9sol\xE9."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -18752,7 +18749,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -535.249
     y: 348.12506
-    width: 158.85248
+    width: 176.02744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18787,7 +18784,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -515.24915
     y: 258.12506
-    width: 120
+    width: 122.3288
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -18813,7 +18810,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1189.9429
     y: 242.8817
-    width: 123.442635
+    width: 135.47949
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -18839,7 +18836,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 160.26843
     y: 250.8817
-    width: 120
+    width: 130.00003
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -19172,7 +19169,7 @@ MonoBehaviour:
   itemId: 656
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: b872cfa4cc5ae0e41b5cd9c1833457e8, type: 3}
-  volume: 1
+  volume: 0.5
   waitUntilFinished: 1
 --- !u!114 &1787411571
 MonoBehaviour:
@@ -19189,7 +19186,7 @@ MonoBehaviour:
   itemId: 655
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: b872cfa4cc5ae0e41b5cd9c1833457e8, type: 3}
-  volume: 1
+  volume: 0.5
   waitUntilFinished: 1
 --- !u!114 &1787411572
 MonoBehaviour:
@@ -19400,7 +19397,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 956.43384
     y: 33.077026
-    width: 137.86887
+    width: 149.72607
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19524,7 +19521,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 955.71606
     y: 98.72891
-    width: 123.442635
+    width: 133.2877
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20022,7 +20019,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1465.1785
     y: 608.3374
-    width: 175.90167
+    width: 196.84937
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20146,8 +20143,10 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Flore Flore unhide:\n\nFlore Flore left : Les gars, revenez ! J\u2019ai
-      entendu du bruit dans le sous-sol, en bas de l\u2019escalier bizarre."
+    stringVal: 'Flore Flore unhide:
+
+
+      Flore Flore left : Revenez, y''a vraiment du bruit en bas.'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -20491,7 +20490,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 944.1813
     y: 600.22876
-    width: 182.45905
+    width: 203.42471
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20969,7 +20968,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1483.3671
     y: 524.031
-    width: 165.40985
+    width: 184.79457
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20978,7 +20977,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1787411636}
   commandList:
-  - {fileID: 1787411514}
   - {fileID: 1787411589}
   - {fileID: 1787411510}
   - {fileID: 1787411567}
@@ -21169,7 +21167,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1197.0881
     y: 529.3011
-    width: 161.47543
+    width: 178.21922
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21339,7 +21337,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 948.5542
     y: 531.3271
-    width: 171.96722
+    width: 191.36992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21520,8 +21518,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Lucie Lucie right : Moi pareil, j\u2019ai pas envie de faire des trucs
-      bizarres\u2026"
+    stringVal: "Lucie Lucie unhide:\nLucie Lucie right : Moi pareil, j\u2019ai pas
+      envie de faire des trucs bizarres\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -21675,7 +21673,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1203.462
     y: 453.92966
-    width: 148.36067
+    width: 162.87675
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21853,8 +21851,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Lucie Lucie unhide:\nLucie Lucie middle : Laisse tomber Flore, il
-      est con, tr\xE8s con."
+    stringVal: "Lucie Lucie unhide:\nLucie Lucie right : Laisse tomber Flore, il est
+      con, tr\xE8s con. Il va pas aller bien loin"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -21998,7 +21996,7 @@ MonoBehaviour:
   itemId: 434
   indentLevel: 1
   soundClip: {fileID: 8300000, guid: de175bb61ffe364478d7037cefe51230, type: 3}
-  volume: 0.534
+  volume: 0.5
   waitUntilFinished: 0
 --- !u!114 &1787411681
 MonoBehaviour:
@@ -22245,6 +22243,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1787411686}
   - {fileID: 1787411586}
+  - {fileID: 1787411783}
   - {fileID: 1787411520}
   - {fileID: 1787411564}
   - {fileID: 1787411574}
@@ -22253,7 +22252,6 @@ MonoBehaviour:
   - {fileID: 1787411670}
   - {fileID: 1787411669}
   - {fileID: 1787411548}
-  - {fileID: 1787411783}
   - {fileID: 1787411776}
   - {fileID: 1787411774}
   - {fileID: 1787411773}
@@ -22276,10 +22274,10 @@ MonoBehaviour:
   - {fileID: 1787411777}
   - {fileID: 1787411680}
   - {fileID: 1787411677}
-  - {fileID: 1787411509}
   - {fileID: 1787411676}
-  - {fileID: 1787411793}
+  - {fileID: 1787411196}
   - {fileID: 1787411674}
+  - {fileID: 1787411793}
   - {fileID: 1787411792}
   - {fileID: 1787411791}
   - {fileID: 1787411790}
@@ -22288,10 +22286,10 @@ MonoBehaviour:
   - {fileID: 1787411787}
   - {fileID: 1787411786}
   - {fileID: 1787411785}
-  - {fileID: 1787411517}
-  - {fileID: 1787411508}
-  - {fileID: 1787411507}
+  - {fileID: 1787411233}
+  - {fileID: 1787411219}
   - {fileID: 1787411513}
+  - {fileID: 1787411517}
   - {fileID: 1787411775}
   - {fileID: 1787411673}
   - {fileID: 1787411668}
@@ -22952,7 +22950,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 263.6588
     y: 588.93115
-    width: 122.13116
+    width: 128.90414
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23100,7 +23098,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 36.513794
     y: 589.5281
-    width: 120
+    width: 128.90414
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23326,7 +23324,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -153.06259
     y: 599.21844
-    width: 120
+    width: 120.13701
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23934,7 +23932,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 31.37738
     y: 443.39062
-    width: 133.93445
+    width: 146.43839
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23978,7 +23976,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 257.0431
     y: 439.72586
-    width: 136.55739
+    width: 146.43839
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24007,7 +24005,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 506.53143
     y: 443.46417
-    width: 120.81969
+    width: 131.09592
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24051,7 +24049,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -154.81903
     y: 450.945
-    width: 126.06559
+    width: 137.67126
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24130,11 +24128,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1263.9161, y: -231.20038}
+  scrollPos: {x: -793.71466, y: -462.62192}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6099999
+  zoom: 0.7299997
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -24142,9 +24140,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1787411287}
+  - {fileID: 1787411632}
   selectedCommands:
-  - {fileID: 1787411262}
+  - {fileID: 1787411587}
   variables:
   - {fileID: 1787411746}
   - {fileID: 1787411745}
@@ -24391,7 +24389,7 @@ MonoBehaviour:
   itemId: 1413
   indentLevel: 1
   soundClip: {fileID: 8300000, guid: 7695809f92845464f82f58c7fc6f9480, type: 3}
-  volume: 0.641
+  volume: 0.5
   waitUntilFinished: 0
 --- !u!114 &1787411775
 MonoBehaviour:
@@ -24438,7 +24436,7 @@ MonoBehaviour:
   itemId: 1411
   indentLevel: 1
   soundClip: {fileID: 8300000, guid: 4107edf3cd24edf42bfe9763e111feb2, type: 3}
-  volume: 0.626
+  volume: 0.5
   waitUntilFinished: 0
 --- !u!114 &1787411777
 MonoBehaviour:
@@ -24456,7 +24454,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Ma\xEBva Maeva hide:\nFlore Flore unhide:\nFlore Flore left : Lucie..Arr\xEAte."
+    stringVal: "Ma\xEBva Maeva hide:\nFlore Flore unhide:\nFlore Flore left : Ouais,
+      les frissons et la science !"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -24632,7 +24631,7 @@ MonoBehaviour:
   itemId: 1417
   indentLevel: 1
   soundClip: {fileID: 8300000, guid: a2451f30da4ba2940987b8064faeedb2, type: 3}
-  volume: 0.127
+  volume: 0.158
   loop: 1
 --- !u!114 &1787411784
 MonoBehaviour:
@@ -24678,19 +24677,19 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Flore Flore unhide:\nFlore Flore right : \xC7a fait longtemps qu'on
-      a pas vu, ni entendu Matt\xE9o.."
+      a pas vu, ni entendu L\xE9onard..."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
   waitForInput:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   waitForSeconds:
     floatRef: {fileID: 0}
     floatVal: 0
   fadeWhenDone:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
 --- !u!114 &1787411786
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24707,8 +24706,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=cyan} Du dernier jeu sorti, Shoot or Rust 8, Matth\xE9o
-      a r\xE9ussi la o\xF9 je suis bloqu\xE9."
+    stringVal: "Quentin : {color=cyan} Du dernier Shoot or Rust, cet idiot a r\xE9ussi
+      l\xE0 ou je bloque."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -24766,7 +24765,7 @@ MonoBehaviour:
   itemId: 1430
   indentLevel: 1
   soundClip: {fileID: 8300000, guid: c94a9a54a0490b948ae37da70d069a98, type: 3}
-  volume: 0.666
+  volume: 0.5
   waitUntilFinished: 0
 --- !u!114 &1787411789
 MonoBehaviour:
@@ -24903,7 +24902,7 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Flore Flore left : Attends L\xE9o, \xE9vite de partir seul."
+    stringVal: 'Flore Flore left : Si tu le dis...'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -25095,7 +25094,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2626.3206
     y: 790.6582
-    width: 147.0492
+    width: 155.20552
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
