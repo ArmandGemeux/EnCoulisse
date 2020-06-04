@@ -8659,7 +8659,6 @@ GameObject:
   - component: {fileID: 1787411566}
   - component: {fileID: 1787411565}
   - component: {fileID: 1787411564}
-  - component: {fileID: 1787411563}
   - component: {fileID: 1787411562}
   - component: {fileID: 1787411561}
   - component: {fileID: 1787411560}
@@ -8716,7 +8715,6 @@ GameObject:
   - component: {fileID: 1787411509}
   - component: {fileID: 1787411508}
   - component: {fileID: 1787411507}
-  - component: {fileID: 1787411506}
   - component: {fileID: 1787411505}
   - component: {fileID: 1787411504}
   - component: {fileID: 1787411503}
@@ -9038,6 +9036,29 @@ GameObject:
   - component: {fileID: 1787411765}
   - component: {fileID: 1787411769}
   - component: {fileID: 1787411770}
+  - component: {fileID: 1787411776}
+  - component: {fileID: 1787411775}
+  - component: {fileID: 1787411774}
+  - component: {fileID: 1787411773}
+  - component: {fileID: 1787411772}
+  - component: {fileID: 1787411771}
+  - component: {fileID: 1787411783}
+  - component: {fileID: 1787411782}
+  - component: {fileID: 1787411781}
+  - component: {fileID: 1787411780}
+  - component: {fileID: 1787411779}
+  - component: {fileID: 1787411778}
+  - component: {fileID: 1787411777}
+  - component: {fileID: 1787411793}
+  - component: {fileID: 1787411792}
+  - component: {fileID: 1787411791}
+  - component: {fileID: 1787411790}
+  - component: {fileID: 1787411789}
+  - component: {fileID: 1787411788}
+  - component: {fileID: 1787411787}
+  - component: {fileID: 1787411786}
+  - component: {fileID: 1787411785}
+  - component: {fileID: 1787411506}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -14754,7 +14775,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2544.3396
     y: 627.7037
-    width: 138.74997
+    width: 128.36728
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16889,7 +16910,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2376.7908
     y: 231.36084
-    width: 177.49995
+    width: 156.12238
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -17409,21 +17430,21 @@ MonoBehaviour:
       m_Calls: []
 --- !u!114 &1787411506
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787411190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 940
+  itemId: 1434
   indentLevel: 1
-  volume: 0.115
-  fadeDuration: 1
-  waitUntilFinished: 1
+  soundClip: {fileID: 8300000, guid: 831a6fe6ba694d0488abe048095d1f55, type: 3}
+  volume: 0.641
+  waitUntilFinished: 0
 --- !u!114 &1787411507
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17541,7 +17562,7 @@ MonoBehaviour:
   itemId: 930
   indentLevel: 1
   soundClip: {fileID: 8300000, guid: b5645f60f08f73c4d8753dda65f201c7, type: 3}
-  volume: 0.155
+  volume: 0.556
   loop: 1
 --- !u!114 &1787411514
 MonoBehaviour:
@@ -18903,7 +18924,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -535.249
     y: 348.12506
-    width: 177.49995
+    width: 167.55093
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18938,7 +18959,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -515.24915
     y: 258.12506
-    width: 127.49997
+    width: 120
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -18964,7 +18985,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1189.9429
     y: 242.8817
-    width: 139.99997
+    width: 129.99994
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -18990,7 +19011,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 160.26843
     y: 250.8817
-    width: 132.49997
+    width: 123.46933
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -19000,20 +19021,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList: []
   suppressAllAutoSelections: 0
---- !u!114 &1787411563
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 871
-  indentLevel: 1
 --- !u!114 &1787411564
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19550,7 +19557,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 956.43384
     y: 33.077026
-    width: 151.24997
+    width: 138.1632
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19674,7 +19681,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 955.71606
     y: 98.72891
-    width: 134.99997
+    width: 123.46933
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20172,7 +20179,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1465.1785
     y: 608.3374
-    width: 197.49994
+    width: 178.97949
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20641,7 +20648,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 944.1813
     y: 600.22876
-    width: 211.24994
+    width: 192.04071
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21119,7 +21126,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1483.3671
     y: 524.031
-    width: 184.99995
+    width: 169.18358
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21319,7 +21326,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1197.0881
     y: 529.3011
-    width: 182.49995
+    width: 167.55093
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21489,7 +21496,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 948.5542
     y: 531.3271
-    width: 198.74994
+    width: 182.2448
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21529,7 +21536,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Matth\xE9o Mattheo middle : Que fait-on ?"
+    stringVal: "Matth\xE9o Mattheo middle : On fait quoi du coup ?"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -21825,7 +21832,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1203.462
     y: 453.92966
-    width: 166.24995
+    width: 152.85706
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21974,7 +21981,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Quentin : {color=cyan} Je vais aller le chercher\u2026 Il est jamais
       venu, il est peut-\xEAtre all\xE9 dans le hall ?\nMatth\xE9o Mattheo hide:\nLucie
-      Lucie hide:\nFlore Flore hide:"
+      Lucie hide:\nFlore Flore hide:\nMa\xEBva Maeva hide :"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -22003,8 +22010,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Lucie Lucie middle : Il doit faire un tour s\xFBrement. Ou alors il
-      pr\xE9pare encore une sale blague, comme d\u2019hab. "
+    stringVal: "Lucie Lucie unhide:\nLucie Lucie middle : Laisse tomber Flore, il
+      est con, tr\xE8s con."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -22033,8 +22040,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Matth\xE9o MattheoFocus right : LEOOOO ! QU\u2019EST CE QUE TU FOUS
-      ?! \n\nMatth\xE9o Mattheo right :"
+    stringVal: "L\xE9onard leonard left : Alors, on tient plus debout ? Un grand gailard
+      comme toi ?\nMatth\xE9o Mattheo right :"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -22063,8 +22070,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Flore FloreFocus left : Euuh, vous savez o\xF9 est parti L\xE9o\u2019
-      ? \xC7a fait un moment que je l\u2019ai pas vu\u2026\n\nFlore Flore left :"
+    stringVal: "L\xE9onard leonard middle : BON ! Je vais faire un petit tour, si
+      je vois un fant\xF4me je hurle. Aller, Tchuss ! \nL\xE9onard leonard hide:"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -22148,7 +22155,7 @@ MonoBehaviour:
   itemId: 434
   indentLevel: 1
   soundClip: {fileID: 8300000, guid: de175bb61ffe364478d7037cefe51230, type: 3}
-  volume: 0.448
+  volume: 0.534
   waitUntilFinished: 0
 --- !u!114 &1787411681
 MonoBehaviour:
@@ -22184,8 +22191,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Ma\xEBva Maeva hide:\nMatth\xE9o Mattheo right : Ouais, c\u2019est
-      moi qui les ai."
+    stringVal: "Ma\xEBva Maeva left:\nFlore Flore hide:\nMatth\xE9o Mattheo unhide:\nMatth\xE9o
+      Mattheo right : Ouais, c\u2019est moi qui les ai."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -22214,7 +22221,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Ma\xEBva Maeva right : Vous savez o\xF9 sont les bi\xE8res ?"
+    stringVal: "Matth\xE9o Mattheo hide:\n\nMa\xEBva Maeva right : Vous savez o\xF9
+      sont les bi\xE8res ?\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -22243,8 +22251,9 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Flore Flore left : \xC7a va\u2026 Il y a pire, et si jamais il y a
-      vraiment besoin on peut s\u2019\xE9clairer avec nos flashs."
+    stringVal: "L\xE9onard leonard hide:\n\nFlore Flore left : \xC7a va\u2026 Il y
+      a pire, tu aurais pu tomber sur une lame ou quelque chose dans le genre. Si
+      jamais il y a vraiment besoin on peut s\u2019\xE9clairer avec nos flashs."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -22273,7 +22282,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Lucie Lucie middle : Woah, il fait super sombre ici.'
+    stringVal: "Lucie Lucie middle : Woah, il fait super sombre ici \xE7a ne m'\xE9tonne
+      pas que tu sois tomb\xE9. Mais je pense pas que ce soit \xE0 cause de la fen\xEAtre."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -22400,26 +22410,47 @@ MonoBehaviour:
   - {fileID: 1787411670}
   - {fileID: 1787411669}
   - {fileID: 1787411548}
+  - {fileID: 1787411783}
+  - {fileID: 1787411776}
+  - {fileID: 1787411774}
+  - {fileID: 1787411773}
+  - {fileID: 1787411506}
+  - {fileID: 1787411675}
+  - {fileID: 1787411772}
   - {fileID: 1787411685}
+  - {fileID: 1787411771}
   - {fileID: 1787411684}
   - {fileID: 1787411523}
   - {fileID: 1787411678}
   - {fileID: 1787411683}
   - {fileID: 1787411682}
   - {fileID: 1787411681}
+  - {fileID: 1787411781}
+  - {fileID: 1787411782}
+  - {fileID: 1787411780}
+  - {fileID: 1787411779}
+  - {fileID: 1787411778}
+  - {fileID: 1787411777}
   - {fileID: 1787411680}
   - {fileID: 1787411677}
   - {fileID: 1787411509}
-  - {fileID: 1787411563}
   - {fileID: 1787411676}
+  - {fileID: 1787411793}
+  - {fileID: 1787411674}
+  - {fileID: 1787411792}
+  - {fileID: 1787411791}
+  - {fileID: 1787411790}
+  - {fileID: 1787411788}
+  - {fileID: 1787411789}
+  - {fileID: 1787411787}
+  - {fileID: 1787411786}
+  - {fileID: 1787411785}
   - {fileID: 1787411517}
   - {fileID: 1787411508}
-  - {fileID: 1787411675}
-  - {fileID: 1787411674}
-  - {fileID: 1787411673}
   - {fileID: 1787411507}
   - {fileID: 1787411513}
-  - {fileID: 1787411506}
+  - {fileID: 1787411775}
+  - {fileID: 1787411673}
   - {fileID: 1787411668}
   - {fileID: 1787411672}
   - {fileID: 1787411671}
@@ -22440,7 +22471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 2
   key: Introduction
-  value: 0
+  value: 1
 --- !u!114 &1787411690
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23142,7 +23173,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 263.6588
     y: 588.93115
-    width: 132.49997
+    width: 123.46933
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23290,7 +23321,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 36.513794
     y: 589.5281
-    width: 131.24997
+    width: 121.83668
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23592,7 +23623,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -153.06259
     y: 599.21844
-    width: 122.49997
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24520,7 +24551,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 33.835205
     y: 520.5493
-    width: 143.74997
+    width: 134.89789
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24549,7 +24580,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 31.37738
     y: 443.39062
-    width: 148.74997
+    width: 138.1632
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24642,7 +24673,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 515.07336
     y: 511.24896
-    width: 129.99997
+    width: 120.204025
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24735,7 +24766,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258.56403
     y: 517.11743
-    width: 144.99997
+    width: 136.53055
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24828,7 +24859,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -149.76071
     y: 518.17053
-    width: 134.99997
+    width: 126.734634
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24872,7 +24903,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 257.0431
     y: 439.72586
-    width: 148.74997
+    width: 138.1632
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24901,7 +24932,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 506.53143
     y: 443.46417
-    width: 133.74997
+    width: 121.83668
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24945,7 +24976,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -154.81903
     y: 450.945
-    width: 139.99997
+    width: 129.99994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25024,19 +25055,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1875.4562, y: -393.78506}
+  scrollPos: {x: -405.23813, y: -225.43819}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6400002
+  zoom: 0.4900004
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1787411688}
+  selectedCommands:
+  - {fileID: 1787411513}
   variables:
   - {fileID: 1787411746}
   - {fileID: 1787411745}
@@ -25179,6 +25212,608 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1787411771
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1416
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Quentin : {color=cyan} On dirait qu''il y a plein de choses par terre,
+      surtout des outils.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411772
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1415
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Matth\xE9o Mattheo right : Ta gueule L\xE9o."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411773
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1414
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Matth\xE9o MattheoFocus right : Putain de fen\xEAtre !\n\nMatth\xE9o
+      Mattheo right :"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411774
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1413
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: 7695809f92845464f82f58c7fc6f9480, type: 3}
+  volume: 0.641
+  waitUntilFinished: 0
+--- !u!114 &1787411775
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1412
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Matth\xE9o Mattheo middle : LEOOOO ! QU\u2019EST CE QUE TU FOUS ?!
+      \n"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411776
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1411
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: 4107edf3cd24edf42bfe9763e111feb2, type: 3}
+  volume: 0.626
+  waitUntilFinished: 0
+--- !u!114 &1787411777
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1423
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Ma\xEBva Maeva hide:\nFlore Flore unhide:\nFlore Flore left : Lucie..Arr\xEAte."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411778
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1422
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin : {color=cyan} Sant\xE9 les gars !"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411779
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1421
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Matth\xE9o Mattheo hide:\nLucie Lucie unhide:\nLucie Lucie right :
+      Et \xE0 la science ! Car les fant\xF4mes n'existent pas."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411780
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1420
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Ma\xEBva Maeva left: Sant\xE9 ! "
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411781
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1419
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Lucie Lucie hide:\nL\xE9onard leonard middle : Levons nos bi\xE8res
+      \xE0 cette soir\xE9e pleine de frissons et de peur.\nMatth\xE9o Mattheo right
+      :"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411782
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1418
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Matth\xE9o Mattheo right : Sant\xE9 !"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411783
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1417
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: a2451f30da4ba2940987b8064faeedb2, type: 3}
+  volume: 0.127
+  loop: 1
+--- !u!114 &1787411785
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1433
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Flore Flore unhide:\nFlore Flore right : \xC7a fait longtemps qu'on
+      a pas vu, ni entendu Matt\xE9o.."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411786
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1432
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin : {color=cyan} Du dernier jeu sorti, Shoot or Rust 8, Matth\xE9o
+      a r\xE9ussi la o\xF9 je suis bloqu\xE9."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411787
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1431
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Ma\xEBva Maeva unhide :\nMatth\xE9o Mattheo middle :\nMa\xEBva Maeva
+      left: Vous parlez de quoi les gar\xE7ons ?\n"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411788
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1430
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: c94a9a54a0490b948ae37da70d069a98, type: 3}
+  volume: 0.666
+  waitUntilFinished: 0
+--- !u!114 &1787411789
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1429
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Matth\xE9o MattheoFocus middle : Doucement mais surement.. avant la
+      fin de la soir\xE9e \xE7a sera termin\xE9."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411790
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1428
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Quentin : {color=cyan} \xC7a avance avec Ma\xEBva ? Et ne fais pas
+      genre, je t'ai vu."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411791
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1427
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Matth\xE9o MattheoFocus middle : Quoi ?"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411792
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1426
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Lucie Lucie hide:\nFlore Flore hide:\nMatth\xE9o Mattheo middle :\nQuentin
+      : {color=cyan} Matth\xE9o, je peux te parler une seconde ?"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1787411793
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1425
+  indentLevel: 1
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Flore Flore left : Attends L\xE9o, \xE9vite de partir seul."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!1001 &1823048816
 PrefabInstance:
   m_ObjectHideFlags: 0
