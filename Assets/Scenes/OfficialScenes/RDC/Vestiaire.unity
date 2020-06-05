@@ -8973,24 +8973,18 @@ GameObject:
   - component: {fileID: 1787411221}
   - component: {fileID: 1787411220}
   - component: {fileID: 1787411218}
-  - component: {fileID: 1787411217}
   - component: {fileID: 1787411216}
   - component: {fileID: 1787411215}
   - component: {fileID: 1787411214}
   - component: {fileID: 1787411213}
   - component: {fileID: 1787411212}
-  - component: {fileID: 1787411211}
-  - component: {fileID: 1787411210}
-  - component: {fileID: 1787411209}
   - component: {fileID: 1787411208}
   - component: {fileID: 1787411207}
-  - component: {fileID: 1787411206}
   - component: {fileID: 1787411205}
   - component: {fileID: 1787411204}
   - component: {fileID: 1787411203}
   - component: {fileID: 1787411202}
   - component: {fileID: 1787411201}
-  - component: {fileID: 1787411200}
   - component: {fileID: 1787411199}
   - component: {fileID: 1787411198}
   - component: {fileID: 1787411197}
@@ -8998,7 +8992,6 @@ GameObject:
   - component: {fileID: 1787411193}
   - component: {fileID: 1787411192}
   - component: {fileID: 1787411191}
-  - component: {fileID: 1787411768}
   - component: {fileID: 1787411767}
   - component: {fileID: 1787411766}
   - component: {fileID: 1787411765}
@@ -9045,6 +9038,15 @@ GameObject:
   - component: {fileID: 1787411294}
   - component: {fileID: 1787411291}
   - component: {fileID: 1787411290}
+  - component: {fileID: 1787411509}
+  - component: {fileID: 1787411508}
+  - component: {fileID: 1787411507}
+  - component: {fileID: 1787411209}
+  - component: {fileID: 1787411206}
+  - component: {fileID: 1787411217}
+  - component: {fileID: 1787411211}
+  - component: {fileID: 1787411210}
+  - component: {fileID: 1787411200}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -9067,7 +9069,7 @@ MonoBehaviour:
   itemId: 1404
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 4107edf3cd24edf42bfe9763e111feb2, type: 3}
-  volume: 0.75
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411192
 MonoBehaviour:
@@ -9193,7 +9195,7 @@ MonoBehaviour:
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 34a24e604ae800b438404838a4946de3, type: 3}
   volume: 0.05
-  loop: 1
+  loop: 0
 --- !u!114 &1787411198
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9240,10 +9242,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1395
+  itemId: 1460
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 02e606c946df7c54bbb253241e37de2d, type: 3}
-  volume: 1
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411201
 MonoBehaviour:
@@ -9260,7 +9262,7 @@ MonoBehaviour:
   itemId: 1394
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 02e606c946df7c54bbb253241e37de2d, type: 3}
-  volume: 1
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411202
 MonoBehaviour:
@@ -9291,7 +9293,7 @@ MonoBehaviour:
   itemId: 1392
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 02e606c946df7c54bbb253241e37de2d, type: 3}
-  volume: 1
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411204
 MonoBehaviour:
@@ -9308,7 +9310,7 @@ MonoBehaviour:
   itemId: 1391
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 35604cd3cca128f44afe47c604f660c5, type: 3}
-  volume: 0.3
+  volume: 0.1
   waitUntilFinished: 0
 --- !u!114 &1787411205
 MonoBehaviour:
@@ -9325,8 +9327,8 @@ MonoBehaviour:
   itemId: 1390
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 02e606c946df7c54bbb253241e37de2d, type: 3}
-  volume: 0.492
-  waitUntilFinished: 1
+  volume: 0.3
+  waitUntilFinished: 0
 --- !u!114 &1787411206
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9336,15 +9338,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1787411190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1389
+  itemId: 1456
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: a2451f30da4ba2940987b8064faeedb2, type: 3}
-  atTime: 0
-  loop: 0
-  fadeDuration: 1
+  soundClip: {fileID: 8300000, guid: 5453ff9eeb55eb545b635c0271745d94, type: 3}
+  volume: 0.3
+  waitUntilFinished: 0
 --- !u!114 &1787411207
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9361,7 +9362,7 @@ MonoBehaviour:
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 34a24e604ae800b438404838a4946de3, type: 3}
   volume: 0.3
-  loop: 1
+  loop: 0
 --- !u!114 &1787411208
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9388,14 +9389,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1787411190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1386
+  itemId: 1455
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 34a24e604ae800b438404838a4946de3, type: 3}
-  volume: 0.3
-  waitUntilFinished: 0
+  soundClip: {fileID: 8300000, guid: a2451f30da4ba2940987b8064faeedb2, type: 3}
+  volume: 0.2
+  loop: 0
 --- !u!114 &1787411210
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9408,9 +9409,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1385
+  itemId: 1459
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 1ad81f609fc76c94cb02d44f7f047e77, type: 3}
+  soundClip: {fileID: 8300000, guid: 5453ff9eeb55eb545b635c0271745d94, type: 3}
   volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411211
@@ -9425,11 +9426,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1384
+  itemId: 1458
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 34a24e604ae800b438404838a4946de3, type: 3}
+  soundClip: {fileID: 8300000, guid: 5453ff9eeb55eb545b635c0271745d94, type: 3}
   volume: 0.3
-  waitUntilFinished: 1
+  waitUntilFinished: 0
 --- !u!114 &1787411212
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9445,7 +9446,7 @@ MonoBehaviour:
   itemId: 1383
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 1ad81f609fc76c94cb02d44f7f047e77, type: 3}
-  volume: 0.6
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411213
 MonoBehaviour:
@@ -9496,7 +9497,7 @@ MonoBehaviour:
   itemId: 1380
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 1ad81f609fc76c94cb02d44f7f047e77, type: 3}
-  volume: 0.6
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411216
 MonoBehaviour:
@@ -9513,7 +9514,7 @@ MonoBehaviour:
   itemId: 1379
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 1ad81f609fc76c94cb02d44f7f047e77, type: 3}
-  volume: 0.6
+  volume: 0.3
   waitUntilFinished: 1
 --- !u!114 &1787411217
 MonoBehaviour:
@@ -9524,14 +9525,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1787411190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1377
+  itemId: 1457
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 1ad81f609fc76c94cb02d44f7f047e77, type: 3}
-  volume: 0.6
-  waitUntilFinished: 0
 --- !u!114 &1787411218
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9613,7 +9611,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Ma\xEBva maevaFocus : Tu... Tu as surement raison oui... Partons...
-      Je dois juste me changer avant.."
+      Je dois juste me changer avant..."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -10655,7 +10653,7 @@ MonoBehaviour:
   itemId: 1328
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 124d9539c82036a4fb941f8207b5e1fb, type: 3}
-  volume: 1
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411253
 MonoBehaviour:
@@ -11304,8 +11302,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3079.2878
-    y: 817.2301
+    x: 3283.134
+    y: 811.4608
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -11491,8 +11489,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3052.7205
-    y: 760.179
+    x: 3204.6436
+    y: 756.3328
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -11769,7 +11767,7 @@ MonoBehaviour:
   itemId: 1262
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 5453ff9eeb55eb545b635c0271745d94, type: 3}
-  volume: 0.529
+  volume: 0.3
   waitUntilFinished: 1
 --- !u!114 &1787411301
 MonoBehaviour:
@@ -12020,7 +12018,7 @@ MonoBehaviour:
   itemId: 1249
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: ed7865577e9799c49bc02d6d74fd333d, type: 3}
-  volume: 1
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411311
 MonoBehaviour:
@@ -12322,7 +12320,7 @@ MonoBehaviour:
   itemId: 1221
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: ed7865577e9799c49bc02d6d74fd333d, type: 3}
-  volume: 1
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411322
 MonoBehaviour:
@@ -12359,10 +12357,10 @@ MonoBehaviour:
   - {fileID: 1787411301}
   - {fileID: 1787411300}
   - {fileID: 1787411241}
-  - {fileID: 1787411768}
   - {fileID: 1787411766}
   - {fileID: 1787411314}
   - {fileID: 1787411313}
+  - {fileID: 1787411217}
   - {fileID: 1787411298}
   - {fileID: 1787411297}
   - {fileID: 1787411765}
@@ -12526,7 +12524,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=cyan}S\u2019ils sont ensemble, ils seront plus faciles
+    stringVal: "Quentin : {color=cyan}S\u2019ils sont ensembles, ils seront plus faciles
       \xE0 retrouver\u2026\r\n{color=cyan}Surtout si on entend Math\xE9o gueuler sur
       L\xE9o \xE0 travers tout le b\xE2timent."
   clearPrevious:
@@ -12559,7 +12557,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Lucie Lucie middle : \xC7a me parait peu probable\u2026 Tout le monde
       a couru dans tous les sens\u2026\r\nOn a d\xE9j\xE0 de la chance de s\u2019\xEAtre
-      retrouv\xE9. "
+      retrouv\xE9s. "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -12608,7 +12606,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Lucie Lucie unhide:\nQuentin : {color=cyan} Bon, on est 3\u2026 On
       a l\u2019autre moiti\xE9 du groupe \xE0 trouver\u2026 En esp\xE9rant qu\u2019ils
-      soient ensemble.\n\n"
+      soient ensembles.\n\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -12753,7 +12751,7 @@ MonoBehaviour:
   itemId: 1165
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 51b94e38780155e43904cba6a4e423c0, type: 3}
-  volume: 0.5
+  volume: 0.3
   waitUntilFinished: 1
 --- !u!114 &1787411338
 MonoBehaviour:
@@ -12770,7 +12768,7 @@ MonoBehaviour:
   itemId: 1164
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 51b94e38780155e43904cba6a4e423c0, type: 3}
-  volume: 0.5
+  volume: 0.3
   waitUntilFinished: 1
 --- !u!114 &1787411339
 MonoBehaviour:
@@ -12787,7 +12785,7 @@ MonoBehaviour:
   itemId: 1163
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 51b94e38780155e43904cba6a4e423c0, type: 3}
-  volume: 0.5
+  volume: 0.3
   waitUntilFinished: 1
 --- !u!114 &1787411340
 MonoBehaviour:
@@ -12883,7 +12881,7 @@ MonoBehaviour:
   itemId: 1157
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 67712bd75b402154cadc723eb130c8ea, type: 3}
-  volume: 0.5
+  volume: 0.3
   waitUntilFinished: 1
 --- !u!114 &1787411344
 MonoBehaviour:
@@ -13005,7 +13003,7 @@ MonoBehaviour:
   itemId: 1152
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: bb816769e1277fe4da8bec0ae2eb4e80, type: 3}
-  volume: 0.803
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411349
 MonoBehaviour:
@@ -13168,7 +13166,7 @@ MonoBehaviour:
   itemId: 1140
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: ed7865577e9799c49bc02d6d74fd333d, type: 3}
-  volume: 1
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411356
 MonoBehaviour:
@@ -13184,8 +13182,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2737.1448
-    y: 521.2305
+    x: 2637.1462
+    y: 522.8699
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -13204,6 +13202,7 @@ MonoBehaviour:
   - {fileID: 1787411348}
   - {fileID: 1787411191}
   - {fileID: 1787411347}
+  - {fileID: 1787411200}
   - {fileID: 1787411225}
   - {fileID: 1787411345}
   - {fileID: 1787411194}
@@ -13356,7 +13355,7 @@ MonoBehaviour:
   itemId: 1128
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: ed7865577e9799c49bc02d6d74fd333d, type: 3}
-  volume: 1
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411363
 MonoBehaviour:
@@ -13372,8 +13371,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2898.8289
-    y: 518.93555
+    x: 2807.0234
+    y: 522.21423
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -13560,7 +13559,7 @@ MonoBehaviour:
   itemId: 1119
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 1ad81f609fc76c94cb02d44f7f047e77, type: 3}
-  volume: 0.6
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411370
 MonoBehaviour:
@@ -14221,8 +14220,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2354.64
-    y: 527.5949
+    x: 2375.0964
+    y: 524.18585
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -14242,6 +14241,7 @@ MonoBehaviour:
   - {fileID: 1787411192}
   - {fileID: 1787411384}
   - {fileID: 1787411391}
+  - {fileID: 1787411210}
   - {fileID: 1787411390}
   - {fileID: 1787411389}
   suppressAllAutoSelections: 0
@@ -14295,7 +14295,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Ma\xEBva maevaFocus : Qu..Quoi ?"
+    stringVal: "Ma\xEBva maeva hide:\nMa\xEBva maevaFocus : Qu..Quoi ?"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -14499,7 +14499,7 @@ MonoBehaviour:
   itemId: 1062
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: ed7865577e9799c49bc02d6d74fd333d, type: 3}
-  volume: 1
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411409
 MonoBehaviour:
@@ -14515,7 +14515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2182.6765
+    x: 2182.6763
     y: 526.86914
     width: 120
     height: 40
@@ -14541,7 +14541,7 @@ MonoBehaviour:
   - {fileID: 1787411401}
   - {fileID: 1787411229}
   - {fileID: 1787411221}
-  - {fileID: 1787411200}
+  - {fileID: 1787411211}
   - {fileID: 1787411227}
   - {fileID: 1787411400}
   suppressAllAutoSelections: 0
@@ -14632,7 +14632,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787411190}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
@@ -14672,7 +14672,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Lucie Lucie hide:\nQuentin : {color=cyan} \xC7a va aller Ma\xEBva,
-      calme toi, qu'est ce qui te met dans un \xE9tat pareil ?"
+      calme toi. Prend ton temps et respire. C'est termin\xE9 maintenant..."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -14716,7 +14716,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2544.3396
     y: 627.7037
-    width: 128.0488
+    width: 127.24131
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15125,7 +15125,7 @@ MonoBehaviour:
   itemId: 1041
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: ed7865577e9799c49bc02d6d74fd333d, type: 3}
-  volume: 1
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411432
 MonoBehaviour:
@@ -15141,14 +15141,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2830.7114
-    y: 423.7715
+    x: 2714.7046
+    y: 427.05026
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 1094
-  blockName: Choix 4
+  blockName: Aider
   description: 
   eventHandler: {fileID: 1787411424}
   commandList:
@@ -15163,12 +15163,14 @@ MonoBehaviour:
   - {fileID: 1787411197}
   - {fileID: 1787411226}
   - {fileID: 1787411222}
+  - {fileID: 1787411508}
   - {fileID: 1787411371}
   - {fileID: 1787411199}
   - {fileID: 1787411198}
   - {fileID: 1787411370}
   - {fileID: 1787411368}
   - {fileID: 1787411367}
+  - {fileID: 1787411509}
   - {fileID: 1787411366}
   - {fileID: 1787411364}
   - {fileID: 1787411365}
@@ -15377,8 +15379,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2553.8176
-    y: 426.3154
+    x: 3190.358
+    y: 680.1613
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -15596,7 +15598,7 @@ MonoBehaviour:
   itemId: 1017
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: ed7865577e9799c49bc02d6d74fd333d, type: 3}
-  volume: 1
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411450
 MonoBehaviour:
@@ -15612,14 +15614,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2273.7986
-    y: 426.53806
-    width: 120
+    x: 2276.8914
+    y: 426.1404
+    width: 131.37924
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 1092
-  blockName: Choix 2
+  blockName: "Calmer Ma\xEBva"
   description: 
   eventHandler: {fileID: 1787411442}
   commandList:
@@ -15634,6 +15636,7 @@ MonoBehaviour:
   - {fileID: 1787411414}
   - {fileID: 1787411413}
   - {fileID: 1787411386}
+  - {fileID: 1787411507}
   - {fileID: 1787411412}
   - {fileID: 1787411410}
   - {fileID: 1787411411}
@@ -15756,7 +15759,7 @@ MonoBehaviour:
   itemId: 1010
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: ed7865577e9799c49bc02d6d74fd333d, type: 3}
-  volume: 1
+  volume: 0.3
   waitUntilFinished: 0
 --- !u!114 &1787411457
 MonoBehaviour:
@@ -15842,14 +15845,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2044.4098
+    x: 2047.6885
     y: 428.98944
-    width: 120
+    width: 141.03441
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 1008
-  blockName: Choix 1
+  blockName: Presser Les filles
   description: 
   eventHandler: {fileID: 1787411458}
   commandList:
@@ -15864,6 +15867,7 @@ MonoBehaviour:
   - {fileID: 1787411205}
   - {fileID: 1787411231}
   - {fileID: 1787411422}
+  - {fileID: 1787411206}
   - {fileID: 1787411230}
   - {fileID: 1787411204}
   - {fileID: 1787411421}
@@ -15909,8 +15913,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=cyan}Lucie gal\xE8re avec la porte.. Ma\xEBva
-      pleure non stop.. Je fais quoi ?"
+    stringVal: "Quentin : {i}{color=cyan}Lucie gal\xE8re avec la fen\xEAtre... Ma\xEBva
+      pleure non stop... Je fais quoi ?"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -16509,7 +16513,7 @@ MonoBehaviour:
   itemId: 982
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 124d9539c82036a4fb941f8207b5e1fb, type: 3}
-  volume: 0.48
+  volume: 0.2
   waitUntilFinished: 0
 --- !u!114 &1787411483
 MonoBehaviour:
@@ -16628,7 +16632,7 @@ MonoBehaviour:
   itemId: 978
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 800bcba6e689b554dbb8d7f7edaca451, type: 3}
-  volume: 0.331
+  volume: 0.1
   waitUntilFinished: 0
 --- !u!114 &1787411487
 MonoBehaviour:
@@ -16645,7 +16649,7 @@ MonoBehaviour:
   itemId: 977
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 614127153c9926d45b297e9ba3094cf5, type: 3}
-  volume: 0.392
+  volume: 0.1
   waitUntilFinished: 0
 --- !u!114 &1787411488
 MonoBehaviour:
@@ -16851,7 +16855,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2376.7908
     y: 231.36084
-    width: 152.43906
+    width: 149.31026
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -16911,7 +16915,7 @@ MonoBehaviour:
   - {fileID: 1787411460}
   - {fileID: 1787411468}
   - {fileID: 1787411467}
-  - {fileID: 1787411206}
+  - {fileID: 1787411209}
   - {fileID: 1787411465}
   - {fileID: 1787411216}
   - {fileID: 1787411215}
@@ -16922,11 +16926,7 @@ MonoBehaviour:
   - {fileID: 1787411214}
   - {fileID: 1787411461}
   - {fileID: 1787411213}
-  - {fileID: 1787411217}
-  - {fileID: 1787411209}
   - {fileID: 1787411208}
-  - {fileID: 1787411211}
-  - {fileID: 1787411210}
   - {fileID: 1787411462}
   - {fileID: 1787411237}
   suppressAllAutoSelections: 0
@@ -17386,6 +17386,57 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: 831a6fe6ba694d0488abe048095d1f55, type: 3}
   volume: 0.3
   waitUntilFinished: 0
+--- !u!114 &1787411507
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1454
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 34a24e604ae800b438404838a4946de3, type: 3}
+  volume: 0.3
+  loop: 0
+--- !u!114 &1787411508
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1453
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 34a24e604ae800b438404838a4946de3, type: 3}
+  volume: 0.05
+  loop: 0
+--- !u!114 &1787411509
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1452
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 34a24e604ae800b438404838a4946de3, type: 3}
+  volume: 0.05
+  loop: 0
 --- !u!114 &1787411510
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18800,7 +18851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -535.249
     y: 348.12506
-    width: 165.12198
+    width: 164.48267
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18861,7 +18912,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1189.9429
     y: 242.8817
-    width: 129.02441
+    width: 127.24131
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -18887,7 +18938,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 160.26843
     y: 250.8817
-    width: 123.17075
+    width: 123.103386
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -19448,7 +19499,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 956.43384
     y: 33.077026
-    width: 140.73172
+    width: 142.41371
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19572,7 +19623,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 955.71606
     y: 98.72891
-    width: 126.09758
+    width: 127.24131
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20070,7 +20121,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1465.1785
     y: 608.3374
-    width: 183.65857
+    width: 182.41368
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20541,7 +20592,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 942.9618
     y: 600.22876
-    width: 191.46346
+    width: 189.31023
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21022,7 +21073,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1483.3671
     y: 524.031
-    width: 172.92685
+    width: 171.37921
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21221,7 +21272,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1197.0881
     y: 529.3011
-    width: 168.04881
+    width: 167.24127
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21391,7 +21442,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 948.5542
     y: 531.3271
-    width: 180.73174
+    width: 178.27576
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21727,7 +21778,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1203.462
     y: 453.92966
-    width: 154.39027
+    width: 153.44818
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22366,7 +22417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 2
   key: Introduction
-  value: 1
+  value: 0
 --- !u!114 &1787411690
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23004,7 +23055,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 263.6588
     y: 588.93115
-    width: 124.14636
+    width: 125.86201
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23152,7 +23203,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 36.513794
     y: 589.5281
-    width: 121.21953
+    width: 123.103386
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23986,7 +24037,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 31.37738
     y: 443.39062
-    width: 137.8049
+    width: 138.27579
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24030,7 +24081,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 257.0431
     y: 439.72586
-    width: 139.75612
+    width: 141.03441
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24059,7 +24110,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 506.53143
     y: 443.46417
-    width: 123.17075
+    width: 124.4827
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24103,7 +24154,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -154.81903
     y: 450.945
-    width: 130.00003
+    width: 129.99994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24182,19 +24233,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -734.8294, y: -510.80457}
+  scrollPos: {x: -1877.2681, y: -206.65741}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.81999975
+  zoom: 0.5800005
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1787411409}
+  selectedCommands:
+  - {fileID: 1787411408}
   variables:
   - {fileID: 1787411746}
   - {fileID: 1787411745}
@@ -24275,22 +24328,8 @@ MonoBehaviour:
   itemId: 1406
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: af8bb5d72cd63214383035edc9fb87eb, type: 3}
-  volume: 0.6
+  volume: 0.3
   waitUntilFinished: 0
---- !u!114 &1787411768
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1405
-  indentLevel: 0
 --- !u!114 &1787411769
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24306,7 +24345,7 @@ MonoBehaviour:
   itemId: 1409
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: f8e1a21799d0129418795fed73fa4029, type: 3}
-  volume: 0.414
+  volume: 0.1
   waitUntilFinished: 0
 --- !u!114 &1787411770
 MonoBehaviour:
@@ -24675,7 +24714,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
   m_Name: 
@@ -24699,8 +24738,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2471.992
-    y: 792.15076
+    x: 2465.663
+    y: 806.0747
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -25144,9 +25183,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2626.3206
-    y: 790.6582
-    width: 150.48782
+    x: 2643.5857
+    y: 802.7557
+    width: 152.06888
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
