@@ -1912,6 +1912,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 413610350}
     m_Modifications:
+    - target: {fileID: 1309103636454518256, guid: c10fafeebd705e840a45a93856e82b06,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2664014497798011964, guid: c10fafeebd705e840a45a93856e82b06,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2266,18 +2271,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1233026530 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7109714781208032153, guid: c10fafeebd705e840a45a93856e82b06,
-    type: 3}
-  m_PrefabInstance: {fileID: 1233026526}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1233026531 stripped
@@ -4862,7 +4855,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -487.4862
     y: 457.5281
-    width: 125.7895
+    width: 131.25002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4952,7 +4945,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -260.3412
     y: 459.25674
-    width: 125.7895
+    width: 132.50002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5001,7 +4994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -494.94824
     y: 311.39062
-    width: 142.6316
+    width: 148.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5173,7 +5166,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -490.1648
     y: 388.5493
-    width: 135.26318
+    width: 143.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5287,7 +5280,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -265.43597
     y: 385.1174
-    width: 135.26318
+    width: 145.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5876,7 +5869,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -17.468567
     y: 311.46417
-    width: 127.89476
+    width: 133.75002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6129,7 +6122,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -673.76074
     y: 386.17056
-    width: 126.84213
+    width: 135.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6406,7 +6399,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -8.926636
     y: 379.24896
-    width: 120.52634
+    width: 130.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6828,7 +6821,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -266.9569
     y: 307.72586
-    width: 142.6316
+    width: 148.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7271,7 +7264,6 @@ GameObject:
   - component: {fileID: 8102574221219800318}
   - component: {fileID: 8102574221219800337}
   - component: {fileID: 8102574221219800336}
-  - component: {fileID: 8102574221219800335}
   - component: {fileID: 8102574221219800334}
   - component: {fileID: 8102574221219800333}
   - component: {fileID: 8102574221219800331}
@@ -7307,7 +7299,6 @@ GameObject:
   - component: {fileID: 8102574221219800345}
   - component: {fileID: 8102574221219800344}
   - component: {fileID: 8102574221219800343}
-  - component: {fileID: 8102574221219800342}
   - component: {fileID: 8102574221219800371}
   - component: {fileID: 8102574221219800367}
   - component: {fileID: 8102574221219800377}
@@ -7326,8 +7317,6 @@ GameObject:
   - component: {fileID: 8102574221219800392}
   - component: {fileID: 8102574221219800391}
   - component: {fileID: 8102574221219800390}
-  - component: {fileID: 8102574221219800395}
-  - component: {fileID: 8102574221219800405}
   - component: {fileID: 8102574221219800366}
   - component: {fileID: 8102574221219800403}
   - component: {fileID: 8102574221219800399}
@@ -7370,7 +7359,6 @@ GameObject:
   - component: {fileID: 8102574221219800442}
   - component: {fileID: 8102574221219800441}
   - component: {fileID: 8102574221219800440}
-  - component: {fileID: 8102574221219800430}
   - component: {fileID: 8102574221219800449}
   - component: {fileID: 8102574221219800448}
   - component: {fileID: 8102574221219800447}
@@ -7524,6 +7512,11 @@ GameObject:
   - component: {fileID: 8102574221219800309}
   - component: {fileID: 8102574221219800312}
   - component: {fileID: 8102574221219800321}
+  - component: {fileID: 8102574221219800368}
+  - component: {fileID: 8102574221219800335}
+  - component: {fileID: 8102574221219800405}
+  - component: {fileID: 8102574221219800395}
+  - component: {fileID: 8102574221219800342}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -7589,21 +7582,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 39.8234, y: -495.89893}
+  scrollPos: {x: 128.9274, y: -406.47046}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.75999975
+  zoom: 0.63999987
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 8102574221219800453}
-  selectedCommands:
-  - {fileID: 8102574221219800431}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 9152882499103829428}
   - {fileID: 1817614425404045325}
@@ -8268,7 +8259,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 365.09595
     y: 267.1495
-    width: 144.73688
+    width: 151.25003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8502,7 +8493,6 @@ MonoBehaviour:
   - {fileID: 8102574221219800262}
   - {fileID: 8102574221219800264}
   - {fileID: 8102574221219800263}
-  - {fileID: 8102574221219800405}
   - {fileID: 8102574221219800265}
   - {fileID: 8102574221219800266}
   - {fileID: 8102574221219800268}
@@ -8714,7 +8704,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 537.63214
     y: 263.94458
-    width: 150.00003
+    width: 158.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9783,7 +9773,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 549.4828
     y: 387.09656
-    width: 128.94739
+    width: 132.50002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9793,6 +9783,8 @@ MonoBehaviour:
   eventHandler: {fileID: 8102574221219800281}
   commandList:
   - {fileID: 8102574221219800283}
+  - {fileID: 8102574221219800368}
+  - {fileID: 8102574221219800335}
   - {fileID: 8102574221219800280}
   - {fileID: 8102574221219800288}
   - {fileID: 8102574221219800481}
@@ -9841,13 +9833,11 @@ MonoBehaviour:
   - {fileID: 8102574221219800322}
   - {fileID: 8102574221219800320}
   - {fileID: 8102574221219800319}
-  - {fileID: 8102574221219800335}
   - {fileID: 8102574221219800318}
   - {fileID: 8102574221219800334}
   - {fileID: 8102574221219800313}
   - {fileID: 8102574221219800338}
   - {fileID: 8102574221219800317}
-  - {fileID: 8102574221219800395}
   - {fileID: 8102574221219800316}
   - {fileID: 8102574221219800314}
   - {fileID: 8102574221219800259}
@@ -10302,8 +10292,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "L\xE9onard   : Nos lampes elles\u2026 ont plant\xE9es\u2026 je sais
-      pas !\n\nL\xE9onard Leonard hide :"
+    stringVal: "L\xE9onard   : Nos lampes elles\u2026 ont plant\xE9es\u2026\n\nL\xE9onard
+      Leonard hide :"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -10332,7 +10322,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Flore : Ma\xEBva, Quentin ! Faut qu\u2019on sorte d\u2019ici !!"
+    stringVal: "Lucie : Ma\xEBva, Quentin ! Faut qu\u2019on sorte d\u2019ici !!"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -10859,7 +10849,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &8102574221219800321
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11215,7 +11205,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 4
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &8102574221219800335
 MonoBehaviour:
@@ -11226,52 +11216,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 715
+  itemId: 1806
   indentLevel: 0
-  description: 
-  delay: 0
-  invokeType: 0
-  staticEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 639053392}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  booleanParameter:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  booleanEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  integerParameter:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  integerEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  floatParameter:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  floatEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  stringParameter:
-    stringRef: {fileID: 0}
-    stringVal: 
-  stringEvent:
-    m_PersistentCalls:
-      m_Calls: []
+  soundClip: {fileID: 8300000, guid: 8d1ace33f41484948b10f336c39c4cf8, type: 3}
+  volume: 0.2
+  loop: 1
 --- !u!114 &8102574221219800336
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11406,7 +11358,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Choix : Mais... que faire ?!'
+    stringVal: 'Quentin : {i}{color=cyan} Que faire ?!'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -11443,12 +11395,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 8102574221219800349}
-  suppressBlockAutoSelect: 0
-  targetButton: {fileID: 1233026530}
+  itemId: 1808
+  indentLevel: 0
 --- !u!114 &8102574221219800343
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11616,16 +11567,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1407.7465
-    y: 629.6455
-    width: 144.73688
+    x: 556.5275
+    y: 573.5481
+    width: 152.50003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 782
   blockName: "Fixer la cr\xE9ature"
   description: 
-  eventHandler: {fileID: 8102574221219800342}
+  eventHandler: {fileID: 8102574221219800405}
   commandList:
   - {fileID: 8102574221219800448}
   - {fileID: 8102574221219800458}
@@ -11819,7 +11770,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 344.6092
     y: 508.38965
-    width: 163.68425
+    width: 172.50003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12207,6 +12158,20 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &8102574221219800368
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1805
+  indentLevel: 0
 --- !u!114 &8102574221219800369
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13124,52 +13089,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8102574221219800200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 812
+  itemId: 1807
   indentLevel: 0
-  description: 
-  delay: 0
-  invokeType: 0
-  staticEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 639053392}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  booleanParameter:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  booleanEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  integerParameter:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  integerEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  floatParameter:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  floatEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  stringParameter:
-    stringRef: {fileID: 0}
-    stringVal: 
-  stringEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &8102574221219800396
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13569,28 +13493,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 822
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Lucie Lucie middle : Ca me rendrait m\xEAme un fier service."
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  parentBlock: {fileID: 8102574221219800349}
+  suppressBlockAutoSelect: 0
+  message: TimeOut
 --- !u!114 &8102574221219800406
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14094,7 +14004,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1058.1606
     y: 52.1483
-    width: 120
+    width: 125.000015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14367,21 +14277,6 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8102574221219800430
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 8102574221219800445}
-  suppressBlockAutoSelect: 0
-  message: TimeOut
 --- !u!114 &8102574221219800431
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14849,16 +14744,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 513.1206
-    y: 568.33563
-    width: 234.21059
+    x: 1224.5184
+    y: 624.33954
+    width: 257.50006
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 912
   blockName: "Fixer la cr\xE9ature AUTO ANSWER"
   description: 
-  eventHandler: {fileID: 8102574221219800430}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 8102574221219800449}
   - {fileID: 8102574221219800444}
@@ -15272,8 +15167,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 544.00586
-    y: 652.27594
+    x: 559.3183
+    y: 660.3441
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -15285,6 +15180,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 8102574221219800436}
   - {fileID: 8102574221219800523}
+  - {fileID: 8102574221219800395}
+  - {fileID: 8102574221219800342}
   - {fileID: 8102574221219800435}
   - {fileID: 8102574221219800434}
   - {fileID: 8102574221219800321}
@@ -15955,8 +15852,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=cyan} Putain mais elle vient d'o\xF9 la voix ?
-      ?!"
+    stringVal: "Quentin : {i}{color=cyan} Putain mais elle vient d'o\xF9 la voix ?!"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -17429,7 +17325,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 10
+    floatVal: 3
   durationOLD: 0
 --- !u!114 &8102574221219800538
 MonoBehaviour:
@@ -17615,7 +17511,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Matth\xE9o Mattheo left : Moi je suis dessus ! h\xE9h\xE9h\xE9\nMa\xEBva
+    stringVal: "Matth\xE9o Mattheo left : Moi je suis dessus ! H\xE9h\xE9h\xE9.\nMa\xEBva
       Maeva unhide:\n"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -17645,7 +17541,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=cyan} T'es vraiment pas dr\xF4le Lucie, elle ne t'indentifiera
+    stringVal: "Quentin : {color=cyan} T'es vraiment pas dr\xF4le Lucie, elle ne indentifiera
       pas."
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -18365,7 +18261,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -678.81903
     y: 318.945
-    width: 134.21056
+    width: 140.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18458,7 +18354,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -674.737
     y: 467.21844
-    width: 120
+    width: 122.500015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

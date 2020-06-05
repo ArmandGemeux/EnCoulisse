@@ -309,17 +309,17 @@ PrefabInstance:
     - target: {fileID: 1009746316699555840, guid: b8fade5fde939c2458e7cd77117ff7bf,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: b8fade5fde939c2458e7cd77117ff7bf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.21
+      value: -2.48
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: b8fade5fde939c2458e7cd77117ff7bf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.46
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: b8fade5fde939c2458e7cd77117ff7bf,
         type: 3}
@@ -1745,6 +1745,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interactable - CouloirPrinc
       objectReference: {fileID: 0}
+    - target: {fileID: 1009746316699555840, guid: 18fb6acdde921a04c8ef26aad9d629ca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1893,6 +1898,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2198051766335084541, guid: 39ffb43b3797cf84188acddc4155128b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1297.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198051766335084541, guid: 39ffb43b3797cf84188acddc4155128b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1281.9
+      objectReference: {fileID: 0}
     - target: {fileID: 2198051766991050929, guid: 39ffb43b3797cf84188acddc4155128b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1952,6 +1967,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198051767928249588, guid: 39ffb43b3797cf84188acddc4155128b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -538.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198051767928249588, guid: 39ffb43b3797cf84188acddc4155128b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39ffb43b3797cf84188acddc4155128b, type: 3}
@@ -2040,12 +2065,12 @@ PrefabInstance:
     - target: {fileID: 5717931767702029715, guid: 8d24b7e950d716b4cb7d086c0253b168,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.029
       objectReference: {fileID: 0}
     - target: {fileID: 5717931767702029715, guid: 8d24b7e950d716b4cb7d086c0253b168,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.035
       objectReference: {fileID: 0}
     - target: {fileID: 5717931767702029715, guid: 8d24b7e950d716b4cb7d086c0253b168,
         type: 3}
@@ -2095,28 +2120,27 @@ PrefabInstance:
     - target: {fileID: 5717931767702029715, guid: 8d24b7e950d716b4cb7d086c0253b168,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.4933
+      value: 0.96390176
       objectReference: {fileID: 0}
     - target: {fileID: 5717931767702029715, guid: 8d24b7e950d716b4cb7d086c0253b168,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.4933
+      value: 0.966355
       objectReference: {fileID: 0}
     - target: {fileID: 5717931767702029715, guid: 8d24b7e950d716b4cb7d086c0253b168,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.4933
+      value: 1.5276458
       objectReference: {fileID: 0}
     - target: {fileID: 5717931767702029716, guid: 8d24b7e950d716b4cb7d086c0253b168,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f6acb304a789ad741896be4b0ce3b263,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 5717931767702029716, guid: 8d24b7e950d716b4cb7d086c0253b168,
         type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5717931767702029716, guid: 8d24b7e950d716b4cb7d086c0253b168,
         type: 3}
@@ -2486,7 +2510,7 @@ PrefabInstance:
     - target: {fileID: 3905875702600075700, guid: c10fafeebd705e840a45a93856e82b06,
         type: 3}
       propertyPath: m_text
-      value: ' TU SERS A RIEN LA ! '
+      value: "TU SERS \xC0 RIEN L\xC0 ! "
       objectReference: {fileID: 0}
     - target: {fileID: 3905875702600075700, guid: c10fafeebd705e840a45a93856e82b06,
         type: 3}
@@ -3222,7 +3246,7 @@ PrefabInstance:
     - target: {fileID: 3905875702600075700, guid: c10fafeebd705e840a45a93856e82b06,
         type: 3}
       propertyPath: m_text
-      value: Fait le toi !
+      value: Fais-le toi !
       objectReference: {fileID: 0}
     - target: {fileID: 3905875702600075700, guid: c10fafeebd705e840a45a93856e82b06,
         type: 3}
@@ -3242,7 +3266,7 @@ PrefabInstance:
     - target: {fileID: 3905875702600075700, guid: c10fafeebd705e840a45a93856e82b06,
         type: 3}
       propertyPath: m_fontColor.r
-      value: 0.69803923
+      value: 0.16862746
       objectReference: {fileID: 0}
     - target: {fileID: 3905875702600075700, guid: c10fafeebd705e840a45a93856e82b06,
         type: 3}
@@ -3253,6 +3277,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontColor.b
       value: 0.98039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 3905875702600075700, guid: c10fafeebd705e840a45a93856e82b06,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294638258
       objectReference: {fileID: 0}
     - target: {fileID: 4764490401230135499, guid: c10fafeebd705e840a45a93856e82b06,
         type: 3}
@@ -3362,7 +3391,7 @@ PrefabInstance:
     - target: {fileID: 9132424980930123426, guid: c10fafeebd705e840a45a93856e82b06,
         type: 3}
       propertyPath: m_fontColor.r
-      value: 0.69803923
+      value: 0.16862746
       objectReference: {fileID: 0}
     - target: {fileID: 9132424980930123426, guid: c10fafeebd705e840a45a93856e82b06,
         type: 3}
@@ -3493,12 +3522,12 @@ PrefabInstance:
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.42
+      value: -5.27
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.91
+      value: -3.74
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
@@ -4544,12 +4573,12 @@ PrefabInstance:
     - target: {fileID: 1009746316699555855, guid: dd01d5d3cc2c37e419c016c4fe3af789,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.39
+      value: 2.47
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: dd01d5d3cc2c37e419c016c4fe3af789,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.29
+      value: -2.11
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: dd01d5d3cc2c37e419c016c4fe3af789,
         type: 3}
@@ -4765,7 +4794,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.5138
     y: 349.5281
-    width: 126.27907
+    width: 131.25002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4875,7 +4904,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 544.30994
     y: 351.25674
-    width: 130
+    width: 132.50002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4925,7 +4954,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 305.0518
     y: 203.39064
-    width: 141.16278
+    width: 148.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5161,14 +5190,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 309.8352
     y: 280.5493
-    width: 139.30232
+    width: 143.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 69
   blockName: Go Right Arrow
   description: 
-  eventHandler: {fileID: 2513097859416916056}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1539035035296342505}
   - {fileID: 4098455507918598800}
@@ -5193,38 +5222,6 @@ MonoBehaviour:
     stringVal: 
   loadingImage: {fileID: 0}
   sceneNameOLD: 
---- !u!114 &2506629838916787828
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 5669239157711538695}
-  suppressBlockAutoSelect: 0
-  keyPressType: 0
-  keyCode: 273
---- !u!114 &2513097859416916056
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1821800902416955020}
-  suppressBlockAutoSelect: 0
-  keyPressType: 0
-  keyCode: 275
 --- !u!114 &2631011838421674989
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5339,35 +5336,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 534.564
     y: 277.1174
-    width: 143.02325
+    width: 145.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 52
   blockName: Go Down Arrow
   description: 
-  eventHandler: {fileID: 4861168171329281498}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 4410078163083900920}
   - {fileID: 5958291838359237401}
   - {fileID: 5544002525935638272}
   suppressAllAutoSelections: 0
---- !u!114 &3331398419003076546
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 4765504291468800883}
-  suppressBlockAutoSelect: 0
-  keyPressType: 0
-  keyCode: 276
 --- !u!114 &3393522436116990414
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5928,7 +5909,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 782.53143
     y: 203.46416
-    width: 126.27907
+    width: 133.75002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6197,14 +6178,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 126.23929
     y: 278.17056
-    width: 130
+    width: 135.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 31
   blockName: Go Left Arrow
   description: 
-  eventHandler: {fileID: 3331398419003076546}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 8572495636159003503}
   - {fileID: 5656009804888051215}
@@ -6229,22 +6210,6 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: Room Right
   messageOLD: 
---- !u!114 &4861168171329281498
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 2893414282675416907}
-  suppressBlockAutoSelect: 0
-  keyPressType: 0
-  keyCode: 274
 --- !u!114 &5013514855719937852
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6480,14 +6445,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 791.07336
     y: 271.24896
-    width: 124.4186
+    width: 130.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 53
   blockName: Go UP Arrow
   description: 
-  eventHandler: {fileID: 2506629838916787828}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 3731211572561087118}
   - {fileID: 6865321820824770907}
@@ -6952,7 +6917,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 535.36865
     y: 199.72586
-    width: 144.88373
+    width: 148.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7284,12 +7249,8 @@ GameObject:
   - component: {fileID: 3756188142915102800}
   - component: {fileID: 9041198678936671828}
   - component: {fileID: 5013514855719937852}
-  - component: {fileID: 3331398419003076546}
   - component: {fileID: 8690135029627840407}
-  - component: {fileID: 2513097859416916056}
-  - component: {fileID: 4861168171329281498}
   - component: {fileID: 6266011954553155849}
-  - component: {fileID: 2506629838916787828}
   - component: {fileID: 8102574221219800202}
   - component: {fileID: 8102574221219800201}
   - component: {fileID: 8102574221219800207}
@@ -7535,6 +7496,7 @@ GameObject:
   - component: {fileID: 8102574221219800441}
   - component: {fileID: 8102574221219800445}
   - component: {fileID: 8102574221219800446}
+  - component: {fileID: 8102574221219800447}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -7589,19 +7551,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -93.17079, y: 56.90367}
+  scrollPos: {x: -609.76904, y: 57.222454}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.43
+  zoom: 0.63999987
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 8102574221219800329}
+  selectedCommands:
+  - {fileID: 8102574221219800318}
   variables:
   - {fileID: 9152882499103829428}
   - {fileID: 1817614425404045325}
@@ -7738,8 +7702,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=lightblue} Je n'aime vraiment pas le style avec
-      lequel ces tableaux ont \xE9t\xE9 peints..."
+    stringVal: "Quentin : {i}{color=lightblue} La porte est v\xE9rouill\xE9e... "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7965,7 +7928,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 762.0613
     y: 28.666306
-    width: 167.20929
+    width: 173.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8332,7 +8295,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -334.60138
     y: 0.6034546
-    width: 120
+    width: 123.750015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8459,7 +8422,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -164.92334
     y: 5.1561294
-    width: 133.72092
+    width: 141.25002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9330,8 +9293,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1406.1885
-    y: 450.06427
+    x: 1415.1437
+    y: 447.07922
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -9691,7 +9654,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1588.7109
     y: 347.52203
-    width: 139.30232
+    width: 145.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10025,7 +9988,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1213.2455
     y: 344.82803
-    width: 139.30232
+    width: 145.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10302,9 +10265,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1404.5896
-    y: 345.83365
-    width: 139.30232
+    x: 1410.5598
+    y: 344.34113
+    width: 145.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10508,7 +10471,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1427.6461
     y: 236.12344
-    width: 120.69767
+    width: 123.750015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10753,7 +10716,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1312.7108
     y: 132.436
-    width: 139.30232
+    width: 145.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10820,7 +10783,8 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Quentin : {color=cyan} Ouais, je vais regarder, comme \xE7a on sera
-      s\xFBr qu\u2019il y a rien\u2026\r\nDeux coups d\u2019oeil valent mieux qu\u2019un."
+      s\xFBr qu\u2019il y a rien\u2026\r\n{color=cyan}Deux coups d\u2019oeil valent
+      mieux qu\u2019un."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -11117,7 +11081,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1525.3939
     y: 130.0298
-    width: 139.30232
+    width: 145.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12000,7 +11964,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1388.4086
     y: 27.37452
-    width: 208.13953
+    width: 233.75005
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12009,6 +11973,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 8102574221219800330}
   commandList:
+  - {fileID: 8102574221219800447}
   - {fileID: 8102574221219800357}
   - {fileID: 8102574221219800404}
   - {fileID: 8102574221219800356}
@@ -12501,8 +12466,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {color=cyan}{i} La porte ne va pas tarder a c\xE9der ! Merde,
-      Je dois la retenir !"
+    stringVal: "Quentin : {color=cyan}{i} La porte va pas tarder \xE0 c\xE9der ! Merde,
+      je dois la retenir !"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -14019,7 +13984,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1995.4963
     y: 231.46841
-    width: 143.02325
+    width: 150.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14317,6 +14282,20 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b872cfa4cc5ae0e41b5cd9c1833457e8, type: 3}
   volume: 0.82
   waitUntilFinished: 0
+--- !u!114 &8102574221219800447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102574221219800200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1767
+  indentLevel: 0
 --- !u!4 &8102574221901483030
 Transform:
   m_ObjectHideFlags: 0
@@ -14624,7 +14603,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 121.18097
     y: 210.94502
-    width: 131.86046
+    width: 140.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14717,7 +14696,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 125.26299
     y: 354.5673
-    width: 120
+    width: 122.500015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
