@@ -1052,6 +1052,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: View
       objectReference: {fileID: 0}
+    - target: {fileID: 8801113767495144754, guid: 8ba0a0caa81e1494ead717d3d8141b77,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ba0a0caa81e1494ead717d3d8141b77, type: 3}
 --- !u!1001 &360731213
@@ -9047,6 +9052,8 @@ GameObject:
   - component: {fileID: 1787411200}
   - component: {fileID: 1787411507}
   - component: {fileID: 1787411207}
+  - component: {fileID: 1787411693}
+  - component: {fileID: 1787411514}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -11572,6 +11579,7 @@ MonoBehaviour:
   - {fileID: 1787411239}
   - {fileID: 1787411238}
   - {fileID: 1787411240}
+  - {fileID: 1787411514}
   - {fileID: 1787411242}
   suppressAllAutoSelections: 0
 --- !u!114 &1787411290
@@ -14734,8 +14742,8 @@ MonoBehaviour:
   - {fileID: 1787411326}
   - {fileID: 1787411325}
   - {fileID: 1787411770}
-  - {fileID: 1787411324}
   - {fileID: 1787411234}
+  - {fileID: 1787411324}
   - {fileID: 1787411323}
   suppressAllAutoSelections: 0
 --- !u!114 &1787411417
@@ -15173,8 +15181,8 @@ MonoBehaviour:
   - {fileID: 1787411509}
   - {fileID: 1787411366}
   - {fileID: 1787411364}
-  - {fileID: 1787411365}
   - {fileID: 1787411235}
+  - {fileID: 1787411365}
   suppressAllAutoSelections: 0
 --- !u!114 &1787411433
 MonoBehaviour:
@@ -15639,8 +15647,8 @@ MonoBehaviour:
   - {fileID: 1787411207}
   - {fileID: 1787411412}
   - {fileID: 1787411410}
-  - {fileID: 1787411411}
   - {fileID: 1787411236}
+  - {fileID: 1787411411}
   suppressAllAutoSelections: 0
 --- !u!114 &1787411451
 MonoBehaviour:
@@ -16893,6 +16901,7 @@ MonoBehaviour:
   - {fileID: 1787411489}
   - {fileID: 1787411488}
   - {fileID: 1787411469}
+  - {fileID: 1787411693}
   - {fileID: 1787411470}
   - {fileID: 1787411490}
   - {fileID: 1787411487}
@@ -16927,8 +16936,8 @@ MonoBehaviour:
   - {fileID: 1787411461}
   - {fileID: 1787411213}
   - {fileID: 1787411208}
-  - {fileID: 1787411462}
   - {fileID: 1787411237}
+  - {fileID: 1787411462}
   suppressAllAutoSelections: 0
 --- !u!114 &1787411494
 MonoBehaviour:
@@ -17505,6 +17514,27 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: b5645f60f08f73c4d8753dda65f201c7, type: 3}
   volume: 0.158
   loop: 1
+--- !u!114 &1787411514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1464
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1976663826}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1787411515
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22484,6 +22514,27 @@ MonoBehaviour:
   parentBlock: {fileID: 1787411717}
   suppressBlockAutoSelect: 0
   message: Room Right
+--- !u!114 &1787411693
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1463
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1976663826}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1787411694
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24233,7 +24284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1920.2388, y: -77.97151}
+  scrollPos: {x: -1525.2896, y: -592.90674}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -24245,9 +24296,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1787411493}
-  selectedCommands:
-  - {fileID: 1787411208}
+  - {fileID: 1787411289}
+  selectedCommands: []
   variables:
   - {fileID: 1787411746}
   - {fileID: 1787411745}
@@ -26802,6 +26852,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 1.2631968
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410151669025381141, guid: d007d778b77f5704fb427c489daa14af,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.800003
       objectReference: {fileID: 0}
     - target: {fileID: 4410151669465489589, guid: d007d778b77f5704fb427c489daa14af,
         type: 3}
