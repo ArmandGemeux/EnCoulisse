@@ -8825,12 +8825,6 @@ GameObject:
   - component: {fileID: 1787411503}
   - component: {fileID: 1787411502}
   - component: {fileID: 1787411501}
-  - component: {fileID: 1787411500}
-  - component: {fileID: 1787411499}
-  - component: {fileID: 1787411498}
-  - component: {fileID: 1787411497}
-  - component: {fileID: 1787411496}
-  - component: {fileID: 1787411495}
   - component: {fileID: 1787411494}
   - component: {fileID: 1787411493}
   - component: {fileID: 1787411492}
@@ -9183,16 +9177,6 @@ GameObject:
   - component: {fileID: 1787411695}
   - component: {fileID: 1787411817}
   - component: {fileID: 1787411719}
-  - component: {fileID: 1787411753}
-  - component: {fileID: 1787411752}
-  - component: {fileID: 1787411751}
-  - component: {fileID: 1787411750}
-  - component: {fileID: 1787411748}
-  - component: {fileID: 1787411747}
-  - component: {fileID: 1787411743}
-  - component: {fileID: 1787411739}
-  - component: {fileID: 1787411736}
-  - component: {fileID: 1787411735}
   - component: {fileID: 1787411722}
   - component: {fileID: 1787411836}
   - component: {fileID: 1787411835}
@@ -9233,6 +9217,10 @@ GameObject:
   - component: {fileID: 1787411197}
   - component: {fileID: 1787411783}
   - component: {fileID: 1787411724}
+  - component: {fileID: 1787411498}
+  - component: {fileID: 1787411497}
+  - component: {fileID: 1787411496}
+  - component: {fileID: 1787411495}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -11487,8 +11475,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3193.6616
-    y: 689.0922
+    x: 3198.349
+    y: 703.1547
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -14914,7 +14902,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2544.3396
     y: 627.7037
-    width: 134.77612
+    width: 131.45456
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15815,7 +15803,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2276.8914
     y: 426.1404
-    width: 135.97015
+    width: 135.81819
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16046,7 +16034,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2047.6885
     y: 428.98944
-    width: 153.8806
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17054,7 +17042,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2376.7908
     y: 231.36084
-    width: 171.79105
+    width: 154.72728
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -17160,12 +17148,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1787411190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fbef54b0b0adb41ab9b447a8f3cbdb, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1787411500}
-  suppressBlockAutoSelect: 0
-  FireOn: 1
+  scope: 2
+  key: Vestiaire
+  value: 0
 --- !u!114 &1787411496
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17175,87 +17163,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1787411190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 970
-  indentLevel: 1
-  targetObjects:
-  - {fileID: 1976663825}
-  tweenType: 2
-  waitUntilFinished:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  duration:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeMode: 1
-  targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
-  targetAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 1
---- !u!114 &1787411497
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 969
+  itemId: 1797
   indentLevel: 0
---- !u!114 &1787411498
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 968
-  indentLevel: 1
-  targetObjects:
-  - {fileID: 1976663825}
-  tweenType: 2
-  waitUntilFinished:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  duration:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeMode: 1
-  targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 0.91764706, b: 0.33333334, a: 1}
-  targetAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 1
---- !u!114 &1787411499
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 967
-  indentLevel: 0
-  compareOperator: 0
-  variable: {fileID: 1787411501}
+  variable: {fileID: 1787411495}
+  setOperator: 0
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -17304,7 +17218,22 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1787411500
+--- !u!114 &1787411497
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1787411498}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
+--- !u!114 &1787411498
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17318,20 +17247,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -417.77722
-    y: 84.96652
+    x: 731.96204
+    y: 99.43193
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 965
-  blockName: minimap
+  itemId: 1796
+  blockName: start1
   description: 
-  eventHandler: {fileID: 1787411495}
+  eventHandler: {fileID: 1787411497}
   commandList:
-  - {fileID: 1787411499}
-  - {fileID: 1787411498}
-  - {fileID: 1787411497}
   - {fileID: 1787411496}
   suppressAllAutoSelections: 0
 --- !u!114 &1787411501
@@ -19069,7 +18995,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -535.249
     y: 348.12506
-    width: 171.79105
+    width: 170.72728
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19104,7 +19030,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -515.24915
     y: 258.12506
-    width: 124.029854
+    width: 120
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -19130,7 +19056,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1189.9429
     y: 242.8817
-    width: 135.97015
+    width: 131.45456
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -19156,7 +19082,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 160.26843
     y: 250.8817
-    width: 128.80597
+    width: 127.09092
     height: 40
   tint: {r: 0, g: 0.06265974, b: 1, a: 1}
   useCustomTint: 1
@@ -19717,7 +19643,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 956.43384
     y: 33.077026
-    width: 146.71643
+    width: 147.45456
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19841,7 +19767,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 955.71606
     y: 98.72891
-    width: 131.19403
+    width: 131.45456
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20339,7 +20265,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1465.1785
     y: 608.3374
-    width: 190.89552
+    width: 189.63638
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20810,7 +20736,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 942.9618
     y: 600.22876
-    width: 204.02986
+    width: 196.9091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21291,7 +21217,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1472.4081
     y: 522.66113
-    width: 178.95523
+    width: 178.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21490,7 +21416,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1197.0881
     y: 529.3011
-    width: 176.56717
+    width: 173.63638
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21660,7 +21586,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 948.5542
     y: 531.3271
-    width: 192.08955
+    width: 185.27274
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21996,7 +21922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1203.462
     y: 453.92966
-    width: 161.04477
+    width: 159.09091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22634,7 +22560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 2
   key: Introduction
-  value: 0
+  value: 1
 --- !u!114 &1787411690
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23383,7 +23309,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 263.6588
     y: 588.93115
-    width: 128.80597
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23531,7 +23457,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 36.513794
     y: 589.5281
-    width: 127.611946
+    width: 127.09092
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24001,97 +23927,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1787411735
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04659f7200983fe40b49cc144086844b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1509
-  indentLevel: 1
-  soundClip:
-  - {fileID: 8300000, guid: 7e6bb010df1bdd342bb9d8de238fa62c, type: 3}
-  - {fileID: 8300000, guid: 614127153c9926d45b297e9ba3094cf5, type: 3}
-  - {fileID: 8300000, guid: 9f35f2840f4be14438fd3cf12024a95a, type: 3}
-  - {fileID: 8300000, guid: 253ab5c1b2c57364f85d80aa1e65626b, type: 3}
-  - {fileID: 8300000, guid: bb816769e1277fe4da8bec0ae2eb4e80, type: 3}
-  - {fileID: 8300000, guid: 27807ca355b292a4cb58ef6b514d398c, type: 3}
-  - {fileID: 8300000, guid: 4107edf3cd24edf42bfe9763e111feb2, type: 3}
-  - {fileID: 8300000, guid: 71ba012c6c3c70145bea74a52845b643, type: 3}
-  - {fileID: 8300000, guid: fb435f7b77e180b4e834ae8e59dfa898, type: 3}
-  - {fileID: 8300000, guid: b872cfa4cc5ae0e41b5cd9c1833457e8, type: 3}
-  volume: 0.82
-  waitUntilFinished: 0
---- !u!114 &1787411736
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1508
-  indentLevel: 0
-  compareOperator: 4
-  variable: {fileID: 1787411722}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 4
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1787411737
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24220,43 +24055,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1787411739
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb3e86f556e074b84af1cc7eb8f8e5e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1507
-  indentLevel: 1
-  _sourceObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 556833288432224818, guid: 63435468ab7c42d46bd57f900ee2f2ea,
-      type: 3}
-  _parentTransform:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  _spawnAtSelf:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  _spawnPosition:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
-  _spawnRotation:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
-  _newlySpawnedObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  sourceObjectOLD: {fileID: 0}
-  parentTransformOLD: {fileID: 0}
-  spawnPositionOLD: {x: 0, y: 0, z: 0}
-  spawnRotationOLD: {x: 0, y: 0, z: 0}
 --- !u!114 &1787411740
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24449,23 +24247,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1787411743
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1506
-  indentLevel: 1
-  soundClip: {fileID: 8300000, guid: 800bcba6e689b554dbb8d7f7edaca451, type: 3}
-  volume: 0.655
-  waitUntilFinished: 0
 --- !u!114 &1787411744
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24560,125 +24341,6 @@ MonoBehaviour:
   scope: 1
   key: InteractionsExt
   value: 0
---- !u!114 &1787411747
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1505
-  indentLevel: 1
-  description: 
-  delay: 0
-  invokeType: 0
-  staticEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1950317509}
-        m_MethodName: Jumpscare
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  booleanParameter:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  booleanEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  integerParameter:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  integerEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  floatParameter:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  floatEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  stringParameter:
-    stringRef: {fileID: 0}
-    stringVal: 
-  stringEvent:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1787411748
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1504
-  indentLevel: 0
-  compareOperator: 0
-  variable: {fileID: 1787411722}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 7
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1787411749
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24695,7 +24357,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 31.37738
     y: 443.39062
-    width: 144.32837
+    width: 143.09091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24707,181 +24369,6 @@ MonoBehaviour:
   - {fileID: 1787411738}
   - {fileID: 1787411737}
   - {fileID: 1787411720}
-  suppressAllAutoSelections: 0
---- !u!114 &1787411750
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1503
-  indentLevel: 1
-  description: 
-  delay: 0
-  invokeType: 0
-  staticEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 818889322}
-        m_MethodName: SpamLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  booleanParameter:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  booleanEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  integerParameter:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  integerEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  floatParameter:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  floatEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  stringParameter:
-    stringRef: {fileID: 0}
-    stringVal: 
-  stringEvent:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1787411751
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1502
-  indentLevel: 0
-  compareOperator: 5
-  variable: {fileID: 1787411722}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 8
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1787411752
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6af5dac98b0624702b476c1eac319eab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1501
-  indentLevel: 0
-  variable: {fileID: 1787411722}
-  minValue:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  maxValue:
-    integerRef: {fileID: 0}
-    integerVal: 10
---- !u!114 &1787411753
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787411190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 1170.2148
-    y: 28.367645
-    width: 189.70149
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 1757
-  blockName: Random system (Copy)
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1787411752}
-  - {fileID: 1787411751}
-  - {fileID: 1787411750}
-  - {fileID: 1787411748}
-  - {fileID: 1787411747}
-  - {fileID: 1787411743}
-  - {fileID: 1787411739}
-  - {fileID: 1787411736}
-  - {fileID: 1787411735}
   suppressAllAutoSelections: 0
 --- !u!114 &1787411754
 MonoBehaviour:
@@ -24948,7 +24435,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 257.0431
     y: 439.72586
-    width: 144.32837
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24977,7 +24464,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 506.53143
     y: 443.46417
-    width: 130
+    width: 128.54547
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25021,7 +24508,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -154.81903
     y: 450.945
-    width: 135.97015
+    width: 134.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25100,11 +24587,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1703.3944, y: -573.57904}
+  scrollPos: {x: 600.7653, y: 71.47718}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.66999996
+  zoom: 0.54999995
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -25112,8 +24599,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1787411784}
-  selectedCommands: []
+  - {fileID: 1787411498}
+  selectedCommands:
+  - {fileID: 1787411496}
   variables:
   - {fileID: 1787411746}
   - {fileID: 1787411745}
@@ -25123,6 +24611,7 @@ MonoBehaviour:
   - {fileID: 1787411501}
   - {fileID: 1787411722}
   - {fileID: 1787411754}
+  - {fileID: 1787411495}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -26114,7 +25603,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2643.5857
     y: 802.7557
-    width: 156.26866
+    width: 157.63638
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27020,7 +26509,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3157.9624
     y: 548.64307
-    width: 124.029854
+    width: 122.72728
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27236,7 +26725,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3144.6145
     y: 606.1337
-    width: 168.20895
+    width: 163.45456
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28969,12 +28458,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d007d778b77f5704fb427c489daa14af, type: 3}
---- !u!1 &1976663825 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4410151669469148694, guid: d007d778b77f5704fb427c489daa14af,
-    type: 3}
-  m_PrefabInstance: {fileID: 1976663824}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1976663826 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3131297196045598079, guid: d007d778b77f5704fb427c489daa14af,
