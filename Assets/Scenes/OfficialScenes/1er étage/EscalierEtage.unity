@@ -406,22 +406,27 @@ PrefabInstance:
     - target: {fileID: 3535583544239806853, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3535583544239806853, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3535583544239806853, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3535583544239806853, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3535583544239806853, guid: 18fb6acdde921a04c8ef26aad9d629ca,
+        type: 3}
+      propertyPath: m_text
+      value: Couloir
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18fb6acdde921a04c8ef26aad9d629ca, type: 3}
@@ -1920,6 +1925,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410151669025381141, guid: d007d778b77f5704fb427c489daa14af,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.800003
       objectReference: {fileID: 0}
     - target: {fileID: 4410151669465489589, guid: d007d778b77f5704fb427c489daa14af,
         type: 3}
@@ -4381,7 +4391,6 @@ GameObject:
   - component: {fileID: 8102574221219800237}
   - component: {fileID: 8102574221219800236}
   - component: {fileID: 8102574221219800235}
-  - component: {fileID: 8102574221219800234}
   - component: {fileID: 8102574221219800246}
   - component: {fileID: 8102574221219800201}
   m_Layer: 0
@@ -4393,7 +4402,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &8102574221219800201
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4455,7 +4464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 902.4928, y: 365.71738}
+  scrollPos: {x: 1385.1012, y: 228.76085}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -4467,9 +4476,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 8102574221219800227}
-  selectedCommands:
-  - {fileID: 8102574221219800201}
+  - {fileID: 8102574221219800245}
+  selectedCommands: []
   variables:
   - {fileID: 9152882499103829428}
   - {fileID: 1817614425404045325}
@@ -5250,21 +5258,6 @@ MonoBehaviour:
   - {fileID: 8102574221219800230}
   - {fileID: 8102574221219800229}
   suppressAllAutoSelections: 0
---- !u!114 &8102574221219800234
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fbef54b0b0adb41ab9b447a8f3cbdb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 8102574221219800241}
-  suppressBlockAutoSelect: 0
-  FireOn: 1
 --- !u!114 &8102574221219800235
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5466,7 +5459,7 @@ MonoBehaviour:
   itemId: 954
   blockName: sceneName 1
   description: 
-  eventHandler: {fileID: 8102574221219800234}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 8102574221219800240}
   - {fileID: 8102574221219800239}
@@ -5584,7 +5577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -121.19158
+    x: -123.36549
     y: -56.730316
     width: 138.69565
     height: 40
