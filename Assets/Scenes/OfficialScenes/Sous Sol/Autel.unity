@@ -4880,7 +4880,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -487.4862
     y: 457.5281
-    width: 131.25002
+    width: 127.61196
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4970,7 +4970,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -260.3412
     y: 459.25674
-    width: 132.50002
+    width: 128.806
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5019,7 +5019,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -494.94824
     y: 311.39062
-    width: 148.75003
+    width: 144.32838
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5191,7 +5191,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -490.1648
     y: 388.5493
-    width: 143.75003
+    width: 139.55226
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5305,7 +5305,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -265.43597
     y: 385.1174
-    width: 145.00003
+    width: 140.74629
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5894,7 +5894,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -17.468567
     y: 311.46417
-    width: 133.75002
+    width: 130.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6147,7 +6147,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -673.76074
     y: 386.17056
-    width: 135.00002
+    width: 131.19405
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6424,7 +6424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -8.926636
     y: 379.24896
-    width: 130.00002
+    width: 126.41793
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6846,7 +6846,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -266.9569
     y: 307.72586
-    width: 148.75003
+    width: 144.32838
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7455,7 +7455,6 @@ GameObject:
   - component: {fileID: 8102574221219800376}
   - component: {fileID: 8102574221219800370}
   - component: {fileID: 8102574221219800492}
-  - component: {fileID: 8102574221219800491}
   - component: {fileID: 8102574221219800369}
   - component: {fileID: 8102574221219800327}
   - component: {fileID: 8102574221219800310}
@@ -7607,18 +7606,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 128.9274, y: -406.47046}
+  scrollPos: {x: 534.3068, y: -378.58994}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.63999987
+  zoom: 0.66999984
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 8102574221219800453}
   selectedCommands: []
   variables:
   - {fileID: 9152882499103829428}
@@ -8151,7 +8151,8 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Lucie Lucie left : Mais elle a raison, elle est horrible cette pi\xE8ce."
+    stringVal: "Lucie LucieMepris left : Mais elle a raison, elle est horrible cette
+      pi\xE8ce."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8284,7 +8285,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 365.09595
     y: 267.1495
-    width: 151.25003
+    width: 146.71643
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8495,7 +8496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 728.6918
+    x: 727.0524
     y: 264.19772
     width: 120
     height: 40
@@ -8727,9 +8728,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 537.63214
+    x: 539.2715
     y: 263.94458
-    width: 158.75003
+    width: 153.88062
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9280,7 +9281,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "L\xE9onard Leonard hide:\nLucie Lucie unhide:\nLucie Lucie middle
+    stringVal: "L\xE9onard Leonard hide:\nLucie Lucie unhide:\nLucie LucieMepris middle
       : \xC7a ressemble \xE0 un autel de culte, un truc de religion d\xE9bile. Vous
       pouvez le d\xE9truire \xE7a me ferait ni chaud ni froid."
   clearPrevious:
@@ -9371,8 +9372,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Lucie Lucie middle : Je ne veux pas \xEAtre li\xE9e \xE0 la d\xE9cadence
-      de cette soci\xE9t\xE9, tu m\u2019excuseras."
+    stringVal: "Lucie LucieMepris middle : Je ne veux pas \xEAtre li\xE9e \xE0 la
+      d\xE9cadence de cette soci\xE9t\xE9, tu m\u2019excuseras."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9580,8 +9581,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Matth\xE9o Mattheo hide:\nLucie Lucie unhide:\nLucie Lucie right :
-      T\u2019as vraiment cru que j'allais ruiner ma r\xE9putation ? Jamais de la vie."
+    stringVal: "Matth\xE9o Mattheo hide:\nLucie Lucie unhide:\nLucie LucieMepris right
+      : T\u2019as vraiment cru que j'allais ruiner ma r\xE9putation ? Jamais de la
+      vie."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9798,7 +9800,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 549.4828
     y: 387.09656
-    width: 132.50002
+    width: 128.806
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11594,7 +11596,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 556.5275
     y: 573.5481
-    width: 152.50003
+    width: 147.91046
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11793,9 +11795,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 344.6092
-    y: 508.38965
-    width: 172.50003
+    x: 346.53226
+    y: 500.6974
+    width: 167.01495
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11810,7 +11812,6 @@ MonoBehaviour:
   - {fileID: 8102574221219800518}
   - {fileID: 8102574221219800517}
   - {fileID: 8102574221219800464}
-  - {fileID: 8102574221219800491}
   - {fileID: 8102574221219800369}
   - {fileID: 8102574221219800456}
   - {fileID: 8102574221219800355}
@@ -14029,7 +14030,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1058.1606
     y: 52.1483
-    width: 125.000015
+    width: 121.64181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14771,7 +14772,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1224.5184
     y: 624.33954
-    width: 257.50006
+    width: 248.209
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16354,27 +16355,6 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
---- !u!114 &8102574221219800491
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1005
-  indentLevel: 1
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &8102574221219800492
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18286,7 +18266,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -678.81903
     y: 318.945
-    width: 140.00002
+    width: 135.97017
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18379,7 +18359,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -674.737
     y: 467.21844
-    width: 122.500015
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
