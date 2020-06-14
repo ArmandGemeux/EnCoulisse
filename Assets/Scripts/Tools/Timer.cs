@@ -15,24 +15,24 @@ public class Timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timer = 1;
+        timer = 5;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        Debug.Log(timer);
         
         if (goTimer)
         {
-            timer -= 1 * Time.deltaTime;
+            timer -=Time.deltaTime;
             image.SetActive(true);
             timerText.gameObject.SetActive(true);
             timerText.text = "" + (int)timer;
             if(timer <= 0)
             {
                 Fungus.Flowchart.BroadcastFungusMessage("TimeOut");
-                timer = 1;
+                timer = 5;
                 goTimer = false;
             }
         }
