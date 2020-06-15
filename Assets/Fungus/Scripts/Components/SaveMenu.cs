@@ -60,6 +60,8 @@ namespace Fungus
 
         protected static bool hasLoadedOnStart = false;
 
+        public GameObject flowchart;
+
         protected virtual void Awake()
         {
             // Only one instance of SaveMenu may exist
@@ -85,6 +87,7 @@ namespace Fungus
 
         protected virtual void Start()
         {
+            flowchart = GameObject.Find("Flowchart");
             if (!saveMenuActive)
             {
                 saveMenuGroup.alpha = 0f;
@@ -220,6 +223,7 @@ namespace Fungus
                 });
 
                 GetComponent<Canvas>().sortingOrder = 0;
+                flowchart.GetComponent<Fungus.Flowchart>().stepPause = 0;
             }
             else
             {
@@ -232,6 +236,7 @@ namespace Fungus
                     saveMenuGroup.alpha = 1f;
                 });
                 GetComponent<Canvas>().sortingOrder = 2;
+                flowchart.GetComponent<Fungus.Flowchart>().stepPause = 5;
             }
 
             saveMenuActive = !saveMenuActive;

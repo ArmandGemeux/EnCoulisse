@@ -56,7 +56,9 @@ namespace Fungus
 
         [Range(0f, 5f)]
         [Tooltip("Adds a pause after each execution step to make it easier to visualise program flow. Editor only, has no effect in platform builds.")]
-        [SerializeField] protected float stepPause = 0f;
+        [SerializeField] public float stepPause = 0f;
+
+        // ICI TU AS MIS EN PUBLIC AU LIEU DE PROTECTED /!\^
 
         [Tooltip("Use command color when displaying the command list in the Fungus Editor window")]
         [SerializeField] protected bool colorCommands = true;
