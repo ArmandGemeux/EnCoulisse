@@ -17,6 +17,11 @@ public class PictureManager : MonoBehaviour
     void Update()
     {
         JumpScare();
+
+        if (gameObject.CompareTag("Temporaire"))
+        {
+            Destroy(gameObject, 5f);
+        }
     }
     public void Previous()
     {
@@ -60,7 +65,7 @@ public class PictureManager : MonoBehaviour
     public void SendMes()
     {
         Fungus.Flowchart.BroadcastFungusMessage("OutPicture");
-        Destroy(gameObject, 2f);
+        Destroy(gameObject);
     }
 
     public void SendMes2()
@@ -87,4 +92,12 @@ public class PictureManager : MonoBehaviour
         Destroy(gameObject);
     }
 
+
+    private void OnDestroy()
+    {
+        if (gameObject.CompareTag("Temporaire"))
+        {
+            Fungus.Flowchart.BroadcastFungusMessage("OutPicture");
+        }
+    }
 }
