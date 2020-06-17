@@ -64,7 +64,21 @@ public class PictureManager : MonoBehaviour
     }
     public void SendMes()
     {
-        Fungus.Flowchart.BroadcastFungusMessage("OutPicture");
+        if (gameObject.CompareTag("Temporaire"))
+        {
+            Fungus.Flowchart.BroadcastFungusMessage("RestoreScene");
+            Destroy(gameObject);
+        }
+        else
+        {
+            Fungus.Flowchart.BroadcastFungusMessage("OutPicture");
+            Destroy(gameObject);
+        }
+    }
+
+    public void SendMessOne()
+    {
+        Fungus.Flowchart.BroadcastFungusMessage("RestoreScene");
         Destroy(gameObject);
     }
 
