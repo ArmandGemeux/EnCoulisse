@@ -598,6 +598,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: View - escalier
       objectReference: {fileID: 0}
+    - target: {fileID: 8801113767495144754, guid: 8ba0a0caa81e1494ead717d3d8141b77,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ba0a0caa81e1494ead717d3d8141b77, type: 3}
 --- !u!114 &694368501 stripped
@@ -1967,6 +1972,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8787564852620247796, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8787564852814597917, guid: bfcbb093fd3a65546ac4b787b9eb8a26,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -2833,7 +2843,7 @@ PrefabInstance:
     - target: {fileID: 1009746316699555840, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1009746316699555855, guid: 18fb6acdde921a04c8ef26aad9d629ca,
         type: 3}
@@ -7527,7 +7537,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 1805
   blockName: Start (Copy)
   description: 
   eventHandler: {fileID: 8102574221219800275}
@@ -7652,7 +7662,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 146
+  itemId: 1804
   blockName: Pause (Copy)
   description: 
   eventHandler: {fileID: 8102574221219800281}
@@ -7775,7 +7785,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 150
+  itemId: 1803
   blockName: Unpause (Copy)
   description: 
   eventHandler: {fileID: 8102574221219800285}
@@ -7811,7 +7821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 1791
-  indentLevel: 0
+  indentLevel: 1
   _targetGameObject:
     gameObjectRef: {fileID: 0}
     gameObjectVal: {fileID: 1046344749}
@@ -7832,7 +7842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 1790
-  indentLevel: 0
+  indentLevel: 1
   commenterName: SceneObject
   commentText: HideElements = false
 --- !u!114 &8102574221219800292
@@ -7862,7 +7872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 1788
-  indentLevel: 0
+  indentLevel: 1
   _targetGameObject:
     gameObjectRef: {fileID: 0}
     gameObjectVal: {fileID: 1046344749}
@@ -7883,7 +7893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 1787
-  indentLevel: 0
+  indentLevel: 1
   commenterName: SceneObject
   commentText: HideElements = true
 --- !u!114 &8102574221219800295
