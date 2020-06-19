@@ -22,6 +22,11 @@ public class PictureManager : MonoBehaviour
         {
             Destroy(gameObject, 5f);
         }
+
+        if (gameObject.CompareTag("MM1"))
+        {
+            Destroy(gameObject, 5f);
+        }
     }
     public void Previous()
     {
@@ -112,6 +117,16 @@ public class PictureManager : MonoBehaviour
         if (gameObject.CompareTag("Temporaire"))
         {
             Fungus.Flowchart.BroadcastFungusMessage("OutPicture");
+        }
+
+        if (gameObject.CompareTag("MM1"))
+        {
+            Fungus.Flowchart.BroadcastFungusMessage("OutPicture");
+        }
+
+        if (gameObject.CompareTag("MM2"))
+        {
+            Fungus.Flowchart.BroadcastFungusMessage("OutPicture2");
         }
     }
 }
