@@ -241,7 +241,7 @@ PrefabInstance:
     - target: {fileID: 7570692458613544682, guid: bb7d4d1479359dc4483049eb7cdd6b3f,
         type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7570692458613544682, guid: bb7d4d1479359dc4483049eb7cdd6b3f,
         type: 3}
@@ -517,7 +517,7 @@ PrefabInstance:
     - target: {fileID: 7570692460037245860, guid: bb7d4d1479359dc4483049eb7cdd6b3f,
         type: 3}
       propertyPath: m_Size
-      value: 0.84157085
+      value: 0.7903742
       objectReference: {fileID: 0}
     - target: {fileID: 7570692460037245860, guid: bb7d4d1479359dc4483049eb7cdd6b3f,
         type: 3}
@@ -1184,6 +1184,11 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 812330692326249795, guid: 5afe760be7d836341adfed30571e421e,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 1030191600580404303, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
       propertyPath: m_fontAsset
@@ -1195,6 +1200,11 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1030191600580404303, guid: 5afe760be7d836341adfed30571e421e,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 1285480145871769567, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1229,6 +1239,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Historique (B)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809711182254393289, guid: 5afe760be7d836341adfed30571e421e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1815674230599879633, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
@@ -1391,6 +1406,16 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5099034302924946265, guid: 5afe760be7d836341adfed30571e421e,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 5099034302924946265, guid: 5afe760be7d836341adfed30571e421e,
+        type: 3}
+      propertyPath: m_subTextObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 3994578388521476983}
     - target: {fileID: 5111802824923470516, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
       propertyPath: m_FontData.m_Font
@@ -1518,6 +1543,11 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6412063299269775637, guid: 5afe760be7d836341adfed30571e421e,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 6668609126579583165, guid: 5afe760be7d836341adfed30571e421e,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1610,6 +1640,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5afe760be7d836341adfed30571e421e, type: 3}
+--- !u!114 &3994578388521476983 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1809711182254393289, guid: 5afe760be7d836341adfed30571e421e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3347007240909694142}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3981295655060090735 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1815674230599879633, guid: 5afe760be7d836341adfed30571e421e,
