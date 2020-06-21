@@ -27,6 +27,11 @@ public class PictureManager : MonoBehaviour
         {
             Destroy(gameObject, 5f);
         }
+
+        if (gameObject.CompareTag("MM2"))
+        {
+            Destroy(gameObject, 5f);
+        }
     }
     public void Previous()
     {
