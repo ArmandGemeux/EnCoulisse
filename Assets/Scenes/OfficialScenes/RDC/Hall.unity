@@ -8417,7 +8417,6 @@ GameObject:
   - component: {fileID: 8102574221219800449}
   - component: {fileID: 8102574221219800448}
   - component: {fileID: 8102574221219800453}
-  - component: {fileID: 8102574221219800452}
   - component: {fileID: 8102574221219800451}
   - component: {fileID: 8102574221219800450}
   - component: {fileID: 8102574221219800464}
@@ -8428,7 +8427,6 @@ GameObject:
   - component: {fileID: 8102574221219800458}
   - component: {fileID: 8102574221219800457}
   - component: {fileID: 8102574221219800456}
-  - component: {fileID: 8102574221219800455}
   - component: {fileID: 8102574221219800454}
   - component: {fileID: 8102574221219800465}
   - component: {fileID: 8102574221219800468}
@@ -8596,7 +8594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 596.3608, y: 81.88061}
+  scrollPos: {x: 1206.5181, y: 127.191696}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 422
@@ -8607,8 +8605,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 8102574221219800405}
+  selectedCommands:
+  - {fileID: 8102574221219800543}
   variables:
   - {fileID: 9152882499103829428}
   - {fileID: 1817614425404045325}
@@ -14516,7 +14516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 441.82498
+    x: 443.9989
     y: 79.29206
     width: 120
     height: 40
@@ -16166,21 +16166,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &8102574221219800452
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 8102574221219800453}
-  suppressBlockAutoSelect: 0
-  targetButton: {fileID: 522623374}
 --- !u!114 &8102574221219800453
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16204,7 +16189,7 @@ MonoBehaviour:
   itemId: 929
   blockName: setNameRoom
   description: 
-  eventHandler: {fileID: 8102574221219800452}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 8102574221219800451}
   - {fileID: 8102574221219800450}
@@ -16224,21 +16209,6 @@ MonoBehaviour:
   scope: 2
   key: Vestibule
   value: 0
---- !u!114 &8102574221219800455
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102574221219800200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 8102574221219800458}
-  suppressBlockAutoSelect: 0
-  targetButton: {fileID: 851904273}
 --- !u!114 &8102574221219800456
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16342,7 +16312,7 @@ MonoBehaviour:
   itemId: 944
   blockName: setNameRoom 2
   description: 
-  eventHandler: {fileID: 8102574221219800455}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 8102574221219800457}
   - {fileID: 8102574221219800456}
@@ -18790,8 +18760,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Quentin : {i}{color=cyan} Maintenant faut que je retrouve mes amis,
-      et ma soeur...\r\nQuentin : {i}{color=cyan} Je pense que je vais commencer par
-      les salles que je connais d\xE9j\xE0."
+      et ma soeur...\r"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -18849,7 +18818,7 @@ MonoBehaviour:
   indentLevel: 1
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Quentin : {i}{color=cyan} Y avait cet autel bizarre aussi et puis
+    stringVal: "Quentin : {i}{color=cyan} Y' avait cet autel bizarre aussi et puis
       euh... j'ai perdu les autres de vue...\r"
   clearPrevious:
     booleanRef: {fileID: 0}
